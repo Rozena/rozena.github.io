@@ -1,0 +1,159 @@
+/*common typography*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+div,
+class,
+id,
+section,
+aside,
+article,
+header,
+footer,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+
+html,
+body,
+.full-height {
+    height: 100%;
+}
+
+body {
+  color: #000;
+  font-family: "Roboto",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+
+/*--heading---*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px;
+    font-weight: 700;
+}
+h2{
+    font-size: 35px;
+    margin: 0 0 30px;
+}
+h3{font-size: 25px;}
+h4{font-size: 20px;}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+.section-padding-80 {
+    padding: 80px 0;
+}
+
+
+/*===================================================*/
+.service-list .row {
+    margin: 0;
+}
+.service-list .col-md-4 {
+    padding: 0;
+}
+.service-list {
+    border-left: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+}
+.single-service-box {
+  border-bottom: 1px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
+  padding: 12% 6%;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: block;
+  color: #333;
+}
+.single-service-box:hover {
+  color: #333;
+}
+.single-service-box h3 {
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.service-icon-wrap {
+    display: table;
+    height: 50px;
+    margin: 20px 0;
+    width: 100%;
+}
+.service-icon {
+    color: #999;
+    display: table-cell;
+    font-size: 35px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+}
+.service-icon img {
+    max-width: 45px;
+}
+.single-service-box:hover {
+    box-shadow: 0 30px 100px #D6D6D6;
+}
+.single-service-box:hover .service-icon {
+    color: #d0211e;
+}
+
+.service-icon .hover-img {
+    display: none;
+}
+.single-service-box:hover .service-icon img {
+    display: none;
+}
+.single-service-box:hover .service-icon .hover-img {
+    display: block;
+    margin: 0 auto;
+}
+
+
