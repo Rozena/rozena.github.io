@@ -292,6 +292,9 @@ selectorSavingError {
 .cta-area.theme-4, .cta-area.theme-4 h1 {
     color: #fff;
 }
+.cta-area.theme-5 {
+  padding: 60px 0;
+}
 .video-paly-btn {
     background: #06d6a0 none repeat scroll 0 0;
     border-radius: 50%;
