@@ -320,3 +320,20 @@ h1, .h1 {
 	font-size: 36px;
 	font-weight: 700;
 }
+
+
+.service-pages {
+  background: #06D6A0;
+  padding: 15px 0;
+  text-align: center;
+}
+.service-pages ul {
+  list-style: none;
+}
+.service-pages li a {
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2;
+}
