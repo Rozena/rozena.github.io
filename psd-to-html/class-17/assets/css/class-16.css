@@ -1,0 +1,26 @@
+
+.three-class-added {
+  background-color: #06D6A0;
+  list-style: none;
+}
+.three-class-added li a {
+  display: block;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 0;
+  margin: 15px 0;    
+}
+
+.demo-classes-17 {
+  background: #06D6A0;
+}
+.demo-classes-17 a {
+  display: block;
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 0;
+  margin: 5px 0;
+}
