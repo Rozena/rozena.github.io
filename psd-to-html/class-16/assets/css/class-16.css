@@ -1,0 +1,13 @@
+
+.three-class-added {
+  background-color: #06D6A0;
+  list-style: none;
+}
+.three-class-added li a {
+  display: block;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 0;
+  margin: 15px 0;    
+}
