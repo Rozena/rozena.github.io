@@ -2338,37 +2338,37 @@ GOOGLE MAP CSS
 /*=========================
 TRAFFIC FAQ CSS
 ===========================*/
-
-.traffic-faq .panel-default>.panel-heading {
-    background: transparent;
-    padding: 0;
-}
-
 .traffic-faq h3 {
-    text-transform: capitalize;
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 50px;
+}
+
+.traffic-faq .panel-default>.panel-heading {
+    background-color: transparent;
+    padding: 0;
+}
+
+.traffic-faq .panel-default>.panel-heading a {
+    display: ;
+    display: block;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 0 0 0;
+    position: relative;
 }
 
 .traffic-faq .panel-group {
     margin-bottom: 0;
 }
 
-.traffic-faq .panel.panel-default {
+.traffic-faq .panel-group .panel.panel-default {
     box-shadow: 0 0 0;
-    border-radius: 0 0 0 0;
-    margin-bottom: -6px;
-    border-color: #F0F0F0;
-}
-
-.traffic-faq .panel-group .panel-heading a {
-    color: #373737;
-    font-weight: 600;
-    display: block;
-    padding: 15px 20px;
-    position: relative;
-    display: block;
+    margin: 0;
+    border: 1px solid #f1f1f1;
+    margin-top: -1.5px;
+    border-radius: 3px;
 }
 
 .traffic-faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
@@ -2376,24 +2376,21 @@ TRAFFIC FAQ CSS
 }
 
 .traffic-faq .panel-body {
-    padding: 15px 20px;
+    padding: 20px;
 }
 
-.traffic-faq .panel-heading a:after {
+.traffic-faq .panel-default>.panel-heading a:after {
     content: "+";
     float: right;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 2px;
+    font-size: 16px;
 }
 
-.traffic-faq .panel-heading a[aria-expanded="true"]:after {
-    content: "-";
-    font-size: 30px;
-    margin-top: 3px;
+.traffic-faq .panel-default>.panel-heading a[aria-expanded="true"]::after {
+    content: "_";
+    margin-top: -8px;
+    font-size: 20px;
+    font-weight: 700;
 }
-
-
 /*=========================
 FOOTER CSS
 ===========================*/
