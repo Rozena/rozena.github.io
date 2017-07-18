@@ -61,7 +61,9 @@
             type: 'video'
         });
         
-        
+        $(".search-trigger-icon").on('click', function() {
+            $(".search-box-form").toggleClass('visible');
+        });
         
         
     });
