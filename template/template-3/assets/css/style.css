@@ -420,7 +420,7 @@ button[type="submit"] {
     margin: 30px 0;
 }
 
-.search-trigger {
+.search-trigger-icon {
     position: absolute;
     right: 0;
     top: 0;
@@ -428,6 +428,47 @@ button[type="submit"] {
     cursor: pointer;
     padding: 12px;
 }
+
+.search-box-form {
+    position: absolute;
+    right: 120px;
+    top: 70px;
+    z-index: 9;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    -webkit-transform-origin: 0 0 50px;
+    transform-origin: 0 0 50px;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.search-box-form input {
+    width: 250px;
+    color: #333;
+    padding: 10px 30px;
+}
+
+.search-box-form button[type=submit] {
+    background: transparent;
+    position: absolute;
+    left: -15px;
+    top: 2px;
+    color: #333;
+    opacity: .4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+
+.search-box-form.visible {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    -webkit-transform: scaley(1);
+    transform: scaley(1);
+}
+
 
 .video-play-wrap a {
     width: 60px;
