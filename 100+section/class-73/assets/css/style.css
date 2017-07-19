@@ -1,0 +1,244 @@
+/*common typography*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+div,
+class,
+id,
+section,
+aside,
+article,
+header,
+footer,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+html,
+body,
+.full-height {
+    height: 100%;
+}
+
+body {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+
+/*--heading---*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 0 0 30px;
+    line-height: 1.4;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-padding-80 {
+    padding: 80px 0;
+}
+
+
+/*===================================================*/
+.contact-bg-wrap{background-image: url(../images/hero-bg.jpg)}
+
+.contact-wrapper {
+    position: relative;
+    color: #fff;
+    padding: 50px;
+}
+
+.contact-bg-wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80%;
+}
+
+.contact-bg-wrap:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #3879D9;
+    opacity: .8;
+}
+
+.boxed-contact-form {
+    background: #fff;
+    margin-left: 100px;
+    padding: 50px;
+    color: #333;
+    box-shadow: 0 0 5px #ddd;
+    border-radius: 3px;
+}
+.boxed-contact-form h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin: 0 0 40px;
+    color: #333;
+}
+.boxed-contact-form input, .boxed-contact-form textarea {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 3px;
+    background: #F1F1F1;
+}
+
+.boxed-contact-form textarea {
+    max-height: 120px;
+}
+
+.boxed-contact-form input[type="submit"] {
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #009812;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+
+
+.counterup-wrapper {
+    overflow: hidden;
+    text-align: center;
+    background: #ddd;
+}
+
+.counter-inner {
+    width: 25%;
+    float: left;
+    position: relative;
+    padding: 60px;
+    color: #444;
+}
+
+.counter-inner:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    content: "";
+    background: #333;
+    opacity: .1;
+}
+
+.counter-inner:last-child:after {
+    display: none;
+}
+
+.counter-inner:nth-child(3) {
+    background: #f1f1f1;
+}
+
+.counter-inner:nth-child(4) {
+    background: #ccc;
+}
+
+.counter-inner:nth-child(2) {
+    background: #DADAC8;
+}
+
+.count-icon {
+    font-size: 30px;
+    margin: 0 0 30px;
+    color: #555;
+}
+
+p.count-number span {
+    font-size: 50px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+p.count-number {
+    font-size: 20px;
+}
+
+.counter-inner p {
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+/*.about-indicator i{-webkit-animation: 1s ease infinite running rozy;animation: 1s ease infinite running rozy;}
+@-webkit-keyframes rozy{
+    0%{-webkit-transform: translateY(0px);transform: translateY(0px)}
+    50%{-webkit-transform: translateY(10px);transform: translateY(10px)}
+    100%{-webkit-transform: translateY(0px);transform: translateY(0px)}
+}
+@keyframes rozy{
+    0%{-webkit-transform: translateY(0px);transform: translateY(0px)}
+    50%{-webkit-transform: translateY(10px);transform: translateY(10px)}
+    100%{-webkit-transform: translateY(0px);transform: translateY(0px)}
+}*/
