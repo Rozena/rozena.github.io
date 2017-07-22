@@ -63,6 +63,11 @@
     .rose-homepage-slides .owl-nav div.owl-next {
         right: 20px;
     }
+    
+    .counter-wrap {
+        width: 50%;
+    }
+    
     .about-text {
         margin-top: 40px;
         margin-left: 0;
@@ -70,6 +75,7 @@
     p.count-number span {
         font-size: 45px;
     }
+
     .col-md-4:nth-child(4) .single-service-box {
         margin-bottom: 30px;
     }
@@ -150,15 +156,16 @@
         padding: 5px 20px;
     }
     .hero-text {
-        padding: 170px 0px 150px
+        padding: 150px 0px 80px;
     }
     .hero-text h4 {
         font-size: 14px;
     }
     .hero-text h1 {
-        font-size: 36px;
-        line-height: 50px;
+        font-size: 30px;
+        line-height: 40px;
         min-height: 100px;
+        margin: 0;
     }
     .hero-text h1 span {
         z-index: 9;
@@ -208,7 +215,7 @@
         background-size: 150%;
     }
     .about-text {
-        text-align: justify;
+        text-align: center;
     }
     .counter-wrap {
         float: none;
@@ -246,6 +253,9 @@
     .cta-area .bordered-btn {
         font-size: 15px;
         padding: 10px 50px;
+    }
+    .map {
+    height: 350px;
     }
     .contact-form {
         padding: 20px;
