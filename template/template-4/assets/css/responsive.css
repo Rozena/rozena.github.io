@@ -57,6 +57,12 @@
         height: 470px;
         right: 0;
     }
+    .rose-homepage-slides .owl-nav div {
+        left: 20px;
+    }
+    .rose-homepage-slides .owl-nav div.owl-next {
+        right: 20px;
+    }
     .about-text {
         margin-top: 40px;
         margin-left: 0;
