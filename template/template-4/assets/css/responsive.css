@@ -340,6 +340,9 @@
     .hero-text {
         padding-left: 50px;
     }
+    .hero-text h1 {
+    font-size: 34px;
+}
     a.video-play-btn {
         height: 400px;
     }
