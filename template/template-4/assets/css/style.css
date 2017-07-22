@@ -1169,10 +1169,6 @@ ul.rose-project-titles li:hover {
     border-radius: 4px;
 }
 
-.contact-form input {
-    margin-bottom: 30px;
-}
-
 .contact-form h2 {
     text-align: center;
     font-weight: 500;
@@ -1181,10 +1177,16 @@ ul.rose-project-titles li:hover {
     line-height: 1;
 }
 
+.contact-form input {
+    margin-bottom: 30px;
+}
+
 .contact-form textarea {
     max-height: 200px;
 }
-
+.contact-form input, .contact-form textarea {
+    border: 1px solid #D8CE99;
+}
 .contact-form button[type=submit] {
     margin: 0 auto;
     display: inherit;
