@@ -66,6 +66,7 @@
     
     .counter-wrap {
         width: 50%;
+        float: left;
     }
     
     .about-text {
