@@ -550,13 +550,13 @@ a.scroll-to-about {
     display: block;
     width: 10px;
     height: 10px;
-    background: #ddd;
+    border: 1px solid #ddd;
     margin: 6px;
     border-radius: 50%;
 }
 
 .rose-homepage-slides .owl-dots .active {
-    background: #9F9146;
+    background: #ddd;
     width: 13px;
     height: 13px;
     margin: 5px;
