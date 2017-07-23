@@ -547,7 +547,7 @@ a.scroll-to-about {
 }
 
 .rose-homepage-slides .owl-dots div {
-    display: inline-block;
+    display: block;
     width: 10px;
     height: 10px;
     background: #ddd;
