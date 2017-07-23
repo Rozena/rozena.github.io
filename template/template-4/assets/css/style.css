@@ -540,26 +540,26 @@ a.scroll-to-about {
     right: 50px;
 }
 
+.rose-homepage-slides .owl-dots {
+    position: absolute;
+    right: 50px;
+    bottom: -450px;
+}
+
 .rose-homepage-slides .owl-dots div {
     display: inline-block;
     width: 10px;
     height: 10px;
     background: #ddd;
-    margin: 5px;
+    margin: 6px;
     border-radius: 50%;
-}
-
-.rose-homepage-slides .owl-dots {
-    position: absolute;
-    right: 50px;
-    bottom: -500px;
 }
 
 .rose-homepage-slides .owl-dots .active {
     background: #9F9146;
-    width: 12px;
-    height: 12px;
-    margin: 3px;
+    width: 13px;
+    height: 13px;
+    margin: 5px;
 }
 
 .slide-text a.bordered-btn:hover {
