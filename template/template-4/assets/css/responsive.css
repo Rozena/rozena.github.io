@@ -208,6 +208,9 @@
         text-align: center;
         width: 100%;
     }
+    .rose-homepage-slides .owl-dots div {
+        display: inline-block;
+    }
     a.video-play-btn {
         height: 280px;
         background-size: 150%;
