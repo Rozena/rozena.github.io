@@ -189,6 +189,7 @@
     }
     .slide-text {
         font-size: 14px;
+        padding: 140px 0 80px;
     }
     .slide-text h1 {
         font-size: 30px;
@@ -211,6 +212,10 @@
     .rose-homepage-slides .owl-dots div {
         display: inline-block;
     }
+    .full-height-slide, .rose-homepage-slides, .rose-homepage-slides div {
+      height: auto;
+    }
+  
     a.video-play-btn {
         height: 280px;
         background-size: 150%;
