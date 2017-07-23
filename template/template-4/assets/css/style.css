@@ -608,7 +608,7 @@ a.video-play-btn {
     visibility: hidden;
 }
 
-.video-overlay:after {
+.video-overlay::after {
     position: absolute;
     left: 0;
     top: 0;
@@ -976,7 +976,7 @@ ul.rose-project-titles li:hover {
     padding-bottom: 50px;
 }
 
-.project-hover:after {
+.project-hover::after {
     position: absolute;
     left: 0;
     top: 0;
