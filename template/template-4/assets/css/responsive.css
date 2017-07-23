@@ -163,10 +163,8 @@
         font-size: 14px;
     }
     .hero-text h1 {
-        font-size: 30px;
-        line-height: 40px;
-        min-height: 100px;
-        margin: 0;
+        font-size: 32px;
+        line-height: 42px;
     }
     .hero-text h1 span {
         z-index: 9;
@@ -181,14 +179,11 @@
         margin-top: 40px;
         margin-left: 0;
     }
-    .bordered-btn,
-    .bordered-btn.hero-btn {
-        padding: 10px 20px;
-    }
+   
     .bordered-btn,
     .bordered-btn.hero-btn {
         padding: 8px 20px;
-        text-transform: capitalize;
+        font-size: 12px;
     }
     .slide-text {
         font-size: 14px;
@@ -349,18 +344,4 @@
     .blog-bg {
         height: 300px;
     }
-}
-
-
-/*==============================
-   tablet layout - 2
-================================*/
-
-@media only screen and (min-width:720) and (max-width:767px) {
-
-.hero-text h1 {
-    min-height: 0px;
-    margin: 0 0 20px;
-}
-    
 }

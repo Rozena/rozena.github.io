@@ -7,7 +7,7 @@
         $(".rose-homepage-slides").owlCarousel({
             items: 1,
             loop: true,
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 5000,
             dots: true,
             nav: true,

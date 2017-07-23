@@ -476,9 +476,11 @@ a.scroll-to-about {
     width: 100%;
 }
 
+
 .slide-inner {
     display: table-cell;
     vertical-align: middle;
+    width: 100%;
 }
 
 .slide-text {
@@ -608,7 +610,7 @@ a.video-play-btn {
     visibility: hidden;
 }
 
-.video-overlay::after {
+.video-overlay:after {
     position: absolute;
     left: 0;
     top: 0;
