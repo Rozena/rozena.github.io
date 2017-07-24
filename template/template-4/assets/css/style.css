@@ -1,9 +1,14 @@
-/*====================================
-    Temaplte Name : rose
-    Version : 1.0.0
-    Author : brightcarrier
-    Author URI : brightcarrier.com  
-=====================================*/
+/*=================================================================================
+    Temaplte Name: ROSE - Portfolio HTML Template
+    Template URI: https://themeforest.net/user/
+    Description: This is html5 Portfolio template
+    Author: brightcarrier
+    Author URI: https://themeforest.net/user/brightcarrier
+    Version: 1.0.0
+
+    Note: This is style css. All styles declare here.
+=================================================================================*/
+
 
 
 /*====================================
@@ -35,8 +40,9 @@ CSS INDEX :
 /*======================
     Base Css
 =======================*/
-
+/*google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
 * {
     margin: 0;
     padding: 0;
@@ -464,7 +470,9 @@ a.scroll-to-about {
 }
 
 .full-height-slide div.slide-inner,
-.full-height-slide div.slide-inner div, .full-height-slide div.owl-controls, .full-height-slide div.owl-controls div{
+.full-height-slide div.slide-inner div,
+.full-height-slide div.owl-controls,
+.full-height-slide div.owl-controls div {
     height: auto;
 }
 
@@ -473,7 +481,7 @@ a.scroll-to-about {
     width: 100%;
 }
 
-.single-slide-item:after{
+.single-slide-item:after {
     z-index: 2
 }
 
@@ -558,7 +566,6 @@ a.scroll-to-about {
     border: 2px solid #ddd;
 }
 
-
 .slide-text a.bordered-btn:hover {
     border: 2px solid;
     color: #ddd;
@@ -605,11 +612,10 @@ a.video-play-btn {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     visibility: hidden;
-    background:rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
 
-
-.video-icon{
+.video-icon {
     background: #fff;
     display: inline-block;
     width: 50px;
@@ -623,7 +629,7 @@ a.video-play-btn {
     transition: .3s;
 }
 
- .video-icon:hover{
+.video-icon:hover {
     background: #9F8E48;
     color: #fff;
 }
@@ -772,7 +778,9 @@ p.count-number {
     max-width: 40px;
 }
 
-.single-service-box:hover .service-icon-inner img {display: none;}
+.single-service-box:hover .service-icon-inner img {
+    display: none;
+}
 
 .service-icon-inner img.service-hover {
     display: none;
@@ -791,8 +799,6 @@ p.count-number {
     color: #333;
     border: 2px solid;
 }
-
-
 
 
 /*=============================
@@ -968,8 +974,9 @@ ul.rose-project-titles li:hover {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     visibility: hidden;
     padding-bottom: 50px;
-    background:rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
 }
+
 
 /*.project-hover::after {
     position: absolute;
@@ -983,7 +990,6 @@ ul.rose-project-titles li:hover {
     opacity: .6;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 }*/
-
 
 .project-popup i.fa {
     width: 30px;
@@ -1180,9 +1186,12 @@ ul.rose-project-titles li:hover {
 .contact-form textarea {
     max-height: 200px;
 }
-.contact-form input, .contact-form textarea {
+
+.contact-form input,
+.contact-form textarea {
     border: 1px solid #D8CE99;
 }
+
 .contact-form button[type=submit] {
     margin: 0 auto;
     display: inherit;
@@ -1315,8 +1324,15 @@ a.scroll-to-top:hover {
 /*=============================
     Breadcrump css
 ==============================*/
-.breadcrump-bg-1{background-image: url(../images/breadcrump-bg-1.jpg)}
-.breadcrump-bg-2{background-image: url(../images/breadcrump-bg-2.jpg)}
+
+.breadcrump-bg-1 {
+    background-image: url(../images/breadcrump-bg-1.jpg)
+}
+
+.breadcrump-bg-2 {
+    background-image: url(../images/breadcrump-bg-2.jpg)
+}
+
 .breadcrump-area {
     position: relative;
     z-index: 1;
@@ -1397,7 +1413,7 @@ p.contact i.fa {
     height: 40px;
     border: 1px solid #fff;
     text-align: center;
-    line-height: 34px;
+    line-height: 37px;
     border-radius: 50%;
 }
 
@@ -1486,12 +1502,15 @@ p.blog-meta-details span {
 .comments .col-md-12 {
     margin-bottom: 35px;
 }
+
 .comment-form {
     margin-top: 30px;
 }
+
 .comments p {
     margin-top: 20px;
 }
+
 .comment-form input {
     margin-bottom: 30px;
 }
@@ -1565,116 +1584,6 @@ p.blog-meta-details span {
 }
 
 
-/*==============================
-    demo css
-================================*/
-.demo-area .logo {
-    padding: 25px 0;
-}
-
-.demo-area {
-    background-image: url(../images/demo/demo-bg.jpg)
-}
-
-.demo-area {
-    position: relative;
-    z-index: 1;
-    background-size: cover;
-    background-position: center;
-    background-color: #ddd;
-}
-
-.demo-area:after {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    background: #000;
-    z-index: -1;
-    opacity: .6;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-}
-
-.demo-text {
-    color: #fff;
-    text-transform: capitalize;
-    padding: 60px 0;
-}
-
-.demo-text h2 {
-    color: #fff;
-    font-size: 40px;
-}
-
-.demo-text a {
-    display: inline-block;
-    border: 2px solid;
-    color: #fff;
-    padding: 8px 35px;
-    margin-top: 20px;
-    border-radius: 50px;
-    -webkit-transition: .3s;
-    transition: .3s;
-    font-weight: 500;
-}
-
-.demo-text a:hover {
-    background: #fff;
-    color: #000;
-    border: 2px solid transparent;
-}
-
-.demos-wrap {
-    display: block;
-    margin-bottom: 30px;
-    box-shadow: 0 0 15px #888;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transition: .3s;
-    transition: .3s;
-}
-
-.col-md-4:nth-child(4) .demos-wrap,
-.col-md-4:nth-child(5) .demos-wrap,
-.col-md-4:nth-child(6) .demos-wrap {
-    margin: 0;
-}
-
-a.demos-wrap img {
-    width: 100%;
-    height: 300px;
-}
-
-a.demos-wrap h3:after {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    background: #000;
-    opacity: .7;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-    z-index: -1;
-}
-
-a.demos-wrap h3 {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    line-height: 50px;
-    color: #fff;
-    width: 80%;
-    margin-top: -25px;
-    text-transform: capitalize;
-    z-index: 1;
-    padding: 10px 0;
-    font-size: 26px;
-}
-
-.demos-wrap:hover {
-    -webkit-transform: scale(1.02);
-            transform: scale(1.02)
-}
+/*===================================
+                    END OF CSS
+    ===================================*/
