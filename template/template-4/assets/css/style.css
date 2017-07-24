@@ -23,10 +23,10 @@ CSS INDEX :
     * Map css
     * Contact css
     * Scrool To Top css
-    * Spinner css
     * Breadcrump css
     * Contact Info css
     * Single Blog css
+    * Spinner css
     * Footer css
 
 */
@@ -140,10 +140,6 @@ a.more-btn i.fa {
     padding-left: 2px;
     -webkit-transition: .3s;
     transition: .3s;
-}
-
-.hero-text .bordered-btn {
-    margin-top: 15px;
 }
 
 .bordered-btn {
@@ -378,6 +374,7 @@ button[type=submit] {
 .hero-text a.bordered-btn.hero-btn {
     z-index: 2;
     position: relative;
+    margin-top: 15px;
 }
 
 #particles-js {
@@ -1400,7 +1397,7 @@ p.contact i.fa {
     height: 40px;
     border: 1px solid #fff;
     text-align: center;
-    line-height: 37px;
+    line-height: 34px;
     border-radius: 50%;
 }
 
