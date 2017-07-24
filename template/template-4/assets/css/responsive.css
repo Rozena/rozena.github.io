@@ -204,10 +204,10 @@
         display: none;
     }
     .rose-homepage-slides .owl-dots {
-        bottom: -510px;
         right: 0;
         text-align: center;
         width: 100%;
+        bottom: 15px;
     }
     .rose-homepage-slides .owl-dots div {
         display: inline-block;
