@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en_US">
+<html lang="zxx">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>default homepage</title>
-
+    
+    <title>ROSE - Portfolio HTML Template</title>
+    
+    <!--theme favicon-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    
     <!-- all css -->
     <!-- bootstrap css-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -29,12 +33,18 @@
     
     <!-- responsive css -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    <!-- user custom css -->
+    <link rel="stylesheet" href="assets/css/custom.css">
 
 
 </head>
 
 <body>
-
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
     <!-- site spinner start-->
     <div class="rose-spinner-wrap">
         <div class="spinner">
@@ -50,36 +60,36 @@
     <div class="header-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <!-- logo start-->
-                    <div class="logo">
-                        <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                <nav>
+                    <div class="col-md-3"><!-- logo start-->
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                        </div> <!-- logo end-->
                     </div>
-                    <!-- logo end-->
-                </div>
-                <div class="col-md-9 text-right">
-                    <div class="mainmenu">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="collapse navbar-collapse">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="active smooth-scroll"><a href="#home">Home</a></li>
-                                <li class="smooth-scroll"><a href="#about">About</a></li>
-                                <li class="smooth-scroll"><a href="#service">services</a></li>
-                                <li class="smooth-scroll"><a href="#work">works</a></li>
-                                <li class="smooth-scroll"><a href="#testimonial">testimonial</a></li>
-                                <li class="smooth-scroll"><a href="#blog">Blog</a></li>
-                                <li class="smooth-scroll"><a href="#contact">Contact</a></li>
-                            </ul>
+                    <div class="col-md-9 text-right">
+                        <div class="mainmenu">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active smooth-scroll"><a href="#home">Home</a></li>
+                                    <li class="smooth-scroll"><a href="#about">About</a></li>
+                                    <li class="smooth-scroll"><a href="#service">services</a></li>
+                                    <li class="smooth-scroll"><a href="#work">works</a></li>
+                                    <li class="smooth-scroll"><a href="#testimonial">testimonial</a></li>
+                                    <li class="smooth-scroll"><a href="#blog">Blog</a></li>
+                                    <li class="smooth-scroll"><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
     </div>
@@ -283,7 +293,7 @@
                 <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 text-center wow fadeInUp">
                     <div class="section-title">
                         <!-- section title start-->
-                        <h1>my recent work</h1>
+                        <h1>My recent work</h1>
                         <span class="section-style">
                             <span></span>
                         <span class="change"></span>
