@@ -1686,7 +1686,7 @@ a.preview-wrap h3 {
     text-transform: capitalize;
     z-index: 1;
     padding: 10px 0;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .preview-wrap:hover {

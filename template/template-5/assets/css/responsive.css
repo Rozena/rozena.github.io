@@ -119,6 +119,11 @@
     .footer-area {
         font-size: 12px;
     }
+    /*preview responsive css*/
+    .col-md-4:nth-child(4) .preview-wrap, .col-md-4:nth-child(5) .preview-wrap, .col-md-4:nth-child(6) .preview-wrap {
+      margin: 0 0 30px;
+    }
+    
 }
 
 
@@ -344,6 +349,19 @@
     .comment-form input {
         margin-bottom: 20px;
     }
+    
+    /*preview responsive css*/
+    .preview-area .logo {
+      text-align: center;
+    }
+    .preview-text h2 {
+      font-size: 30px;
+    }
+    .col-md-4:nth-child(4) .preview-wrap, .col-md-4:nth-child(5) .preview-wrap, .col-md-4:nth-child(6) .preview-wrap {
+      margin: 0 0 30px;
+    }
+
+    
 }
 
 
