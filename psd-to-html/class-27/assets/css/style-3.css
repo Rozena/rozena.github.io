@@ -1,0 +1,9 @@
+
+.about-text .boxed-btn {
+  margin-top: 30px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    background: #06D6A0;
+}
