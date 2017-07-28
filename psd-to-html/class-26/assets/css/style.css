@@ -77,7 +77,6 @@ body {
 
 a,
 a:hover,
-a:focus,
 a:active {
     outline: none;
     text-decoration: none;
@@ -87,6 +86,8 @@ a:active {
     -ms-transition: all .2s ease;
     -o-transition: all .2s ease;
 }
+
+a:focus, button:focus, input:focus, textarea:focus{outline: 0 solid;}
 
 .fix {
     overflow: hidden;
@@ -351,6 +352,11 @@ button[type="submit"] {
   margin-top: 15px;
 }
 
+input[type=submit]:hover, button[type=submit]:hover {
+    background: #333;
+}
+input[type=submit], button[type=submit]{transition:.3s}
+
 .contact-info, .contact-info a {
   color: #999;
 }
@@ -367,58 +373,63 @@ button[type="submit"] {
   font-size: 18px;
 }
 
-
-.styled-faq {
-  border-radius: 5px;
-}
-.styled-faq .panel-group {
-  margin: 0;
-}
-.styled-faq .panel-group .panel.panel-default {
-  border-radius: 0 0 0;
-  box-shadow: 0 0 0;
-  border: none;
-  margin: 0;
-}
-.styled-faq .panel-default > .panel-heading {
-  background-color: transparent;
-}
-.styled-faq .panel.panel-default .panel-heading {
-  border: 1px solid #f1f1f1;
-  border-radius: 0 0 0 0;
-  padding: 0;
-  border-bottom: none;  
+.styled-faq .panel-default {
+    background: transparent;
+    box-shadow: 0 0 0;
+    margin-bottom: -6px;
+    border: 1px solid #f1f1f1;
 }
 
-.styled-faq .panel-group .panel.panel-default a {
-  padding: 12px 20px;
-  display: block;
-  color: #333;
-  font-weight: 400;
-  position: relative;
-}
-.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
-	border: 1px solid #f1f1f1;
-	border-top: none;
-	border-bottom: none;
-}
-.styled-faq .panel-body {
-  padding: 20px;
+.styled-faq .panel-default>.panel-heading {
+    background: transparent;
+    border-color: transparent;
+    padding: 0;
 }
 
-.styled-faq .panel-group .panel.panel-default a:after {
-  content: "+";
-  float: right;
-  font-size: 20px;
-  margin-top: 2px;
+.styled-faq .panel-default>.panel-heading a {
+    display: block;
+    padding: 15px;
+    color: #666;
+    font-weight: 600;
+    position: relative;
 }
-.styled-faq .panel-group .panel.panel-default a[aria-expanded=true]:after {
-  content: "_";
-  font-size: 25px;
-  margin-top: -9px;
+
+.styled-faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-width: 0;
+}
+
+.styled-faq .panel-default>.panel-heading a:focus, .styled-faq .panel-default>.panel-heading a:active {
+    text-decoration: none;
+}
+
+.styled-faq .panel-default>.panel-heading a:after {
+    content: "+";
+    font-size: 18px;
+    float: right;
+    margin-top: 2px;
+}
+
+.styled-faq .panel-default>.panel-heading a[aria-expanded="true"]:after {
+    content: "_";
+    font-size: 20px;
+    margin-top: -7px;
 }
 
 
+.social-share a {
+    transition: .3s;
+}
+
+.social-share a:hover {
+    opacity: .8;
+}
+
+.comments-box input[type=submit] {
+    margin: 0;
+    transition: .3s;
+}
+
+.comments-box input[type=submit]:hover {background: #333;}
 
 /*==========================
      Mainmenu CSS
@@ -428,9 +439,11 @@ button[type="submit"] {
 }
 .logo img {
     max-width: 60px;
+    transition: .3s;
 }
-
-.mainmenu {}
+.logo img:hover {
+    opacity: .8;
+}
 
 .mainmenu ul {
     list-style: outside none none;
@@ -505,6 +518,13 @@ button[type="submit"] {
     margin-bottom: 100px;
 }
 
+.canvas-logo img {
+    transition: .3s;
+}
+
+.canvas-logo img:hover {
+    opacity: .8;
+}
 .off-canvas-menu ul {
     font-size: 110%;
     font-weight: 400;
@@ -1990,7 +2010,9 @@ button[type="submit"] {
 .blog-bg-3 {
     background-image: url(../images/blog-bg-3.jpg)
 }
-
+.single-blog-box:hover .blog-thumb-wrap {
+    opacity: .9;
+}
 .theme-2 .single-blog-box {
     color: #999999;
     display: block;
@@ -2013,6 +2035,7 @@ button[type="submit"] {
     background-size: cover;
     background-position: center;
     background-color: #ddd;
+    transition: .3s;
 }
 
 .entry-content p {
@@ -2162,7 +2185,9 @@ button[type="submit"] {
     border-radius: 0;
     width: 30%;
 }
-
+.newsletter-form input[type=submit]:hover {
+    background: #333!important;
+}
 .newsletter-form {
     margin-bottom: 20px;
 }
@@ -2182,7 +2207,9 @@ button[type="submit"] {
 .social-links li a:hover {
     color: #ef476f;
 }
-
+.social-links a i.fa {
+    padding-right: 5px;
+}
 .copysection {
     background: #f7f7f7 none repeat scroll 0 0;
     color: #b0b0b0;
@@ -2228,16 +2255,25 @@ button[type="submit"] {
     padding-left: 15px;
     padding-top: 10px;
 }
-
+.footer-widget-area .logo {
+    margin-bottom: 30px;
+}
 .footer-area-2 {
     border-bottom: 1px solid #f7f7f7;
     padding: 45px 0;
 }
 
-.footer-area-2 ul li.active a {
+.footer-area-2 ul li.active a, .footer-area-2 ul li a:hover {
     color: #3bddb3;
 }
 
+.footer-area-2 img:hover {
+    opacity: .8;
+}
+
+.footer-area-2 img {
+    transition: .3s;
+}
 .footer-widget-area.theme-4 h4,
 .footer-widget-area.theme-4 a {
     color: #fff;
@@ -2260,7 +2296,7 @@ button[type="submit"] {
     display: inline-block;
 }
 
-.copysection-2 ul li.active a {
+.copysection-2 ul li.active a, .copysection-2 ul li a:hover {
     color: #0fb589;
 }
 
