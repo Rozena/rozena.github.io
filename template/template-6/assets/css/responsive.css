@@ -7,8 +7,9 @@
     margin-left: 12px;
 }
 .is-sticky .mainmenu ul li a {
-    margin-left: 11px;
+    margin-left: 9px;
 }
+.is-sticky .mainmenu ul li:first-child a{margin-left: 0;}
 .margin-top-60 {
     margin-top: 35px;
 }
@@ -542,6 +543,15 @@ h1, h2, h3, h4, h5, h6 {
 .absolute-gellary img {
     height: 250px;
 }
+.ScrollToTop{right: 25px;}
+.ScrollToTop a {
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+
 
 }
 
@@ -550,7 +560,9 @@ h1, h2, h3, h4, h5, h6 {
 ================================*/
 @media only screen and (min-width:480px) and (max-width:767px) {
 
-
+.header-top-area a {
+    padding: 0 20px;
+}
 
 }
 

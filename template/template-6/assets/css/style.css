@@ -1444,7 +1444,8 @@
     height: 57px;
     border-radius: 0 0 0;
     line-height: 55px;
-    border: none;
+    border: none;    
+    margin-bottom: 20px;
 }
 
 .nice-select ul.list {
