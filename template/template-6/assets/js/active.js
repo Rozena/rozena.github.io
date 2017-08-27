@@ -147,9 +147,11 @@
         $(".site-preloader-wrap").fadeOut(5000);
 
 
-        if ( $('[type="date"]').prop('type') != 'date' ) {
-            $('[type="date"]').datepicker();
-        }
+       $("input#date").dcalendarpicker({
+         format: 'dd-mm-yyyy'
+       });
+
+      $("select").niceSelect();
 
     });
 
