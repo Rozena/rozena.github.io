@@ -1,0 +1,557 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+@media only screen and (min-width:991px) and (max-width:1199px) {
+
+.mainmenu ul li a {
+    margin-left: 12px;
+}
+.is-sticky .mainmenu ul li a {
+    margin-left: 11px;
+}
+.margin-top-60 {
+    margin-top: 35px;
+}
+.hero-text h1 {
+    font-size: 70px;
+}
+.menu-details {
+    padding:0 0 10px;
+}
+.package-details {
+    margin-top: 50px;
+}
+.slide-text h1, .cta-area h1, .email-subscribe-form h1  {
+    font-size: 36px;
+}
+.tab-content-wrap img {
+    margin-top: 25px;
+}
+
+}
+
+
+/***********************************
+    Tablet Layout 768px.
+************************************/
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+
+.header-top-area, .header-top-area .text-right {
+    text-align: center;
+}
+
+.header-top-area a {
+    padding-left: 0;
+    padding: 0 12px;
+    position: relative;
+}
+
+.cart-count {
+    right: 8px;
+}
+
+.header-top-area .text-right {
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.search-icon {
+    right: 130px;
+    top: -5px;
+}
+
+.search-form {
+    right: 125px;
+    top: 31px;
+}
+
+
+.logo {
+    text-align: center;
+    margin:0 0 15px;
+}
+
+.mainmenu ul.nav.navbar-nav.navbar-right {text-align: center;float: none!important;margin-right: 0px;}
+
+.mainmenu ul li a {
+    margin: 0 5px;
+    padding: 7px 2px 7px;
+}
+
+.mainmenu .navbar-nav>li {
+    float: none;
+}
+
+.header-area, .sticky-wrapper {margin-top: -5px;}
+.is-sticky .mainmenu ul li a {
+    margin: 0 4px;
+}
+.is-sticky .logo {
+    margin: 0 0 12px;
+}
+.is-sticky .header-area {
+    padding: 15px 0;
+}
+.mainmenu ul li:hover ul {
+    top: 35px;
+}
+.theme-2 .mainmenu ul li a {
+    color: #fff;
+}
+.margin-top-50 {
+    margin-top: 50px;
+}
+.hero-text h1 {
+    font-size: 50px;
+}
+.hero-wrap {
+    height: auto;
+}
+.hero-text {
+    padding: 180px 0 100px;
+}
+.hero-text ul li {
+    font-size: 50px;
+    line-height: 40px;
+}
+.boxed-btn, .bordered-btn {
+    padding: 9px 30px;
+    font-size: 14px;
+}
+.bordered-btn {
+    padding: 7px 30px;
+}
+.special-food-box {
+    margin:50px 0 0;
+    box-shadow: 0px 0px 25px #ddd;
+}
+
+.pdt-70 {
+    padding-top: 0;
+}
+.padding-left-60 {
+    padding-left: 15px;
+}
+.absolute-gellary {
+    margin-top: 185px;
+}
+.menu-details p {
+    margin: 0;
+}
+.menu-details {
+    margin-top: 12px;
+}
+.single-menu-item {
+    margin-bottom: 30px;
+}
+.col-md-6:nth-child(7) .single-menu-item {
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #ff4500;
+    padding-bottom: 10px;
+}
+.padding-top-150 {
+    padding-top: 0;
+}
+.tablet-only-margin {
+    margin-top: 50px;
+}
+
+.customar-faq {
+    min-height: 0;
+    margin-bottom: 50px;
+}
+
+.tab-content-wrap {
+    padding: 20px;
+}
+
+.tab-content-wrap img {
+    margin-bottom: 30px;
+}
+.margin-left {
+    margin-left: 0;
+}
+.cafe-list .owl-nav div {
+    left: -55px;
+}
+
+.cafe-list .owl-nav div.owl-next {
+    right: -55px;
+}
+
+.email-subscribe-form h1 {
+    font-size: 30px;
+}
+.homepage-slides {
+    height: auto;
+}
+.slide-overlay {
+	background:#000;
+    opacity: .6;
+}
+.single-slide-item {
+    padding: 120px 0;
+    color: #fff;
+}
+.slide-text h1 {
+    color: #fff;
+    font-size: 34px;    
+    margin: 0 0 18px;
+}
+
+.homepage-slides .owl-dots {
+    bottom: 30px;
+}
+.single-food-box {
+    margin-bottom: 50px;
+}
+
+.col-md-4:nth-child(3) .single-food-box {
+    margin: 0;
+}
+.cta-area, .cta-area .text-right {
+    text-align: center;
+}
+
+.cta-area .text-right {
+    margin-top: 25px;
+}
+
+
+
+}
+
+
+/*===================================
+    normal/small mobile layout 320px.
+===================================*/
+@media only screen and (max-width:767px) {
+
+.section-padding {
+    padding: 90px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	    line-height: 1.5;
+}
+
+.header-top-area, .header-top-area .text-right {
+    text-align: center;
+}
+
+.header-top-area a {
+    padding-left: 0;
+    padding: 0 7px;
+    position: relative;
+}
+
+.cart-count {
+    right: 8px;
+}
+
+.header-top-area .text-right {
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.search-icon {
+    right: 10px;
+    top: 12px;
+}
+
+.search-icon {
+    display: none;
+}
+
+.logo {
+    text-align: center;
+    margin: 5px 0 15px;
+}
+
+.navbar-toggle {
+    float: none;
+    background-color: #ff4500;
+    border-radius: 0 0 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar-toggle span.icon-bar {
+    background-color: #fff;
+}
+.header-area, .sticky-wrapper {
+    position: relative;
+    padding: 8px 0;
+    margin-bottom: 25px;
+}
+.mobile-menu-activated .mainmenu ul.nav.navbar-nav {
+    background: #000;
+    margin: 0;
+    padding: 20px;
+    float: none;
+}
+
+.mobile-menu-activated .mainmenu ul.nav.navbar-nav li {
+    display: block;
+    text-align: left;
+    margin: 0;
+}
+
+.mobile-menu-activated .mainmenu
+ ul li a {
+    margin: 0;
+    padding: 10px 0 6px;
+}
+.mobile-menu-activated .mainmenu ul.nav.navbar-nav li.active a:after, .mobile-menu-activated .mainmenu ul.nav.navbar-nav li a:after {
+    height: 2px;
+}
+.is-sticky .navbar-toggle {
+    margin-bottom: 10px;
+}
+.margin-top-50 {
+    margin-top: 50px;
+}
+.hero-text h1 {
+    font-size: 24px;
+    line-height: 1.4;
+    margin: 0 0 10px;
+}
+.hero-text ul li:nth-child(2):after, .hero-text ul li:nth-child(3):after{display: none;}
+.hero-wrap {
+    height: auto;
+}
+.hero-text {
+    padding: 70px 0;
+}
+.hero-text ul li {
+    font-size: 30px;
+    line-height: 45px;    
+    margin: 0 12px;
+}
+.boxed-btn, .bordered-btn {
+    padding: 8px 20px;
+    font-size: 14px;    
+    margin: 0 5px;
+}
+.bordered-btn {
+    padding: 6px 20px;
+}
+.special-food-box {
+    margin:50px 0 0;
+    box-shadow: 0px 0px 25px #ddd;
+}
+.section-title h1 {
+    font-size: 32px;
+}
+.about-text {
+    padding: 0;
+}
+.about-text h2 {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.absolute-gellary img:nth-child(1) {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.absolute-gellary img:nth-child(2), .absolute-gellary img:nth-child(3) {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.margin-top-60 {
+    margin-top: 0;
+}
+.pdt-70 {
+    padding-top: 0;
+}
+.padding-left-60 {
+    padding-left: 15px;
+}
+.absolute-gellary {
+    margin-top: 50px;
+}
+.menu-details p {
+    margin: 0;
+}
+.menu-details {
+    margin-top: 12px;
+}
+.single-menu-item {
+    margin-bottom: 30px;
+}
+.col-md-6:nth-child(7) .single-menu-item {
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #ff4500;
+    padding-bottom: 10px;
+}
+.single-menu-item {
+    position: relative;
+}
+.recipe-price {
+    top: -75px;
+}
+.single-gellary-item, .single-gellary-item.medium-size, .single-gellary-item.small-size {
+    width: 100%;
+}
+.padding-top-150 {
+    padding-top: 0;
+}
+.tablet-only-margin {
+    margin-top: 50px;
+}
+.reservation-absolute-bg {
+    display: none;
+}
+.customar-faq {
+    min-height: 0;
+    margin-bottom: 50px;
+}
+
+.tab-content-wrap {
+    padding: 20px;
+}
+
+.tab-content-wrap img {
+    margin-bottom: 30px;
+}
+.margin-left {
+    margin-left: 0;
+}
+.cafe-list .owl-nav div {
+    left: -55px;
+}
+
+.cafe-list .owl-nav div.owl-next {
+    right: -55px;
+}
+
+.email-subscribe-form h1, .email-subscribe-form h1 i.fa {
+    font-size: 20px;
+}
+.theme-2 .email-subscribe-form h1, .theme-2 .email-subscribe-form h1 i.fa {
+    line-height: 1.5;
+}
+.homepage-slides {
+    height: auto;
+}
+.slide-overlay {
+	background:#000;
+    opacity: .6;
+}
+.slide-text {
+    padding-top: 0px;
+}
+.single-slide-item {
+    padding: 80px 0 90px;
+    color: #fff;
+}
+
+.slide-text h1 {
+    color: #fff;
+    font-size: 24px;    
+    margin: 0 0 18px;
+}
+
+.homepage-slides .owl-dots {
+    bottom: 30px;
+}
+.single-food-box {
+    margin-bottom: 50px;
+}
+.reservation-form textarea {
+    height: 120px!important;
+}
+.col-md-4:nth-child(3) .single-food-box {
+    margin: 0;
+}
+.cta-area, .cta-area .text-right {
+    text-align: center;
+}
+
+.cta-area .text-right {
+    margin-top: 25px;
+}
+.email-subscribe-form {
+    padding: 40px 10px;
+    bottom: 0; 
+    margin-bottom: 90px;
+}
+.email-subscribe-form input[type=email] {
+    width: 100%;
+}
+.email-subscribe-form button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+}
+#GoogleMap {
+    height: 300px;
+}
+.theme-2 .mainmenu ul li a {
+    color: #fff;
+}
+.gellary {
+    height: 300px;
+}
+.cta-area h1, .section-title h1 {
+    font-size: 24px;
+}
+.single-testimonial-item {
+    font-size: 15px;
+}
+.copyright, .copyright .text-right {
+    text-align: center;
+}
+
+.copyright .text-right {
+    margin-top: 20px;
+}
+
+.copyright .social-share a {
+    margin: 0 10px;
+}
+.header-area.theme-2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.theme-2 .menu-icon {
+    padding: 20px;
+}
+
+.entry-content blockquote {
+    margin-left: 0;
+    padding-left: 30px;
+}
+.entry-content blockquote:before {
+    left: 4px;
+    font-size: 20px;top: 17px;
+}
+.comment-form textarea {
+    height: 130px;
+}
+.npb {
+    padding-bottom: 0;
+}
+.absolute-gellary img {
+    height: 250px;
+}
+
+}
+
+/*==============================
+    wide mobile layout 480px.
+================================*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+
+
+
+}
+
+
