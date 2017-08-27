@@ -3,12 +3,10 @@
 ===============================*/
 @media only screen and (min-width:991px) and (max-width:1199px) {
 
-.mainmenu ul li a {
+.mainmenu ul li a, .is-sticky .mainmenu ul li a {
     margin-left: 10px;
 }
-.is-sticky .mainmenu ul li a {
-    margin-left: 9px;
-}
+
 .is-sticky .mainmenu ul li:first-child a{margin-left: 0;}
 .margin-top-60 {
     margin-top: 35px;
