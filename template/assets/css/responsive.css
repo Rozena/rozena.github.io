@@ -4,7 +4,7 @@
 @media only screen and (min-width:991px) and (max-width:1199px) {
 
 .mainmenu ul li a {
-    margin-left: 12px;
+    margin-left: 10px;
 }
 .is-sticky .mainmenu ul li a {
     margin-left: 9px;
@@ -561,7 +561,7 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (min-width:480px) and (max-width:767px) {
 
 .header-top-area a {
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 }
