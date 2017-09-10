@@ -5,7 +5,7 @@
 
         function countdown() {
             var now = new Date();
-            var eventDate = new Date(2017, 9, 10);
+            var eventDate = new Date(2018, 1, 1);
             var currentTiime = now.getTime();
             var eventTime = eventDate.getTime();
             var remTime = eventTime - currentTiime;
@@ -35,6 +35,10 @@
         }
 
         countdown(); 
+
+        $(".mail-chimp").ajaxChimp({
+          url: 'http://netlify.us16.list-manage.com/subscribe/post?u=c2469184e53e2b2f2c0ec5601&amp;id=0d51d314af"'
+        });
 
     });
     

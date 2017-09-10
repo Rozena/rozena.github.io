@@ -77,9 +77,13 @@
 	            <div class="row">
 	            	<div class="col-md-12 text-center">
 	            		<div class="subscribe-form">
-	            			<form action="https://formspree.io/rrrozyislam@gmail.com" method="POST">
-	            				<input type="email" name="email" placeholder="Enter Your Email" required>
-	            				<input type="submit" value="subscribe now">
+	            			<form class="mail-chimp" >
+	            				<input id="mc-email" type="email" name="EMAIL" placeholder="email address" required>
+	            				
+	            				<input type="submit" value="subscribe now" target="_blank">
+								
+								<p><label for="mc-email"></label></p>
+
 	            			</form>
 	            		</div>
 	            	</div>
@@ -102,13 +106,16 @@
  	<!--hero area end -->
 
 
+
+
     <!-- Jquery -->
     <script src="assets/js/jquery-1.12.0.min.js"></script>
     <!--Bootstrap JS-->
     <script src="assets/js/bootstrap.3.3.7.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <!--Active Custom JS-->
     <script src="assets/js/active.js"></script>
-    </script>
+   
 </body>
 
 </html>

@@ -1,121 +1,126 @@
-/*===============================
+/************************************
     desktop/leptop layout.
-===============================*/
+************************************/
+
 @media only screen and (min-width:991px) and (max-width:1199px) {}
 
 
-/*==============================
+
+/*******************************
     Tablet Layout
-=============================*/
+*********************************/
+
 @media only screen and (min-width:768px) and (max-width:990px) {
 
-.hero-inner {
-    padding-top: 50px;
-}
-	.countdown li {
-	    padding: 30px 50px;
-	    font-size: 40px;
-	}
+    .hero-inner {
+        padding-top: 50px;
+    }
+    .countdown li {
+        padding: 30px 50px;
+        font-size: 40px;
+    }
 
-.countdown span {
-    font-size: 26px;
-    bottom: -20px;
-    padding: 5px 30px;
-}
+    .countdown span {
+        font-size: 26px;
+        bottom: -20px;
+        padding: 5px 30px;
+    }
 
-.countdown h2 {    
-	font-size: 24px;
-}
-.subscribe-form {
-    margin-top: 70px;
-}
-
-
-
+    .countdown h2 {
+        font-size: 24px;
+    }
+    .subscribe-form {
+        margin-top: 70px;
+    }
 }
 
 
-/*===================================
+
+/************************************
     normal/small mobile layout.
-===================================*/
+*************************************/
+
 @media only screen and (max-width:767px) {
 
-.hero-inner {
-    padding-top: 50px;
-}
-	.countdown li {
-	    padding: 30px 50px;
-	    font-size: 40px;
-	    margin-bottom: 50px;
-	    display: block;
-	}
+    .hero-inner {
+        padding-top: 50px;
+    }
+    .countdown li {
+        padding: 30px 50px;
+        font-size: 40px;
+        margin-bottom: 50px;
+        display: block;
+    }
 
-.countdown span {
-    font-size: 26px;
-    bottom: -20px;
-    padding: 5px 30px;
-}
+    .countdown span {
+        font-size: 26px;
+        bottom: -20px;
+        padding: 5px 30px;
+    }
 
-.countdown h2 {    
-	font-size: 24px;
-}
-.subscribe-form {
-    margin-top: 30px;
-}
-
-
-.header-top {
-    position: relative;
-    background: #000;
-    padding: 25px 0;
-}
-.hero-area {
-    height: auto;
-    display: block;
-}
-.hero-inner{display: block;}
-.logo {
-    margin: 0 auto;
-    max-width: 200px;
-}
-
-.header-top .text-right {
-    text-align: center;
-}
+    .countdown h2 {
+        font-size: 24px;
+    }
+    .subscribe-form {
+        margin-top: 30px;
+    }
 
 
-.countdown h2 {
-    font-size: 20px;
-    margin-top: 0px;
-    line-height: 1.6;
-}
-.subscribe-form input[type=email], .subscribe-form input[type=submit]{
-	width: 100%;
-}
-.subscribe-form input[type=submit] {
-    margin-left: 0;
-    top: 10px;
-}
-.info i.fa {
-    position: relative;
-    left: -15px;
-}
-.info {
-    padding-left: 0px;
-    float: none;
-    margin-right: 0;
-    display: block;
-}
-.contact-info {
-    width: auto;
-    margin-top: 45px;
-}
+    .header-top {
+        position: relative;
+        background: #000;
+        padding: 25px 0;
+    }
+    .hero-area {
+        height: auto;
+        display: block;
+    }
+    .hero-inner {
+        display: block;
+    }
+    .logo {
+        margin: 0 auto;
+        max-width: 200px;
+    }
+
+    .header-top .text-right {
+        text-align: center;
+    }
+
+
+    .countdown h2 {
+        font-size: 20px;
+        margin-top: 0px;
+        line-height: 1.6;
+    }
+    .subscribe-form input[type=email],
+    .subscribe-form input[type=submit] {
+        width: 100%;
+    }
+    .subscribe-form input[type=submit] {
+        margin-left: 0;
+        top: 10px;
+    }
+    .info i.fa {
+        position: relative;
+        left: -15px;
+    }
+    .info {
+        padding-left: 0px;
+        float: none;
+        margin-right: 0;
+        display: block;
+    }
+    .contact-info {
+        width: auto;
+        margin-top: 45px;
+    }
 }
 
 
-/*==============================
+
+/***********************************
     wide mobile layout
-================================*/
+************************************/
+
 @media only screen and (min-width:480px) and (max-width:767px) {}
-
-
