@@ -5,7 +5,7 @@
 
 
         $("#mail-chimp").ajaxChimp({
-            url:"http://netlify.us16.list-manage.com/subscribe/post?u=c2469184e53e2b2f2c0ec5601&amp;id=0d51d314af"
+            url:'http://netlify.us16.list-manage.com/subscribe/post?u=c2469184e53e2b2f2c0ec5601&amp;id=0d51d314af'
         });
 
         function countdown() {
