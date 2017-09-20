@@ -1,0 +1,271 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+@media only screen and (min-width:991px) and (max-width:1199px) {
+	.hero-text h1 {
+    font-size: 45px;
+}
+.slide-text h1 {
+    font-size: 30px;
+}
+
+
+}
+
+
+/*==============================
+    Tablet Layout
+=============================*/
+@media only screen and (min-width:768px) and (max-width:990px) {
+.mainmenu ul.nav.navbar-nav li a {
+    font-size: 12px;
+    padding: 12px;
+}
+.hero-text h1 {
+    font-size: 45px;
+    line-height: 60px;
+}
+.hero-text:after {
+    display: none;
+}
+.single-cl-item span.counter {
+    margin: 30px 0;
+}
+.col-sm-6:nth-child(1) .single-cl-item, .col-sm-6:nth-child(2) .single-cl-item {
+    margin-bottom: 50px;
+}
+.testimonial-list .owl-nav div {
+    left: -100px;
+}
+.testimonial-list .owl-nav div.owl-next {
+    right: -100px;
+}
+.contact-area {
+    padding-top: 100px;
+}
+#GoogleMap {
+    position: relative;    width: 100%;
+    height: 400px;
+}
+.contact-form {
+    margin-top: 80px;
+    margin-bottom: 75px;
+}
+
+}
+
+
+/*===================================
+    normal/small mobile layout.
+===================================*/
+@media only screen and (max-width:767px) {
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 50px;
+}
+.section-title h2 {
+    font-size: 26px;
+}	
+.logo {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.header-area, .sticky-wrapper {
+    padding: 10px 0;
+    position: relative;
+    background: #000;
+}
+.navbar-toggle {
+    position: relative;
+    float: none;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    display: block;
+}
+.navbar-toggle .icon-bar {
+    background: #fff;
+}
+
+.mobile-menu-activated .mainmenu ul.nav.navbar-nav li {
+    display: block;
+}
+
+.mobile-menu-activated .mainmenu ul.nav.navbar-nav li a {
+    text-align: center;
+    padding: 10px;
+}
+
+.mobile-menu-activated .navbar-collapse {
+    box-shadow: 0 0 0;
+}
+.homepage-hero-wrap, .welcome-video-area {
+    height: auto;
+    display: inherit;
+    overflow: hidden;
+}
+.hero-text {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.hero-text h3 {
+    font-size: 20px;
+}
+.hero-text h1 {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+    min-height: 80px;
+}
+.hero-text:after {
+    display: none;
+}
+.boxed-btn {
+    padding: 8px 25px;
+    
+}
+.hero-text .boxed-btn {
+    margin: 0;
+}
+.home-arrow {
+    bottom: 25px;
+    font-size: 40px;
+}
+.section-title h2:after{font-size: 45px;}
+.download-cv {
+    padding: 10px;
+    margin-top: 20px;
+}
+.about-section {
+    padding:40px 20px;
+}
+.col-sm-6:nth-child(4) .single-cl-item{
+	margin-bottom: 0;
+}
+.single-cl-item span.counter {
+    margin: 30px 0;
+}
+.single-cl-item {
+    margin-bottom: 50px;
+}
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+    right: 0px;
+    padding-right: 0;
+}
+
+.testimonial-list .owl-nav div {
+    left: -118px;
+    position: relative;
+    bottom: -80px;
+    margin:0 -1px;
+}
+.testimonial-list .owl-nav div.owl-next {
+    right:-118px;
+}
+.testimonial-list .owl-dots {
+    margin-top: -20px;
+}
+#GoogleMap {
+    position: relative; width: 100%;
+    height: 400px;
+}
+.contact-area {
+    padding-top: 80px;
+}
+.contact-form {
+    margin-top: 80px;
+    margin-bottom: 55px;
+}
+.copysection, .copysection .text-right {
+    text-align: center;
+}
+.social-links {
+    margin-top: 15px;
+}
+.full-height-wrap, .homepage-slides, .full-height-wrap, .homepage-slides div {
+    height: auto;
+}
+.slide-text h1 {
+    font-size: 22px;
+    margin: 0 0 20px;
+    line-height: 36px;
+}
+.slide-text {
+    font-size: 14px;
+    padding: 60px 0 100px;
+}
+.homepage-slides:hover .owl-nav div {
+    opacity: 1;
+    visibility: visible;
+    top: inherit;
+}
+.homepage-slides .owl-nav div.owl-next {
+    right: 0;
+    left: 0;
+}
+.homepage-slides .owl-nav div {
+    position: relative;
+    top: inherit;
+    color: #000;
+    transform: inherit;
+    opacity: 1;
+    visibility: visible;
+    display: inline-block;
+    margin: 0 -1px;left: 0;
+}
+
+.homepage-slides .owl-nav {
+    position: absolute;
+    left: 50%;
+    margin-left: -32px;
+}
+.full-height-wrap .home-arrow {
+    bottom: 80px;
+}
+.home-arrow {
+    margin-left: -5px;
+}
+
+
+
+}
+
+
+/*==============================
+    wide mobile layout
+================================*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+.hero-text h3 {
+    margin: 0 0 5px;
+}
+.hero-text h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin:0 0 20px;
+    min-height: auto;
+}
+.hero-text .boxed-btn {
+    margin-top: 10px;
+}
+.section-title h2:after {
+    font-size: 55px;
+}
+.slide-text h1 {
+    font-size: 30px;
+    line-height: 45px;
+}
+.full-height-wrap .home-arrow {
+    bottom: 150px;
+}
+.single-portfolio-item {
+    height: 300px;
+}
+
+
+
+
+}
+
+
