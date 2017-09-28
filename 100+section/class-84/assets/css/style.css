@@ -1,0 +1,174 @@
+/*******************************************************************************
+    Temaplte Name: Under constrution comming soon page.
+    Template URI: https://www.rozyislam.com/
+    Description: This is html5 Portfolio template
+    Author: rozy islam
+    Author URI: https://www.rozyislam.com/
+    Version: 1.0.0
+
+    Note: This is style css. All styles declare here.
+********************************************************************************/
+
+
+/*======================
+    Base Css
+=======================*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px;
+    line-height: 1;
+}
+
+input:focus,
+textarea:focus,
+a:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-title {
+    margin-bottom: 70px;
+}
+
+
+.flip-area {
+    background: #EFEFEF;
+    padding: 90px 0;
+}
+
+.single-promo-item {
+    background: #fff;
+    padding: 20px;
+    display: table;
+    height: 100%;
+    width: 100%;    
+    border-bottom: 4px solid #000;
+}
+.back .single-promo-item{
+    background:#000; 
+}
+.back .single-promo-item i.fa, .back .single-promo-item h4, .back .single-promo-item p{
+    color: #fff;
+}
+
+
+.single-promo-item h4 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.single-promo-item i.fa {
+    font-size: 80px;
+    margin: 0 0 25px;
+}
+
+.promo-inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+.flipbox {
+    margin: 0 auto;
+    height: 250px;  
+    position: relative;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;    
+    margin: 0 0 30px;
+}
+  
+.flipbox .front {
+    height: inherit;
+    position: absolute;
+    top: 0;
+    z-index: 900;
+    text-align: center;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+       -moz-transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+             width: 100%;
+}
+
+.flipbox .back {
+    height: inherit;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    -webkit-transform: rotateY(-180deg);
+       -moz-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+            width: 100%;
+}
+.flipbox.flip .front {
+    z-index: 900;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+.flipbox.flip .back {
+    z-index: 1000;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+}
+
+.col-md-4:nth-child(7) .flipbox, .col-md-4:nth-child(8) .flipbox, .col-md-4:nth-child(9) .flipbox {
+    margin: 0;
+}
+
