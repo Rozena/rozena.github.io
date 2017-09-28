@@ -1,0 +1,109 @@
+/*======================
+    Base Css
+=======================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: auto;
+}
+
+body {
+    font-size: 15px;
+    line-height:25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a, 
+a:hover,
+a:focus,
+a:active
+{outline: none;
+text-decoration: none;
+ transition: all .2s ease;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-ms-transition: all .2s ease;
+-o-transition: all .2s ease;}
+
+.fix{
+    overflow: hidden;
+}
+.fix-x{
+    overflow-x: hidden;
+}
+.fix-y{
+    overflow-y: hidden;
+}
+
+a:focus,
+textarea:focus,
+input:focus,
+button:focus {
+    outline: 0 solid;
+} 
+
+
+h1, h2, h3,
+ h4, h5, h6 {
+    margin: 0 0 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+.section-title{
+    margin-bottom: 70px;
+}
+.barfiller {
+    width: 100%;
+    height: 15px;
+    background: #373549;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.barfiller .fill {
+    display:block;
+    position:relative;
+    width:0px;
+    height:100%;
+    background:#333;
+    z-index:1;
+}
+
+.barfiller .tipWrap {
+    display:none;
+}
+
+.barfiller .tip {
+    margin-top: -47px;
+    font-size: 24px;
+    color: #fff;
+    left: auto !important;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    font-weight: 700;
+}
+.colored-bg {
+    background: #6FD2EF;
+    color: #fff;
+}
+.about-right-content{padding:0 30px;}
+
+.about-right-content:last-child p {
+    margin-bottom: 40px;
+}
+.about-image {
+    height: 500px;
+}

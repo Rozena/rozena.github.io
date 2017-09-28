@@ -1,0 +1,137 @@
+/*======================
+    Base Css
+=======================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: auto;
+}
+
+body {
+    font-size: 16px;
+    line-height:25px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a, 
+a:hover,
+a:focus,
+a:active
+{outline: none;
+text-decoration: none;
+ transition: all .2s ease;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-ms-transition: all .2s ease;
+-o-transition: all .2s ease;}
+
+.fix{
+    overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 20px;
+    line-height: 1;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+.section-title{
+   margin-bottom: 70px;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.about-image {
+    text-align: right;
+}
+
+.about-image img {
+    max-width: 400px;
+    height: 500px;
+}
+
+.about-text {
+    border: 10px solid #EEEEEE;
+    padding: 25px;
+    position: relative;
+    margin-top: -115px;
+    background: #fff;
+    height: 250px;
+    padding-right: 50px;
+    max-width: 450px;
+}
+
+.about-text p {
+    margin: 0;
+}
+
+.social-links {
+    position: absolute;
+    right: -26px;
+    top: 0;
+    width: 40px;
+    height: 100%;
+    display: table;
+}
+
+.social-links a {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: #EEEFF1;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    color: #333;
+    margin: 5px 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-size: 13px;
+}
+
+.social-wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.about-text h3 {
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.social-links a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.right-side .about-image {
+    text-align: left;
+}
+
+.right-side .about-text {padding-right: 25px;padding-left: 50px;float: right;}
+
+.right-side .social-links {
+    right: auto;
+    left: -24px;
+}
