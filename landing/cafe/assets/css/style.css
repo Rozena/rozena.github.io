@@ -674,3 +674,84 @@ h3.widget-title {
 .social-area a:hover {
     color: #CC9900;
 }
+
+
+/*scrolltotop css*/
+.scrolltotop a {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #CC9900;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50%;
+    line-height: 38px;
+    z-index: 99;
+    position: fixed;
+    right: 20px;
+    bottom: 5px;
+    display: none;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+.scrolltotop a:hover{
+    background:#000;
+}
+/*site preloader*/
+.main-site-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 99999;
+}
+
+.main-site-wrap .spinner {
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: -25px;
+}
+.spinner {
+  width: 50px;
+  height: 50px;
+
+  position: relative;
+  margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
