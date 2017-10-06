@@ -1,306 +1,202 @@
-/*desktop layout*/
+/* -------desktop/leptop layout.--------- */
 
 @media only screen and (min-width:991px) and (max-width:1199px) {
-    .slide-content h1 {
-        font-size: 60px;
-        line-height: 70px;
-        padding-bottom: 60px;
+    .search-form {
+        right: 13%;
     }
-    .slide-content {
-        padding: 120px 0 100px;
+    .bigger-menu {
+        font-size: 40px;
     }
-    .social-links {
-        top: 27px;
+    .bigger-menu li a {
+        padding: 100px 20px 50px;
     }
-    .main-menu ul.navbar-nav li a {
-        padding: 30px 12px;
-    }
-    .contact-food>img {
-        margin-left: 20px;
-        width: 240px;
-    }
-    .item-img {
-        margin-top: 50px;
-    }
-    .contact-title>p {
-        padding-bottom: 0;
-    }
-    #testimonial-carousel:before {
-        left: 20px;
+    .brand-images img {
+        height: 54px;
     }
 }
 
 
-/*tablet layout*/
+/*-----------tablet layout----------------*/
 
 @media only screen and (min-width:768px) and (max-width:990px) {
-    .logo {
-        margin-top: 10px;
-    }
-    .menu-bg .logo {
-        margin-top: 0;
-    }
-    .logo img {
-        height: 50px;
-    }
-    .main-menu ul.navbar-nav li a {
-        font-size: 18px;
-        padding: 25px 10px;
-        text-transform: capitalize;
-    }
-    .social-links {
-        top: 25px;
-    }
-
-    .slide-content h1 {
-        font-size: 36px;
-        line-height: 45px;
-        padding-bottom: 60px;
-    }
-    .slide-content {
-        padding: 100px 0;
-    }
-    .slide-control {
-        font-size: 50px;
-    }
-    .about-area {
-        padding-bottom: 60px;
-    }
-    .about-content p {
-        margin-bottom: 25px;
-    }
-    .section-padding {
-        padding: 80px 0;
-    }
-    .item-img {
-        margin-top: 40px;
-    }
-    .ingrediant-content>p {
-        width: 100%;
-    }
-    .ingrediant-content {
-        padding: 50px 20px;
-    }
-    #testimonial-carousel:before {
-        font-size: 30px;
-        left: 30px;
-    }
-    .contact-food>img {
-        margin-left: 20px;
-        width: 150px;
-    }
-    .r-contact-form .contact-form input.form-control,
-    .r-contact-form select {
-        height: 42px;
-    }
-    .contact-food>img {
-        margin-left: 10px;
-        width: 150px;
-        height: 435px;
-    }
-    .menu-bg .main-menu #main-menu-collapse ul.nav.navbar-nav li a {
-        padding: 20px 10px;
-    }
-    .testimonial-title {
-        padding: 50px 0;
-    }
-    .contact-food img {
-        width: 48%;
-        float: left;
-    }
-    .contact-food {
-        overflow: hidden;
-    }
-    .contact-title {
-        margin-top: 50px;
-    }
-    .r-contact-form .contact-form button {
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-}
-
-
-
-/*normal mobile layout*/
-
-@media only screen and (max-width:767px) {
-    .logo {
-        margin: 0 0 10px;
-        padding: 12px 0;
-    }
-
-    .logo img {
-        height: 60px;
-    }
-
-    .social-links,
-    .menu-bg .social-links {
-        top: -60px;
-        position: absolute;
-        left: 50%;
-        margin-left: -25px;
-    }
-    .navbar-toggle {
-        float: inherit;
-        border: 1px solid #fff;
-        border-radius: 4px;
-        position: absolute;
-        right: 0;
-        top: -75px;
-        z-index: 99;
-    }
-    .menu-bg .navbar-toggle {
-        top: -70px;
-    }
-    .navbar-toggle .icon-bar {
-        background: #fff;
-    }
-    .main-menu {
-        padding-right: 0;
-    }
-    .mobile-menu-activated .main-menu .navbar-collapse {
-        background: #000;
-        position: relative;
-        top: -12px;
-    }
-    .mobile-menu-activated .main-menu ul li {
-        display: block;
-    }
-    .mobile-menu-activated .main-menu ul li a {
-        padding: 10px;
-        text-align: center;
-    }
-    .mobile-menu-activated .menu-bg .main-menu ul li a {
-        padding: 10px!important;
-    }
-    .menu-bg {
-        z-index: 99;
-        height: 90px;
-    }
-
-    .slide-content h1 {
-        font-size: 20px;
-        line-height: 30px;
-        padding-bottom: 60px;
-    }
-    .slide-content {
-        padding: 60px 0;
-    }
-    .slide-control {
-        font-size: 50px;
-        right: 5px;
-    }
-    .left.slide-control {
-        right: auto;
-        left: 5px;
-    }
-    .btn-group a {
-        margin: 0;
-    }
-    .btn-filled {
-        font-size: 13px;
-        padding: 10px 25px;
-    }
-
-    .about-area {
-        padding-bottom: 60px;
-    }
-    .about-food {
-        margin-top: 30px;
-    }
-
-    .section-padding {
-        padding: 70px 0;
-    }
-    .item-img {
-        margin-top: 40px;
-    }
-    .about-content p {
-        margin-bottom: 30px;
-    }
-    .ingrediant-content>p {
-        width: 100%;
-    }
-    .ingrediant-content {
-        padding: 50px 20px;
-    }
-    #testimonial-carousel:before {
-        font-size: 30px;
-        left: 50%;
-        margin-left: -15px;
-        top: 0px;
-    }
-    .single-testimonial-item>p {
-        width: 100%;
-        padding: 20px;
-        margin-top: 20px;
-    }
-    .single-testimonial-item .testimonial-author {
+    .header-left ul {
         padding: 0;
     }
-    .r-contact-form .contact-form input.form-control,
-    .r-contact-form select {
-        height: 42px;
+    .slide-text-tablecell {
+        font-size: 85px;
     }
-
-    .testimonial-title {
-        padding: 50px 0;
+    .bigger-menu {
+        font-size: 30px;
     }
-    .contact-food img {
-        width: 100%;
-        float: none;
-        height: 435px;
-        margin-left: 0px;
+    .bigger-menu li a {
+        padding: 70px 20px 25px;
+    }
+    .single-product-item {
+        width: 31.333%;
+        margin-bottom: 15px;
+    }
+    .single-product-item:nth-child(2),
+    .single-product-item:nth-child(9),
+    .single-product-item:nth-child(4) {
+        width: 64.6666%;
+    }
+    .promo-title h2,
+    .promo-title h2 strong {
+        font-size: 30px;
+    }
+    .promo-content .year-text {
+        font-size: 90px;
+        right: 320px;
+        top: 40px;
+    }
+    .promo-title {
         margin-bottom: 30px;
     }
-    .contact-food {
-        overflow: hidden;
+    .promo-content {
+        padding: 55px 55px 55px 30px;
     }
-    .contact-title {
-        margin-top: 40px;
+    .product-promotions-wrap .owl-dots {
+        right: 2%;
+        top: 58%;
     }
-    .r-contact-form .contact-form button {
-        margin: 0 auto;
-        margin-top: 20px;
-        height: 42px;
+    .brand-images img {
+        height: 40px;
     }
-    h3.widget-title {
-        margin-bottom: 20px;
-        margin-top: 30px;
+    .product-promotions-wrap {
+        padding-bottom: 85px;
     }
-    .payment-area,
-    .social-area {
-        margin-top: 25px;
+    .footer-widgets-area,
+    .footer-widgets-area .text-right {
+        text-align: center;
     }
-    .footer-widget-area {
-        padding-top: 40px;
-        padding-bottom: 60px;
+    .footer-widgets-area p {
+        padding-bottom: 20px;
     }
 }
 
 
 
+/*-----------normal/small mobile layout-------*/
 
-/*wide mobile layout*/
-
-@media only screen and (min-width:480px) and (max-width:990px) {
-
-    .contact-food img {
-        width: 50%;
-        float: left;
+@media only screen and (max-width:767px) {
+    .header-right,
+    .header-left ul {
+        display: none;
     }
-    .slide-content h1 {
-        font-size: 36px;
-        line-height: 50px;
-        padding-bottom: 60px;
+    .homepage-slide-wrap,
+    .homepage-slide-wrap div {
+        height: auto;
     }
-    .slide-control {
-        right: 15px;
+    .header-top-area {
+        position: relative;
+        background: #F5EBEA;
     }
-    .left.slide-control {
-
+    .header-top-area a.menu-trigger {
+        padding-top: 15px;
+    }
+    .slide-text-tablecell {
+        font-size: 50px;
+        line-height: 55px;
+        padding: 60px 0;
+        text-align: center;
+    }
+    .owl-carousel .owl-item .single-slide-item img {
+        display: none;
+    }
+    .bigger-menu {
+        font-size: 35px;
+    }
+    .bigger-menu>li,
+    .bigger-menu>li:nth-child(2),
+    .bigger-menu>li:nth-child(3) {
+        float: none;
+        ;
+        width: auto;
+    }
+    .bigger-menu li a {
+        padding: 55px;
+    }
+    .product-area {
+        margin-top: 80px;
+    }
+    .single-product-item,
+    .single-product-item:nth-child(2),
+    .single-product-item:nth-child(4),
+    .single-product-item:nth-child(9) {
+        float: none;
+        width: 100%;
+    }
+    .product-load-more-btn {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .product-promotions-wrap {
+        padding: 80px 0;
+    }
+    .promo-bg {
+        padding-top: 20px;
+    }
+    .owl-carousel .owl-item .product-promotions img {
+        width: 100%;
+    }
+    .promo-content {
+        padding: 0;
+    }
+    .promo-title h2,
+    .promo-title h2 strong {
+        font-size: 25px;
+    }
+    .promo-title {
+        margin: 30px 0;
+    }
+    .promo-content .year-text {
+        font-size: 70px;
+        right: 20px;
+        top: 25px;
+    }
+    .promo-btn {
+        margin: 20px 0;
+    }
+    .product-promotions-wrap .owl-dots {
+        margin-top: 0;
+        position: relative;
         right: auto;
-        left: 15px;
+        text-align: center;
+        top: auto;
+    }
+    .product-promotions-wrap .owl-dots div {
+        display: inline-block;
+        height: 12px;
+        margin: 5px;
+        width: 12px;
+        margin-top: 15px;
+    }
+    .single-logo-item {
+        width: 100%;
+        display: block;
+        float: inherit;
+        margin-bottom: 30px;
+    }
+    .footer-widgets-area,
+    .footer-widgets-area .text-right {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .footer-widgets-area p {
+        padding-bottom: 10px;
+    }
+    input[type="submit"] {
+        margin-top: 10px;
+        padding: 10px;
+    }
+}
+
+
+/*-----------wide mobile layout----------------*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .brand-images img {
+        height: 65px;
+        margin-bottom: 25px;
     }
 }
