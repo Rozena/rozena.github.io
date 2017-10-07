@@ -1,0 +1,37 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+@media only screen and (min-width:991px) and (max-width:1199px) {}
+
+
+/*==============================
+    Tablet Layout
+=============================*/
+@media only screen and (min-width:768px) and (max-width:990px) {
+
+.col-md-4:nth-child(7) .flipbox, .col-md-4:nth-child(8) .flipbox {
+    margin: 0 0 30px;
+}
+
+
+
+}
+
+
+/*===================================
+    normal/small mobile layout.
+===================================*/
+@media only screen and (max-width:767px) {
+.col-md-4:nth-child(7) .flipbox, .col-md-4:nth-child(8) .flipbox {
+    margin: 0 0 30px;
+}
+
+}
+
+
+/*==============================
+    wide mobile layout
+================================*/
+@media only screen and (min-width:480px) and (max-width:767px) {}
+
+
