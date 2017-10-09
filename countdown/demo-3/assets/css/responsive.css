@@ -49,7 +49,11 @@
     .header-area {
         position: relative;
     }
-    .logo,
+
+    .logo{
+       display: block;
+        margin: 0 auto;
+    }
     .header-area .text-right {
         text-align: center;
     }
