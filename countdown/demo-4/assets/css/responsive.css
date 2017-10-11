@@ -86,7 +86,8 @@
         margin-bottom: 70px;
     }
     #countdown {
-        margin-left: 0;
+        margin-left: 0;    
+        margin-top: 50px;
     }
     #countdown li div {
         display: block!important;
