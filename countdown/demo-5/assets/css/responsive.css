@@ -1,24 +1,102 @@
 /*===============================
     desktop/leptop layout.
 ===============================*/
-@media only screen and (min-width:991px) and (max-width:1199px) {}
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+    .hero-area-inner h1 {
+        font-size: 50px;
+    }
+    .hero-area-inner h2 {
+        font-size: 32px;
+    }
+    .border-area div {
+        width: 40%;
+    }
+    .single-countdown-item {
+        font-size: 50px;
+    }
+    .single-countdown-item span {
+        font-size: 18px;
+    }
+}
+
 
 
 /*==============================
     Tablet Layout
 =============================*/
-@media only screen and (min-width:768px) and (max-width:990px) {}
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+    .hero-area-inner h1 {
+        font-size: 40px;
+    }
+    .hero-area-inner h1 strong {
+        font-size: 40px;
+        top: -2px;
+    }
+    .hero-area-inner h2 {
+        font-size: 26px;
+    }
+    .border-area div {
+        width: 38%;
+    }
+    .single-countdown-item {
+        font-size: 42px;
+    }
+    .single-countdown-item span {
+        font-size: 16px;
+    }
+}
+
 
 
 /*===================================
     normal/small mobile layout.
 ===================================*/
-@media only screen and (max-width:767px) {}
+
+@media only screen and (max-width:767px) {
+    .hero-area-inner h1 {
+        font-size: 36px;
+    }
+    .hero-area-inner h1 strong {
+        font-size: 30px;
+        top: -2px;
+    }
+    .hero-area-inner h2 {
+        font-size: 16px;
+    }
+    .border-area {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+    .border-area i.fa {
+        float: left;
+        font-size: 20px;
+        margin-top: -8px;
+    }
+    .border-area div {
+        width: 39%;
+        margin: 0 15px;
+    }
+    .single-countdown-item {
+        font-size: 50px;
+        display: block;
+        padding: 20px;
+    }
+    .single-countdown-item span {
+        font-size: 16px;
+    }
+}
+
 
 
 /*==============================
     wide mobile layout
 ================================*/
-@media only screen and (min-width:480px) and (max-width:767px) {}
 
-
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .border-area div {
+        width: 42%;
+    }
+}
