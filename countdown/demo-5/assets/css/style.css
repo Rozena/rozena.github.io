@@ -1,0 +1,189 @@
+/*======================
+    Base Css
+=======================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: auto;
+}
+
+body {
+    font-size: 15px;
+    line-height:25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a, 
+a:hover,
+a:focus,
+a:active
+{outline: none;
+text-decoration: none;
+ transition: all .2s ease;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-ms-transition: all .2s ease;
+-o-transition: all .2s ease;}
+
+.fix{
+    overflow: hidden;
+}
+.fix-x{
+    overflow-x: hidden;
+}
+.fix-y{
+    overflow-y: hidden;
+}
+
+a:focus,
+textarea:focus,
+input:focus,
+button:focus {
+    outline: 0 solid;
+} 
+
+
+h1, h2, h3,
+ h4, h5, h6 {
+    margin: 0 0 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+.section-title{
+    margin-bottom: 70px;
+}
+
+.hero-area-wrap{background-image: url(../images/hero-bg.jpg);}
+
+.hero-area-wrap {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: relative;
+    z-index: 1;
+    display: table;
+    width: 100%;
+}
+
+.hero-area-wrap:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: .8;
+    z-index:-1;
+}
+
+.hero-area-inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.hero-area-inner h1 {
+    color: #fff;
+    margin: 0 0 15px;
+    font-size: 70px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+
+.hero-area-inner h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.email-subscribe-form {
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.email-subscribe-form input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.email-subscribe-form input[type=submit] {
+    background: #F6AC3C;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+
+.single-countdown-item {
+    font-size: 75px;
+    line-height: 45px;
+    display: inline-block;
+    color: #fff;
+    padding: 30px;
+    font-weight: 300;
+}
+
+.single-countdown-item span {
+    font-size: 20px;
+    text-transform: uppercase;
+    opacity: .3;
+    font-weight: 700;
+}
+
+.border-area {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px auto;
+}
+
+.border-area
+ div {
+    width: 42%;
+    background: #fff;
+    height: 1px;
+    float: left;
+    margin: 0 30px;
+    opacity: .3;
+}
+
+.border-area
+ i.fa {
+    float: left;
+    font-size: 30px;
+    margin-top: -12px;
+    color: #fff;
+    opacity: .6;
+}
+
+.email-subscribe-form label {
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+
+
+
