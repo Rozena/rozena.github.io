@@ -1,0 +1,20 @@
+
+.logo a span, .boxed-btn:hover, .service-icon:after, .read-more-btn:after, .cl-icon i.fa:after, .portfolio-titles li:after, .testimonial-list .owl-dots div.active, .testimonial-list .owl-nav div:hover, button[type=submit]:hover, input[type=submit]:hover, .social-links a:hover, .homepage-slides .owl-nav div:hover, .hero-text:after, .download-cv:hover, .skill-area:after  
+{
+    background: #3804f9;
+   
+}
+.portfolio-hover{
+    background:rgba(56,4,249,.8);
+}
+.header-area .mainmenu ul.nav.navbar-nav li a:hover, .header-area .mainmenu ul.nav.navbar-nav li.active a, .hero-text h2 span, .boxed-btn, .section-title h2 span, .single-service-item:hover .read-more-btn, .cl-icon, .portfolio-titles li.active:after, .portfolio-titles li:hover:after, .portfolio-titles li.active, .portfolio-titles li:hover, .feedback i.fa, .testimonial-list .owl-nav div, .social-links a, .scroll-to-top a, .homepage-slides .owl-nav div, button[type=submit], input[type=submit], .copysection a
+{
+    color: #3804f9;
+}
+.single-service-item:hover .service-icon, .boxed-btn, .boxed-btn:hover, .testimonial-list.owl-carousel .owl-item img, .testimonial-meta img, .testimonial-list .owl-dots div, .testimonial-list .owl-nav div, .scroll-to-top a, .homepage-slides .owl-nav div, button[type=submit], input[type=submit]
+{
+    border-color: #3804f9;
+}
+.skill-area:after{
+	opacity: .4;
+}
