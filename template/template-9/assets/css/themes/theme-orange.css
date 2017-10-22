@@ -1,19 +1,17 @@
-.logo a span, .boxed-btn:hover, .service-icon:after, .read-more-btn:after, .cl-icon i.fa:after, .portfolio-titles li:after, .testimonial-list .owl-dots div.active, .testimonial-list .owl-nav div:hover, button[type=submit]:hover, input[type=submit]:hover, .social-links a:hover, .homepage-slides .owl-nav div:hover, .hero-text:after, .download-cv:hover, .skill-area:after  
-{
-    background: #d35400;
-   
+
+
+.logo a span, .skillbar-bar, .boxed-btn, .author-info h4:after, .read-more-btn:after, .portfolio-titles li:after, .testimonial-list .owl-dots div.active, .date-meta, button[type=submit], input[type=submit], .homepage-slides .owl-dots div.active, .site-spinner-wrap .spinner .cube1,
+ .site-spinner-wrap .spinner .cube2{
+    background: #FFA500;
 }
-.portfolio-hover{
-    background:rgba(211,84,0,.8);
+
+.mainmenu ul.nav.navbar-nav li a:hover, .mainmenu ul.nav.navbar-nav li.active a, .social-links a, .section-title h1 span, .single-service-item:hover .service-icon, .single-service-item:hover h4, .single-cl-item span.counter, .portfolio-titles li.active:after, .portfolio-titles li:hover:after, .portfolio-titles li.active, .portfolio-titles li:hover, .preview-icon, .portfolio-hover p, .team-hover h3, .team-hover .member-social-links a, .blog-content i.fa, .homepage-slides .owl-nav div, .scroll-to-top a, .copysection a, .read-more-btn:hover{
+	color: #FFA500;
 }
-.header-area .mainmenu ul.nav.navbar-nav li a:hover, .header-area .mainmenu ul.nav.navbar-nav li.active a, .hero-text h2 span, .boxed-btn, .section-title h2 span, .single-service-item:hover .read-more-btn, .cl-icon, .portfolio-titles li.active:after, .portfolio-titles li:hover:after, .portfolio-titles li.active, .portfolio-titles li:hover, .feedback i.fa, .testimonial-list .owl-nav div, .social-links a, .scroll-to-top a, .homepage-slides .owl-nav div, button[type=submit], input[type=submit], .copysection a
-{
-    color: #d35400;
+.hero-text .bordered-btn, .skillbar, .portfolio-hover:before, .portfolio-hover:after, .Traffic-faq .panel-group .panel, .team-hover, .testimonial-list .owl-dots div, .testimonial-list.owl-carousel .owl-item img, .testimonial-meta img, .homepage-slides .owl-dots div, .homepage-slides .owl-nav div, .single-cl-item, .scroll-to-top a{
+	border-color: #FFA500;
 }
-.single-service-item:hover .service-icon, .boxed-btn:hover, .boxed-btn, .testimonial-list.owl-carousel .owl-item img, .testimonial-meta img, .testimonial-list .owl-dots div, .testimonial-list .owl-nav div, .scroll-to-top a, .homepage-slides .owl-nav div, button[type=submit], input[type=submit], button[type=submit], input[type=submit]
-{
-    border-color: #d35400;
-}
-.skill-area:after{
-	opacity: .4;
-}
+
+
+
+
