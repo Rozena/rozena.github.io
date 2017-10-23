@@ -1,0 +1,402 @@
+
+/* base css*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Lato', sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: 0 solid;
+    text-decoration: none;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 25px;
+    line-height: 1;
+    font-weight: 400;
+    font-family: 'Aladin', cursive;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+input:focus,
+textarea:focus,
+a:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    margin: 0;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    -webkit-transition: .3s;
+    transition: .3s;
+    border: 2px solid transparent;
+}
+
+
+
+/*****************************
+header area css
+******************************/
+
+.header-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.contact-info {
+    margin: 0;
+    padding: 12px 0;
+    list-style: none;
+}
+
+.contact-info li {
+    display: inline-block;
+    padding: 12px;
+    color: #fff;
+}
+
+.contact-info li i.fa {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0CEFC5;
+    line-height: 27px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 50%;
+    color: #0CEFC5;
+}
+
+.logo {
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.logo img {
+    max-height: 110px;
+}
+
+.logo:hover {
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+
+
+/**********************
+full height area css
+***********************/
+
+.full-height-wrap {
+    background-image: url(../images/6.jpg);
+}
+
+.full-height-wrap {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: relative;
+    z-index: 1;
+    display: table;
+}
+
+.full-height-wrap:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    z-index: -1;
+}
+
+.full-height-inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+
+/**********************
+countdown css
+***********************/
+
+#countdown li input.knob {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#countdown {
+    margin: 80px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+#countdown li {
+    display: inline-block;
+    position: relative;
+}
+
+#countdown li span {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: -20px;
+    text-transform: capitalize;
+}
+
+
+
+/***********************
+subscriber css
+************************/
+
+.subscriber-form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.subscriber-form p {
+    margin: 0;
+    color: #fff;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+
+.subscriber-form input[type=email] {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #0cefc5;
+    width: 68%;
+    padding: 12px;
+    margin: 0;
+}
+
+.subscriber-form button[type=submit] {
+    background: #0cefc5;
+    color: #000;
+    border-color: #0cefc5;
+    padding: 11px 30px;
+    font-size: 12px;
+    font-weight: 700;
+    width: 31%;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    left: -4px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.subscriber-form button[type=submit]:hover {
+    background: #fff;
+    border-color: #fff;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 2px solid #0CEFC5;
+    color: #0CEFC5;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 8px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+
+
+/**********************
+copysection css
+**********************/
+
+.copysection {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9;
+    padding: 12px 0;
+}
+
+.social-links a:hover {
+    background: #0CEFC5;
+    color: #000;
+}
+
+.copysection .text-right {
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 4px 0;
+    color: #fff;
+}
+
+
+/***************
+preloader css
+***************/
+
+.site-preloader-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #0CEFC5;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.site-preloader-wrap .spinner {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    -webkit-animation: sk-rotate 2.0s infinite linear;
+    animation: sk-rotate 2.0s infinite linear;
+}
+
+.site-preloader-wrap .spinner .dot1,
+.site-preloader-wrap .spinner .dot2 {
+    background: #000;
+}
+
+
+.dot1,
+.dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: #333;
+    border-radius: 100%;
+
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+    top: auto;
+    bottom: 0;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate {
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes sk-rotate {
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes sk-bounce {
+    0%,
+    100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bounce {
+    0%,
+    100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
