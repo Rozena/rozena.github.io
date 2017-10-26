@@ -1,0 +1,130 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+
+@media only screen and (min-width:991px) and (max-width:1199px) {}
+
+
+
+
+/*==============================
+    Tablet Layout
+=============================*/
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+    #countdown li {
+        width: 45%;
+    }
+    #countdown span {
+        margin-left: 45px;
+    }
+    .title h2 {
+        font-size: 30px;
+        margin: 10px 0 0;
+        line-height: 32px;
+    }
+    .newsletter-form input[type=email] {
+        width: 100%;
+        margin: 0 0 12px;
+    }
+    .newsletter-form input[type=submit] {
+        width: 100%;
+        font-size: 13px;
+        margin-left: 0;
+        padding: 11px;
+    }
+    .copysection {
+        font-size: 14px;
+    }
+}
+
+
+
+
+/*===================================
+    normal/small mobile layout.
+===================================*/
+
+@media only screen and (max-width:767px) {
+    .header-area {
+        position: relative;
+    }
+
+    .logo{
+       display: block;
+        margin: 0 auto;
+    }
+    .header-area .text-right {
+        text-align: center;
+    }
+    .social-links a {
+        width: 40px;
+        height: 40px;
+        line-height: 41px;
+        margin-right: 0;
+        margin: 0 5px;
+    }
+    .social-links {
+        padding: 20px 0 0;
+    }
+    #countdown li {
+        width: 45%;
+        margin-top: 20px;
+    }
+
+    #countdown span {
+        margin-left: 45px;
+    }
+    #countdown {
+        padding-top: 50px;
+        margin-left: 10px;
+    }
+    .title h2 {
+        font-size: 30px;
+        margin: 15px 0 0;
+        line-height: 32px;
+        text-align: center;
+    }
+    .newsletter-form {
+        margin-top: 40px;
+    }
+    .newsletter-form input[type=email] {
+        width: 100%;
+        margin: 0 0 12px;
+    }
+    .newsletter-form input[type=submit] {
+        width: 100%;
+        font-size: 13px;
+        margin-left: 0;
+        padding: 11px;
+    }
+    .newsletter-form p {
+        margin: 20px 0;
+    }
+    .copysection {
+        font-size: 14px;
+        position: relative;
+        bottom: -5px;
+    }
+    #kenburnsy-bg {
+        overflow: hidden;
+        height: 900px;
+    }
+}
+
+
+
+
+/*==============================
+    wide mobile layout
+================================*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    #countdown {
+        padding-top: 50px;
+        margin-left: 130px;
+    }
+    .copysection {
+        bottom: -37px;
+    }
+}
