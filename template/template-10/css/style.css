@@ -1,5 +1,5 @@
  /*******************************************************************
-    Temaplte Name: RAYAN - Personal CV / Resume / Portfolio HTML5 Template
+    Temaplte Name: RAYAN - Personal Portfolio HTML5 Template
     Template URI: http://rozyislam.com/
     Description: This is Portfolio HTML5 Template.
     Author: brightcarrier
@@ -40,7 +40,9 @@
     Base Css
 ********************************/
 
- <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i|Poppins:300,300i,400,700,700i" rel="stylesheet">* {
+ @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Poppins:400,400i,700,700i');
+
+ * {
      margin: 0;
      padding: 0;
  }
@@ -110,7 +112,7 @@
  }
 
  .section-title {
-     margin-bottom: 70px;
+     margin-bottom: 80px;
  }
 
  input[type=text],
@@ -120,7 +122,7 @@
  input[type=url],
  textarea {
      background: #ddd;
-     padding: 10px;
+     padding: 11px;
      width: 100%;
      position: relative;
      margin-bottom: 10px;
@@ -129,13 +131,17 @@
      color: #000;
  }
 
+ .fixed-parallax {
+     background-attachment: fixed;
+ }
+
  input[type=text]:focus,
  input[type=email]:focus,
  input[type=tel]:focus,
  input[type=password]:focus,
  input[type=url]:focus,
  textarea:focus {
-     box-shadow: 0 0 5px #ddd;
+     box-shadow:0 0 5px #FAC802;
  }
 
  button[type=submit],
@@ -151,7 +157,7 @@
      -webkit-transition: .3s;
      transition: .3s;
      background: transparent;
-     background: #EDDC10;
+     background: #FAC802;
      color: #000;
  }
 
@@ -159,7 +165,6 @@
  input[type=submit] i.fa {
      margin-left: 5px;
  }
-
  /*****************************
     background image css
 ******************************/
@@ -212,43 +217,31 @@
      background-image: url(../images/client-bg.jpg);
  }
 
- .single-portfolio-item {
+ .portfolio-bg-1{
      background-image: url(../images/p1.jpg);
  }
 
- .portfolio-bg-1 {
+ .portfolio-bg-2 {
      background-image: url(../images/p2.jpg);
  }
 
- .portfolio-bg-2 {
+ .portfolio-bg-3 {
      background-image: url(../images/p3.jpg);
  }
 
- .portfolio-bg-3 {
+ .portfolio-bg-4 {
      background-image: url(../images/p4.jpg);
  }
 
- .portfolio-bg-4 {
+ .portfolio-bg-5 {
      background-image: url(../images/p5.jpg);
  }
 
- .portfolio-bg-5 {
+ .portfolio-bg-6 {
      background-image: url(../images/p6.jpg);
  }
 
- .portfolio-bg-6 {
-     background-image: url(../images/p7.jpg);
- }
-
- .portfolio-bg-7 {
-     background-image: url(../images/p8.jpg);
- }
-
- .portfolio-bg-8 {
-     background-image: url(../images/p9.jpg);
- }
-
- #portfolio {
+ .grey-section {
      background-color: #f9f9f9;
  }
 
@@ -278,25 +271,12 @@
  .logo {
      -webkit-transition: .3s;
      transition: .3s;
-     margin-top: 12px;
  }
 
  .logo img {
-     max-height: 50px;
- }
-
- .logo a {
-     text-transform: uppercase;
-     font-size: 30px;
-     color: #fff;
-     font-weight: 700;
- }
-
- .logo a span {
-     background: #EDDC10;
-     padding: 0 10px;
-     border-radius: 3px;
-     margin-right: 4px;
+     max-height: 55px;
+     -webkit-transition: .3s;
+     transition: .3s;
  }
 
  .mainmenu ul.nav.navbar-nav {
@@ -315,7 +295,7 @@
      font-size: 13px;
      font-weight: 700;
      color: #fff;
-     padding: 15px;
+     padding: 15px 20px;
      -webkit-transition: .3s;
      transition: .3s;
  }
@@ -332,14 +312,16 @@
      transition: .3s;
  }
 
- .is-sticky .logo a {
-     font-size: 26px;
-     -webkit-transition: .3s;
-     transition: .3s;
+ .is-sticky .logo img {
+     max-height: 50px;
+ }
+
+ .is-sticky .mainmenu ul.nav.navbar-nav li a {
+     padding: 15px;
  }
 
  .is-sticky .header-area {
-     box-shadow: 0 0px 20px #555;
+     box-shadow: 0 0px 8px #000;
      position: relative;
      z-index: 1;
  }
@@ -376,7 +358,6 @@
      position: relative;
      z-index: 1;
      color: #fff;
-     background-attachment: fixed;
  }
 
 
@@ -396,41 +377,51 @@
 
  .hero-text h1 {
      text-transform: uppercase;
-     font-size: 70px;
-     line-height: 60px;
+     font-size: 75px;
+     line-height: 70px;
      color: #fff;
      margin: 0 0 20px;
+     letter-spacing: -1px;
  }
 
  .animated-text span {
      font-size: 24px;
      color: #fff;
      text-transform: capitalize;
-     font-weight: 700;
  }
 
  .social-links a {
-     width: 30px;
-     height: 30px;
+     width: 35px;
+     height: 35px;
      display: inline-block;
-     color: #EDDC10;
+     background: #FAC802;
      text-align: center;
-     line-height: 30px;
-     border-radius: 5px;
+     line-height: 34px;
+     border-radius: 3px;
      top: 0;
      -webkit-transition: .3s;
      transition: .3s;
-     margin-right: 7px;    
+     margin-right: 15px;
      font-size: 16px;
+     color: #000;
+     transform: rotate(45deg);
+ }
+
+ .social-links a:last-child {
+     margin: 0;
+ }
+
+ .social-links a i.fa {
+     transform: rotate(-45deg);
  }
 
  .social-links {
-     margin-bottom: 30px;
+     margin-bottom: 40px;
  }
 
  .boxed-btn {
      padding: 10px 30px;
-     background: #EDDC10;
+     background: #FAC802;
      color: #000;
      -webkit-transition: .3s;
      transition: .3s;
@@ -459,7 +450,8 @@
      position: absolute;
      z-index: 9;
      left: 50%;
-     transform: translateX(-50%);
+     line-height: 40px;
+     margin-left: -20px;
      bottom: 20px;
      color: #fff;
      font-size: 50px;
@@ -476,7 +468,7 @@
          transform: translateY(0);
      }
      50% {
-         color: #EDDC10;
+         color: #FAC802;
          -webkit-transform: translateY(10px);
          transform: translateY(10px);
          opacity: 1;
@@ -496,7 +488,7 @@
          transform: translateY(0);
      }
      50% {
-         color: #EDDC10;
+         color: #FAC802;
          -webkit-transform: translateY(10px);
          transform: translateY(10px);
      }
@@ -556,19 +548,6 @@
      z-index: 1;
  }
 
- .single-slide-item:after {
-     position: absolute;
-     left: 0;
-     top: 0;
-     width: 100%;
-     height: 100%;
-     content: "";
-     background: #000;
-     z-index: -1;
-     opacity: .4;
-     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
- }
-
  .full-height-wrap,
  .homepage-slides,
  .full-height-wrap,
@@ -587,6 +566,7 @@
      display: table-cell;
      vertical-align: middle;
      width: 100%;
+     background: rgba(0, 0, 0, 0.3);
  }
 
  .slide-text {
@@ -608,12 +588,13 @@
  .slide-text h3 {
      color: #fff;
      text-transform: capitalize;
+     font-weight: 400;
  }
 
  .slide-text .boxed-btn {
      margin-top: 20px;
      color: #000;
-     border-color: #EDDC10;
+     border-color: #FAC802;
  }
 
  .homepage-slides .owl-nav div {
@@ -622,8 +603,8 @@
      top: 70%;
      width: 40px;
      height: 40px!important;
-     border: 2px solid #EDDC10;
-     color: #EDDC10;
+     border: 2px solid #FAC802;
+     color: #FAC802;
      font-size: 30px;
      text-align: center;
      -webkit-transition: .3s;
@@ -642,23 +623,23 @@
      right: 40px;
  }
 
- .homepage-slides .owl-dots div {
-     width: 12px;
-     height: 12px!important;
-     border: 2px solid #ECDB10;
-     display: inline-block;
-     margin: 3px;
-     border-radius: 50%;
- }
+.homepage-slides .owl-dots div {
+    width: 12px;
+    height: 12px!important;
+    border: 2px solid #FAC803;
+    display: inline-block;
+    margin: 0 6px;
+    transform: rotate(45deg);
+}
 
  .homepage-slides .owl-dots div.active {
-     background: #EDDB10;
+     background: #FAC803;
  }
 
  .homepage-slides .owl-dots {
      position: absolute;
-     right: 30px;
-     bottom: 40px;
+     right: 25px;
+     bottom: 50px;
      -webkit-transform: rotate(90deg);
      transform: rotate(90deg);
  }
@@ -666,72 +647,90 @@
     About Section Css
 **************************/
 
- .section-title h1 {
+ .section-title h2 {
      position: relative;
      z-index: 1;
      line-height: 1;
+     margin: 0 0 50px;
+     font-size: 36px;
  }
 
- .section-title h1 span {
-     color: #EDDC10;
-     font-size: 18px;
-     position: relative;
-     top: -4px;
- }
-
- .section-title h1:after {
+ .section-title h2:after {
      position: absolute;
-     left: 0;
+     left: 50%;
      top: 0px;
      font-size: 80px;
      color: #ddd;
-     opacity: .3;
+     opacity: .2;
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+     transform: translateX(-50%);
      line-height: 40px;
  }
 
- .section-title.about-after h1:after {
+ .section-title.about-after h2:after {
      content: "about";
  }
 
  .author-image {
      position: relative;
-     padding-right: 25px;
  }
 
  .author-image img {
      width: 100%;
      display: block;
-     height: 450px;
+     border-radius: 3px;
+     height: 480px;
  }
 
- .author-info h4,
- .skill-area h4,
- .Traffic-faq h4 {
-     position: relative;
-     padding-bottom: 10px;
- }
-
- .author-info h4:after,
- .skill-area h4:after,
- .Traffic-faq h4:after {
+ .author-image:before {
      position: absolute;
-     left: 0;
-     bottom: 0;
-     width: 70px;
-     height: 2px;
-     background: #EDDC10;
+     left: 8px;
+     top: 8px;
+     width: 100%;
+     height: 100%;
+     background: #FAC802;
      content: "";
+     z-index: -1;
+     border-radius: 3px;
  }
 
  .author-info {
-     padding-top: 40px;
-     margin-left: 25px;
+     padding: 50px 0 0 50px;
  }
 
  .author-info .boxed-btn {
-     margin-top: 30px;
-     padding: 10px 60px;
+     margin-top: 25px;
+     font-size: 14px;
+     background: transparent;
+     border: 2px solid #000;
+ }
+
+ .section-style {
+     position: absolute;
+     width: 80px;
+     height: 1px;
+     background: #000;
+     left: 50%;
+     transform: translateX(-50%);
+     top: 60px;
+ }
+
+ .section-style:before,
+ .section-style:after {
+     position: absolute;
+     left: 40%;
+     bottom: -3px;
+     width: 8px;
+     height: 8px;
+     content: "";
+     transform: rotate(45deg);
+     border: 1px solid #000;
+     background: #fff;
+ }
+
+ .section-style:after {
+     left: auto;
+     right: 38%;
  }
  /********************************
     skill area Css
@@ -744,7 +743,6 @@
      background-color: #ddd;
      position: relative;
      z-index: 1;
-     background-attachment: fixed;
  }
 
  .skillbar-section-area:after,
@@ -780,10 +778,9 @@
  }
 
  .skillbar {
-     margin-bottom: 12px;
      width: 100%;
      background: transparent;
-     border: 1px solid #EDDC10;
+     border: 1px solid #FAC802;
      height: 10px;
      -webkit-transition: 0.2s linear;
      -webkit-transition: 0.3s linear;
@@ -812,9 +809,9 @@
  .skill-bar-percent {
      font-size: 18px;
      color: #fff;
-     font-weight: 400;
      display: inline-block;
-     margin-bottom: 5px;
+     margin-bottom: 10px;
+     text-transform: capitalize;
  }
 
  .skill-bar-percent {
@@ -825,17 +822,18 @@
  .skillbar-bar {
      height: 8px;
      width: 0px;
-     background: #EDDC10;
+     background: #FAC802;
      border-radius: 50px;
  }
 
  .Traffic-faq {
-     min-height: 390px;
+     min-height: 325px;
      margin-left: 50px;
+     margin-top: 10px;
  }
 
  .Traffic-faq .panel-group {
-     margin-top: 40px;
+     margin-top: 0px;
      margin-bottom: 0px;
  }
 
@@ -855,14 +853,14 @@
      padding: 14px 20px;
      display: block;
      position: relative;
-     font-size: 18px;
+     font-size: 16px;
  }
 
  .Traffic-faq .panel-group .panel {
      margin-bottom: 12px;
      border-radius: 3px;
-     border: 1px solid #EDDC10;
-     background: transparent;
+     border: 1px solid #FAC802;
+     background: #000;
  }
 
  .panel-default>.panel-heading+.panel-collapse>.panel-body {
@@ -902,11 +900,8 @@
      margin: 0;
  }
 
- .section-title.service-after h1:after {
+ .section-title.service-after h2:after {
      content: "services";
-     left: 50%;
-     -webkit-transform: translate(-50%);
-     transform: translate(-50%);
  }
 
  .single-service-item {
@@ -945,7 +940,7 @@
  }
 
  .single-cl-item {
-     border: 1px solid #EDDC10;
+     border: 1px solid #FAC802;
      padding: 20px;
      border-radius: 3px;
  }
@@ -953,11 +948,12 @@
  .single-cl-item h4 {
      color: #fff;
      margin: 0;
-     text-transform: none;
+     text-transform: capitalize;
+     font-size: 22px;
  }
 
  .cl-icon {
-     font-size: 30px;
+     font-size: 34px;
      margin: 0 auto;
      display: block;
      color: #fff;
@@ -967,29 +963,44 @@
 
  .single-cl-item span.counter {
      font-size: 40px;
-     padding: 30px 0;
+     padding: 35px 0 30px;
      display: block;
      font-weight: 700;
-     color: #F8E503;
+     color: #FAC802;
  }
  /******************************
     Portfolio Section Css
 *******************************/
+.row.portfolio-projects {
+    margin: 0;
+}
 
+.row.portfolio-projects .col-md-4 {
+    padding: 0;
+    overflow: hidden;
+}
  .single-portfolio-item {
-     margin-top: 30px;
      position: relative;
-     height: 250px;
+     height: 300px;
      width: 100%;
      background-size: cover;
      background-position: center;
      background-color: #ccc;
      z-index: 1;
      display: table;
+    transform: scale(1.07);
+    transition: .3s;
  }
 
- .section-title.portfolio-after h1:after {
+ .section-title.portfolio-after h2:after {
      content: "portfolio";
+ }
+
+ .portfolio-titles {
+     margin: 0 0 30px;
+     padding: 0;
+     list-style: none;
+
  }
 
  .portfolio-titles li {
@@ -997,27 +1008,13 @@
      text-transform: uppercase;
      font-size: 13px;
      font-weight: 700;
-     margin-right: 30px;
-     position: relative;
-     padding: 5px 0;
+     padding: 5px 15px;
      cursor: pointer;
      -webkit-transition: .3s;
      transition: .3s;
- }
-
- .portfolio-titles li:after {
-     position: absolute;
-     left: 0;
-     bottom: 0;
-     width: 50%;
-     height: 4px;
-     content: "";
-     background: #EDDC10;
-     -webkit-transition: .3s;
-     transition: .3s;
-     opacity: 0;
-     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-     visibility: hidden;
+     background: transparent;
+     color: #000;
+     border-radius: 3px;
  }
 
  .portfolio-hover {
@@ -1034,12 +1031,29 @@
      visibility: hidden;
      -webkit-transition: .3s;
      transition: .3s;
-     -webkit-transform: scaleY(0);
-     transform: scaleY(0);
+     z-index: 1;
+     position: relative;
  }
+.portfolio-hover:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #FAC802;
+    content: "";
+    z-index: -1;
+    transition: .3s;
 
+}
+.single-portfolio-item:hover .portfolio-hover:before {
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+}
  .preview-icon {
-     color: #EDDC10;
+     color: #FAC802;
      -webkit-transition: .3s;
      transition: .3s;
      font-size: 30px;
@@ -1049,34 +1063,11 @@
 
  .portfolio-hover p {
      margin: 0;
-     color: #EDDC10;
-     font-weight: 700;
+     color: #FAC802;
      text-transform: capitalize;
+     margin: 0;
  }
 
- .portfolio-hover:before,
- .portfolio-hover:after {
-     position: absolute;
-     left: 25px;
-     top: 25px;
-     border-top: 2px solid #EDDC10;
-     border-left: 2px solid #EDDC10;
-     content: "";
-     width: 20%;
-     height: 20%;
-     z-index: 9;
-     -webkit-transition: .3s;
-     transition: .3s;
- }
-
- .portfolio-hover:after {
-     left: auto;
-     right: 25px;
-     top: auto;
-     bottom: 25px;
-     -webkit-transform: rotate(180deg);
-     transform: rotate(180deg);
- }
 
  .mfp-image-holder .mfp-close,
  .mfp-iframe-holder .mfp-close {
@@ -1087,104 +1078,85 @@
      opacity: 1;
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
  }
-
-
  /*******************************
 team Section Css
 ********************************/
 
- .section-title.team-after h1:after {
+ .section-title.team-after h2:after {
      content: "team";
  }
 
- .team-member img {
-     width: 100%;
+ .team-img img {
      height: 260px;
      border-radius: 3px 3px 0 0;
+     min-height: 260px;
+     width: 100%;
  }
 
- .team-member {
-     position: relative;
- }
-
- .single-team-member h4 {
-     text-transform: none;
-     line-height: 30px;
-     margin: 0 0 20px;
- }
-
- .single-team-member h4 span {
-     font-size: 70%;
-     display: block;
- }
-
- .member-social-links a {
-     display: inline-block;
-     font-size: 16px;
-     width: 35px;
-     height: 35px;
-     color: #999;
-     -webkit-transition: .3s;
-     transition: .3s;
+ .team-title {
+     margin: 0;
+     position: absolute;
+     top: 220px;
+     left: 10%;
+     width: 80%;
+     background: #FAC802;
+     text-transform: capitalize;
+     padding: 10px;
+     line-height: 28px;
  }
 
  .single-team-member {
      position: relative;
-     overflow: hidden;
-     border: 5px solid #f9f9f9;
-     border-radius: 3px;
+     border: 1px solid #ddd;
  }
 
- .team-hover {
-     background: #000;
-     position: absolute;
-     left: 0;
-     top: 0;
-     width: 100%;
-     height: 100%;
-     border: 5px solid #EDDC10;
-     opacity: 0;
-     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-     visibility: hidden;
-     -webkit-transition: .3s;
-     transition: .3s;
-     border-radius: 3px;
-     -webkit-transform: scaleX(0);
-     transform: scaleX(0);
+ .team-title span {
+     text-transform: none;
+     display: block;
+     font-size: 75%; 
+     font-weight: 400;
  }
 
- .team-hover .member-social-links a {
-     color: #EDDC10;
-     -webkit-transform: rotate(-90deg);
-     transform: rotate(-90deg);
-     font-size: 20px;
+ .single-team-member .social-links a {
+     width: 30px;
+     height: 30px;
+     font-size: 14px;
+     line-height: 28px;
+     margin: 0 7px;
+     background: transparent;
+     border: 1px solid #ddd;
+     color: #999;
  }
 
- .team-hover .member-social-links {
-     -webkit-transform: rotate(90deg);
-     transform: rotate(90deg);
-     position: absolute;
-     right: -30px;
-     top: 50%;
-     margin-top: -20px;
+ .single-team-member .social-links a:hover {
+     border-color: transparent;
  }
 
- .team-hover h3 {
-     color: #EDDC10;
-     position: absolute;
-     left: 50%;
-     -webkit-transform: translateX(-50%);
-     transform: translateX(-50%);
-     top: 50%;
-     line-height: 30px;
-     margin-top: -15px;
+ .single-team-member .social-links {
+     padding: 70px 0 30px;
+     margin: 0;
+ }
+ /*******************************
+ Cta area Css
+********************************/
+
+ .cta-area {
+     background: #FAC802;
+     padding: 40px 0;
  }
 
- .team-member-info {
-     padding: 20px;
-     -webkit-transition: .3s;
-     transition: .3s;
+ .cta-area h2 {
+     margin: 0;
+     font-size: 45px;
  }
+
+ .cta-area .boxed-btn {
+     background: #fff;
+     margin: 7px 0;    
+     padding: 12px 40px;
+ }
+
+
  /*******************************
 Testimonial Section Css
 ********************************/
@@ -1195,7 +1167,6 @@ Testimonial Section Css
      background-position: center;
      position: relative;
      z-index: 1;
-     background-attachment: fixed;
  }
 
  #testimonial:after {
@@ -1216,7 +1187,7 @@ Testimonial Section Css
      width: 120px;
      height: 120px;
      border-radius: 50%;
-     border: 5px solid #EDDC10;
+     border: 5px solid #FAC802;
      display: block;
      margin: 0 auto;
      margin-bottom: 20px;
@@ -1243,6 +1214,10 @@ Testimonial Section Css
      position: relative;
  }
 
+ .testimonial-content p {
+     margin: 0;
+ }
+
  .testimonial-content:before,
  .testimonial-content:after {
      position: absolute;
@@ -1266,8 +1241,8 @@ Testimonial Section Css
 
  .testimonial-list .owl-dots {
      position: absolute;
-     right: -100px;
-     bottom: 0;
+     right: -14%;
+     bottom: 10%;
      -webkit-transform: rotate(90deg);
      transform: rotate(90deg);
  }
@@ -1275,16 +1250,16 @@ Testimonial Section Css
  .testimonial-list .owl-dots div {
      width: 12px;
      height: 12px;
-     border: 2px solid #EDDC10;
-     border-radius: 50%;
+     border: 2px solid #FAC802;
      display: inline-block;
-     margin: 0 5px;
+     margin: 0 8px;
+     transform: rotate(45deg);
      -webkit-transition: .3s;
      transition: .3s;
  }
 
  .testimonial-list .owl-dots div.active {
-     background: #EDDC10;
+     background: #FAC802;
  }
  /************************************
     blog Css
@@ -1306,7 +1281,6 @@ Testimonial Section Css
  }
 
  .admin-meta i.fa {
-     color: #EDDC10;
      margin-right: 2px;
  }
 
@@ -1321,6 +1295,7 @@ Testimonial Section Css
      font-weight: 700;
      margin-right: 10px;
      text-transform: capitalize;
+     transition: .3s;
  }
 
  .blog-content {
@@ -1335,13 +1310,12 @@ Testimonial Section Css
  .date-meta {
      width: 80px;
      height: 110px;
-     background: #EDDC10;
+     background: #FAC802;
      color: #000;
      text-align: center;
      position: absolute;
      left: 0px;
      top: -55px;
-     box-shadow: 0 0 5px #ccc;
      border-radius: 3px;
  }
 
@@ -1379,7 +1353,7 @@ Testimonial Section Css
      bottom: 0;
      width: 40%;
      height: 4px;
-     background: #EDDC10;
+     background: #FAC802;
      content: "";
      -webkit-transition: .3s;
      transition: .3s;
@@ -1403,7 +1377,6 @@ Testimonial Section Css
      background-size: cover;
      background-position: center;
      z-index: 1;
-     background-attachment: fixed;
  }
 
  .contact-area:after {
@@ -1425,29 +1398,39 @@ Testimonial Section Css
  }
 
  .contact-form textarea {
-     height: 230px;
+     height: 240px;
  }
 
- .contact-form h1 {
+ .contact-form h2 {
      text-align: center;
      line-height: 1;
      color: #fff;
-     margin: 0 0 50px;
+     margin: 0 0 80px;
+     position: relative;
+     font-size: 36px;
  }
 
  .contact-form button[type=submit] {
      margin-top: 20px;
  }
 
+ .contact-form .section-style {
+     background: #fff;
+ }
 
+ .contact-form .section-style:before,
+ .contact-form .section-style:after {
+     border: 1px solid #fff;
+     background: #000;
+ }
  /************************************
     map Sectiomn Css
 *************************************/
+
  #GoogleMap {
      width: 100%;
      height: 500px;
  }
-
  /******************************
 Scroll To Top
 *******************************/
@@ -1459,7 +1442,7 @@ Scroll To Top
      font-size: 20px;
      border: 2px solid;
      line-height: 27px;
-     color: #EDDC10;
+     color: #FAC802;
      -webkit-transition: .3s;
      transition: .3s;
      position: fixed;
@@ -1487,7 +1470,7 @@ Scroll To Top
  }
 
  .copysection a {
-     color: #ECDB0F;
+     color: #FAC802;
  }
  /***************************
     Preloader Css
@@ -1514,7 +1497,7 @@ Scroll To Top
 
  .site-spinner-wrap .spinner .cube1,
  .site-spinner-wrap .spinner .cube2 {
-     background: #EDDC10;
+     background: #FAC802;
      width: 20px;
      height: 20px;
      position: absolute;
@@ -1577,7 +1560,7 @@ Scroll To Top
 
  .mainmenu ul.nav.navbar-nav li a:hover,
  .mainmenu ul.nav.navbar-nav li.active a {
-     color: #EDDC10;
+     color: #FAC802;
  }
 
  .mainmenu .nav>li>a:focus,
@@ -1592,11 +1575,11 @@ Scroll To Top
      top: 50%;
  }
 
-.homepage-slides .owl-nav div:hover {
-    background: #000;
-    color: #fff;
-    border-color: #000;
-}
+ .homepage-slides .owl-nav div:hover {
+     background: #000;
+     color: #fff;
+     border-color: #000;
+ }
 
  .homepage-slides .owl-nav div:hover {
      opacity: 1;
@@ -1610,29 +1593,26 @@ Scroll To Top
 
  .single-service-item:hover .service-icon,
  .single-service-item:hover h4 {
-     color: #EDDC10;
+     color: #FAC802;
  }
 
  .portfolio-titles li:hover:after {
      width: 100%;
  }
 
- .portfolio-titles li.active:after,
- .portfolio-titles li:hover:after,
  .portfolio-titles li.active,
  .portfolio-titles li:hover {
      opacity: 1;
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
      visibility: visible;
-     color: #EDDC10;
+     color: #fff;
+     background: #000;
  }
 
  .single-portfolio-item:hover .portfolio-hover {
      opacity: 1;
      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
      visibility: visible;
-     -webkit-transform: scaleY(1);
-     transform: scaleY(1);
  }
 
  .mfp-image-holder .mfp-close:hover,
@@ -1659,7 +1639,9 @@ Scroll To Top
      background: #000;
      color: #fff;
  }
-
+    .single-portfolio-item:hover {
+        transform: scale(1);
+    }
  .team-hover .member-social-links a:hover {
      color: #fff;
  }
@@ -1687,9 +1669,18 @@ Scroll To Top
      background: #000;
      color: #fff;
  }
+
  .read-more-btn:hover {
-    color: #EDDC10;
-}
+     color: #FAC802;
+ }
+
+ .admin-meta a:hover {
+     color: #FAC802;
+ }
+  .cta-area .boxed-btn:hover {
+     background: #000;
+     color: #fff;
+ }
  /****************************
     Color Chooser Css
 *****************************/
@@ -1699,10 +1690,10 @@ Scroll To Top
      text-transform: capitalize;
  }
 
-#colors {
-    margin: 0;
-    padding: 0;
-}
+ #colors {
+     margin: 0;
+     padding: 0;
+ }
 
  #colors li {
      width: 35px;

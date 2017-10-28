@@ -100,7 +100,7 @@ function initialize() {
     var map = new google.maps.Map(document.getElementById("GoogleMap"), mapProp);
     var marker = new google.maps.Marker({
         position: myCenter,
-        icon: "assets/images/map-marker.png",
+        icon: "images/map-marker.png",
         animation: google.maps.Animation.BOUNCE,
     });
     marker.setMap(map);
