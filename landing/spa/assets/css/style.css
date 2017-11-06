@@ -334,6 +334,7 @@ button[type="submit"]:hover {
     color: #fff;
     font-size: 18px;
     line-height: 30px;
+    padding-top: 80px;
 }
 
 .slide-text h1 {

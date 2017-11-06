@@ -153,11 +153,19 @@
     .mainmenu {
         display: none;
     }
-    .header-area .logo,
+    .logo img {max-height: 40px;}
+
     .header-area .text-right {
+        position: relative;
+        top: -60px;
+    }
+    .header-area {
+        height: 125px;
+    }
+    .header-area .text-right .reservation-btn {padding: 8px 10px;font-size: 10px!important;}
+
+    .slicknav_menu {
         text-align: center;
-        display: block;
-        margin: 0 auto;
     }
     .homepage-slides,
     .homepage-slides div {
@@ -168,8 +176,8 @@
         line-height: 36px;
     }
     
-  .slide-text {
-        padding-top: 300px;
+    .slide-text {
+        padding-top: 170px;
         padding-bottom: 70px;
         font-size: 15px;
     }
