@@ -1,0 +1,248 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+@media only screen and (min-width:991px) and (max-width:1199px) {
+.author-bg {
+    height: 400px;
+}
+.about-text {
+    padding-top: 0;
+}
+.single-service-item {
+    min-height:265px;
+}
+h3 {
+    font-size: 22px;
+}
+.contact-info {
+    margin-left: 0;
+}
+.contact-pd {
+    padding: 20px;
+}
+
+
+}
+
+
+/*==============================
+    Tablet Layout
+=============================*/
+@media only screen and (min-width:768px) and (max-width:990px) {
+.mainmenu li {
+    margin-right: 15px;
+}
+.logo {
+    padding: 13px 0;
+ }
+.about-text {
+    padding-top: 0;
+    margin-left: 30px;
+}
+
+.single-service-item {
+    min-height: 265px;
+}
+.service-area {
+    margin-right: 0;
+}
+.single-count-item {
+    margin-bottom: 50px;
+}
+
+.col-md-3:nth-child(3) .single-count-item, .col-md-3:nth-child(4) .single-count-item {
+    margin-bottom: 0;
+}
+.counter{
+	margin: 20px 0;
+}
+.cta-area .bordered-btn {
+    padding: 10px 30px;
+}
+.contact-info {
+    margin-left: 0;
+    margin-top: 80px;
+}
+#GoogleMap {
+    height: 350px;
+}
+
+}
+
+
+/*===================================
+    normal/small mobile layout.
+===================================*/
+@media only screen and (max-width:767px) {
+
+.home-hero-wrap {
+    height: auto;
+}
+.hero-text {
+    margin: 60px 0 80px;
+    font-size: 18px;
+    text-align: center;    
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin: 0 0 15px;
+    line-height: 1;
+}
+
+.hello-text {margin: 0 0 30px;}
+.hero-text .bordered-btn {
+    margin-top: 30px;
+}
+.scroll-about {
+    font-size: 36px;
+    line-height: 30px;
+    margin-left: -15px;
+}
+
+.navbar-toggle {
+    float: none;
+    border: 1px solid #000;
+    margin: 0;
+}
+.navbar-toggle .icon-bar {
+    background: #000;
+}
+.mainmenu {position: absolute;z-index: 9;top: 15px;left: 15px;}
+.mainmenu .navbar-collapse {
+    padding: 0 15px;
+}
+
+.mobile-menu-active .mainmenu ul {
+    margin: 18px 0 0 -15px;
+    background: #000;
+    width: 200px;
+    text-align: center;
+}
+
+.mobile-menu-active ul li {
+    margin: 0;
+    display: block;
+}
+
+.mobile-menu-active ul li a {
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.mainmenu li.active:after {
+    display: none;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.author-bg {
+    height: 350px;
+}
+
+.about-text {
+    padding-top: 60px;
+    margin-left: 0;
+    text-align: center;
+}
+h2, .cta-area h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 20px;
+}
+.author-line {
+    padding-left: 20px;
+}
+.spacer-mobile-60{
+	height: 60px;
+}
+
+.service-area:before, .service-area:after{
+	display: none;
+}
+.single-service-item {
+    min-height: inherit;
+    border:none;
+}
+.col-sm-6 .single-service-item {
+    border:none;
+}
+.service-area {
+    margin-right: 0;
+}
+.single-count-item {
+    margin-bottom: 50px;
+}
+
+.col-md-3:nth-child(4) .single-count-item {
+    margin-bottom: 0;
+}
+.counter{
+	margin: 20px 0;
+}
+.cta-area, .cta-area .text-right {
+    text-align: center;
+}
+
+.cta-area .bordered-btn {
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+.contact-form textarea {
+    height: 120px;
+}
+.contact-info {
+    margin-left: 0;
+    margin-top: 60px;
+}
+.contact-pd{
+	padding: 20px;
+}
+#GoogleMap {
+    height: 200px;
+}	
+.brand-logo-area {
+    padding: 0;
+}
+.footer-area {
+    padding: 50px 0;
+}
+.social-links a {
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    margin: 0 2px;
+}
+.copysection{
+	line-height: 1.8;
+}
+
+}
+
+
+/*==============================
+    wide mobile layout
+================================*/
+@media only screen and (min-width:480px) and (max-width:767px) {
+	.author-bg {
+	    height: 450px;
+	    width: 400px;
+	    margin: 0 auto;
+	}
+	.single-project-item{
+		height: 300px;
+	}
+	.contact-form textarea {
+	    height: 180px;
+	}
+	#GoogleMap {
+	    height: 300px;
+	}
+}
+
+
