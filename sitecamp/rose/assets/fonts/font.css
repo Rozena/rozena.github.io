@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'OldTypography';
+  src: url('OldTypography.eot');
+  src: url('OldTypography.woff2') format('woff2'),
+       url('OldTypography.woff') format('woff'),
+       url('OldTypography.ttf') format('truetype'),
+       url('OldTypography.svg#OldTypography') format('svg'),
+       url('OldTypography.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
