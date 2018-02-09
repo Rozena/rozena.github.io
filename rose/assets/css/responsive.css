@@ -1,0 +1,401 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+    .container {
+        width: 970px;
+    }
+    .hero-image {
+        right: -185px;
+    }
+}
+
+
+
+
+
+
+/*==============================
+    Tablet Layout 
+=============================*/
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+
+    .site-wrap {
+        width: auto;
+    }
+    .container {
+        width: 750px;
+    }
+
+    .hero-image {
+        right: -173px;
+    }
+
+    .logo {
+        height: 120px;
+        margin-top: 0;
+        margin-left: 0;
+        left: 155px;
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+    .logo img {
+        max-height: 150px;
+    }
+
+    .mainmenu {
+        margin-top: 270px;
+    }
+
+    .social-links {
+        right: 0px;
+        top: 65px;
+    }
+
+    .padding-left55,
+    .mainmenu {
+        padding-left: 0;
+    }
+    .right-img,
+    .music-video {
+        top: 0;
+    }
+    .right-img img,
+    .music-video iframe,
+    .contact-area .right-img img {
+        width: auto;
+        height: 400px;
+    }
+    .music-video iframe {
+        margin-bottom: 30px;
+        width: 595px;
+    }
+    .contact-area .right-img img {
+        margin-top: 50px;
+    }
+
+    .contact-form input[type="submit"] {
+        margin-right: 50px;
+        border: transparent;
+    }
+    .contact-form p {
+        margin-bottom: 30px;
+    }
+    .swag-area p {
+        max-width: inherit;
+    }
+    .social-links {
+        top: 6px;
+        bottom: 0;
+        right: 0;
+    }
+
+    .navbar-nav {
+        margin-left: -5px;
+    }
+
+    .single-darj-item {
+        width: 450px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+
+    .single-darj-item:last-child {
+        margin: auto;
+    }
+    .mainmenu ul li a {
+        padding-right: 15px;
+    }
+
+    .right-img img,
+    .music-video iframe,
+    .contact-area .right-img img {
+        width: 450px;
+        height: 300px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+
+
+/*===================================
+    normal/small mobile layout.
+===================================*/
+
+@media only screen and (max-width:767px) {
+    .site-wrap {
+        width: auto;
+    }
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: auto;
+    }
+
+    .logo {
+        margin: 85px 0 50px;
+        height: auto;
+    }
+    .logo img {
+        max-height: 90px;
+    }
+
+    .hero-image {
+        width: auto;
+        right: 0;
+        min-height: inherit;
+        position: relative;
+    }
+    .menu-area {
+        position: absolute;
+        top: 30px;
+        right: 0px;
+        z-index: 99;
+    }
+    .navbar-toggle {
+        float: none;
+        border: 1px solid #000;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 0px;
+    }
+    .mainmenu ul li a {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .mobile-menu-activated .mainmenu ul,
+    .mobile-menu-activated .menu-bg .mainmenu ul {
+        margin: 35px -15px 0 0;
+        width: 200px;
+        background: #000;
+        padding: 10px;
+    }
+    .menu-area.menu-bg .navbar-toggle {
+        top: -30px;
+    }
+    .navbar-toggle .icon-bar {
+        background: #000;
+    }
+    .menu-area.menu-bg .navbar-toggle {
+        border: 1px solid #fff;
+        top: 5px;
+    }
+    .menu-area.menu-bg .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+
+
+    .mobile-menu-activated .mainmenu ul li {
+        display: block!important;
+    }
+
+    .mobile-menu-activated .menu-bg .navbar-collapse {
+        margin-top: -17px;
+    }
+
+    .hero-text {
+        margin-top: 70px;
+    }
+    .padding-left55,
+    .mainmenu {
+        padding-left: 0;
+    }
+    .music-area .theme-title {
+        top: -50px;
+    }
+    .right-img,
+    .music-video {
+        top: 0;
+    }
+    .right-img img,
+    .music-video iframe,
+    .contact-area .right-img img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .music-video iframe {
+        margin-bottom: 30px;
+    }
+    .contact-area .right-img img {
+        margin-top: 50px;
+    }
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-form input[type="submit"] {
+        margin-right: 50px;
+    }
+    .swag-area p {
+        max-width: inherit;
+    }
+
+
+    .contact-form label {
+        margin-right: 0;
+        position: relative;
+        left: 0;
+        top: 0;
+        font-size: 20px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        width: 100%;
+        margin-left: 0;
+    }
+    .contact-form p {
+        margin-bottom: 20px;
+    }
+
+
+    .contact-form input[type="submit"] {
+        border-color: transparent;
+        padding: 10px 110px;
+        margin-right: 0px;
+    }
+    .contact-area .right-img img {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .email-subscriber {
+        top: 30px;
+        margin-top: 0;
+    }
+    .padding-left30 {
+        padding-left: 20px;
+    }
+
+    .menu-area.menu-bg .mainmenu {
+        margin: 0;
+        height: 36px;
+        position: relative;
+    }
+
+
+    .social-links {
+        position: fixed;
+        left: 12px;
+        top: 18px;
+        width: 100%;
+        z-index: 9;
+        height: 38px;
+        text-align: center;
+        -webkit-transition: .3s;
+        transition: .3s;
+    }
+
+    .menu-area.menu-bg .social-links {
+        width: 200px;
+        text-align: left;
+    }
+
+    .mainmenu ul {
+        margin: 35px -15px 0 0;
+        width: 200px;
+        background: #000;
+        padding: 10px;
+    }
+    .mobile-menu-activated .menu-bg .mainmenu ul {
+        margin: 64px -15px 0 0;
+        width: 100%;
+        background: #000;
+        padding: 10px;
+    }
+    .spacer80 {
+        height: 50px;
+    }
+
+
+
+    .single-darj-item {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        height: 200px;
+    }
+    .padding-right30 {
+        padding-right: 15px;
+    }
+    #contact h2,
+    #music h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .menu-area.menu-bg {
+        height: 70px;
+    }
+    .footer-area .social-links {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+
+
+    
+}
+
+
+
+
+
+
+
+/*==============================
+    wide mobile layout
+================================*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .logo {
+        margin: 100px 0 50px;
+    }
+    .menu-area {
+        top: 50px;
+    }
+    .single-portfolio-item img,
+    .single-darj-item,
+    .right-img img,
+    .music-video iframe,
+    .contact-area .right-img img {
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+    }
+    .music-video iframe {
+        width: 400px;
+        margin-bottom: 30px;
+    }
+    .contact-area .right-img {
+        margin-top: 50px;
+    }
+    .single-darj-item {
+        width: 400x;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .single-darj-item:last-child {
+        margin: auto;
+    }
+}
