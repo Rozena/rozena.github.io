@@ -22,8 +22,8 @@ body {
     transition: all .2s ease;
     font-family: 'Poppins', sans-serif;
     color: #555;
-	font-size: 16px;
-	line-height: 28px;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 a,
@@ -67,10 +67,12 @@ h6 {
     font-weight: 900;
     text-transform: uppercase;
 }
-h2{
-	font-size: 36px;
-	line-height: 46px;
+
+h2 {
+    font-size: 36px;
+    line-height: 46px;
 }
+
 h3 {
     font-size: 22px;
 }
@@ -78,8 +80,9 @@ h3 {
 .section-padding {
     padding: 60px 0;
 }
+
 .padding-top-0 {
-    padding-top:0;
+    padding-top: 0;
 }
 
 .section-title {
@@ -95,11 +98,13 @@ ul {
 li {
     display: inline-block;
 }
-.overlay{
-	position: relative;
-	z-index: 1;
+
+.overlay {
+    position: relative;
+    z-index: 1;
 }
-.overlay:after{
+
+.overlay:after {
     position: absolute;
     left: 0;
     top: 0;
@@ -110,17 +115,18 @@ li {
     z-index: -1;
     opacity: .8;
 }
-.human-area:after{
-	background: #fff;
-	opacity: .9;
 
+.human-area:after {
+    background: #fff;
+    opacity: .9;
 }
+
+
 /* css start  */
 
 .hero-bg,
 .feature-area,
 .feature-carousel-item,
-.human-area,
 .human-bg,
 .latest-bg,
 .feature-stories,
@@ -178,7 +184,7 @@ li {
     background-image: url(../images/8.jpg);
 }
 
-.feature-absolute-bg{
+.feature-absolute-bg {
     background-image: url(../images/bg3.png);
 }
 
@@ -203,6 +209,7 @@ li {
 }
 
 
+
 /*==========css start==========*/
 
 .header-top-area {
@@ -213,7 +220,8 @@ li {
 }
 
 .header-top-area p {
-    margin: 0;font-weight: 600;
+    margin: 0;
+    font-weight: 600;
 }
 
 .header-top-area span {
@@ -236,34 +244,39 @@ li {
 
 
 .saerch-form input[type=text] {
-  width: 100%;
-  padding: 9px;
-  border: none;
-  color: #222;
-  font-size: 14px;
+    width: 100%;
+    padding: 9px;
+    border: none;
+    color: #222;
+    font-size: 14px;
+    border: 1px solid #ddd;
 }
+
 .saerch-form button[type="submit"] {
-  background: transparent;
-  border: transparent;
-  color: #555;
-  position: absolute;
-  right: 12px;
-  top: 6px;
+    background: transparent;
+    border: transparent;
+    color: #555;
+    position: absolute;
+    right: 12px;
+    top: 6px;
 }
+
 .saerch-form {
-  position: absolute;
-  width: 100%;
-  left: 25px;
-  bottom: -55px;
-  transition: .3s;
-  transform: scaleY(0);
-  opacity: 0;
-  visibility: visible;
+    position: absolute;
+    width: 100%;
+    left: 25px;
+    bottom: -55px;
+    transition: .3s;
+    transform: scaleY(0);
+    opacity: 0;
+    visibility: visible;
+    z-index: 99;
 }
+
 .saerch-form.active {
-  transform: scaley(1);
-  opacity: 1;
-  visibility: visible;
+    transform: scaley(1);
+    opacity: 1;
+    visibility: visible;
 }
 
 .header-area {
@@ -325,45 +338,51 @@ li {
 .cart i.fa {
     color: #F60000;
     font-size: 20px;
-  position: relative;
-  padding-right: 10px;
+    position: relative;
+    padding-right: 10px;
 }
 
 .cart i.fa::after {
-  position: absolute;
-  right: 0;
-  top: -12px;
-  content: "3";
-  background: #8A8989;
-  color: #fff;
-  width: 18px;
-  height: 18px;
-  font-size: 13px;
-  font-weight: 600;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 16px;
+    position: absolute;
+    right: 0;
+    top: -12px;
+    content: "3";
+    background: #8A8989;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
 }
+
 
 /* abosute header css*/
 
 .absolute-header .search-bar {
-  color: #fff;
+    color: #fff;
 }
+
 .absolute-header .mainmenu ul li a {
-  color: #fff;
+    color: #fff;
 }
+
 .absolute-header .header-right ul li a {
-  color: #fff;
-  border-color: #fff;
+    color: #fff;
+    border-color: #fff;
 }
+
 
 
 
 /* hero area css*/
+
 .hero-wrap .container-fluid {
     padding: 0;
 }
+
 .hero-bg {
     height: 760px;
     position: relative;
@@ -454,6 +473,7 @@ li {
     font-size: ;
     color: #fff;
 }
+
 .feature-link {
     color: #ff0000;
     font-weight: 700;
@@ -462,279 +482,328 @@ li {
 
 
 .feature-title {
-  color: #ccc;
+    color: #ccc;
 }
+
 .feature-title h2 {
-  color: #fff;
-  margin: 0 0 15px;
+    color: #fff;
+    margin: 0 0 15px;
 }
+
 .feature-carousel-item {
-  height: 320px;
-  width: 100%;
-  position: relative;
+    height: 320px;
+    width: 100%;
+    position: relative;
 }
+
 .feature-content {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 10px;
-  width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
 }
+
 .feature-content:after {
-  opacity: .2;
+    opacity: .2;
 }
+
 .feature-content h3 {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 700;
-  line-height: 30px;
-  margin: 0;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0;
 }
+
 .feature-content h3 span {
-  display: block;
-  color: #F10C09;
+    display: block;
+    color: #F10C09;
 }
+
 .feature-carousel-list .owl-nav div {
-  color: #FF0000;
-  display: inline-block;
-  margin: 0 25px;
+    color: #FF0000;
+    display: inline-block;
+    margin: 0 25px;
 }
+
 .feature-carousel-list .owl-nav {
-  position: absolute;
-	left: -228px;
-	bottom: 30px;
+    position: absolute;
+    left: -228px;
+    bottom: 30px;
 }
 
 .featured-wrap {
-  padding-top: 60px;
+    padding-top: 60px;
 }
+
 .feature-title {
-  padding-top: 60px;
-  position: relative;
+    padding-top: 60px;
+    position: relative;
 }
+
 .scroll-feature:before {
-  width: 1px;
-  height: 5px;
-  background: #ccc;
-  position: absolute;
-  left: 10px;
-  top: 7px;
-  content: "";
+    width: 1px;
+    height: 5px;
+    background: #ccc;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    content: "";
 }
+
 .scroll-feature:after {
-  position: absolute;
-  width: 20px;
-  height: 35px;
-  content: "";
-  border: 1px solid #ccc;
-  border-radius: 10px;
+    position: absolute;
+    width: 20px;
+    height: 35px;
+    content: "";
+    border: 1px solid #ccc;
+    border-radius: 10px;
 }
+
 .scroll-feature {
-  position: absolute;
-  left: 50%;
-  margin-left: -10px;
-  bottom: -35px;
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    bottom: -35px;
 }
 
 .section-title p {
-  color: #CC0000;
-  font-weight: 600;
+    color: #CC0000;
+    font-weight: 600;
 }
+
 .section-title h2 {
-  margin: 0 0 10px;
+    margin: 0 0 10px;
 }
+
 .human-bg {
-  height: 220px;
-  width: 100%;
+    height: 220px;
+    width: 100%;
 }
+
 .human-icon {
-  color: #fff;
-  width: 70px;
-  height: 70px;
-  background: #FF0000;
-  text-align: center;
-  font-size: 30px;
-  line-height: 66px;
-  padding-left: 5px;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
-  top: 50%;
-  margin-top: -35px;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    background: #FF0000;
+    text-align: center;
+    font-size: 30px;
+    line-height: 66px;
+    padding-left: 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: 50%;
+    margin-top: -35px;
 }
+
+.human-area {
+    background-size: cover;
+    background-position: center center;
+}
+
 .human-area p {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
+
 .boxed-btn {
-  display: inline-block;
-  background: #CC0000;
-  color: #fff;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 10px 30px;
+    display: inline-block;
+    background: #CC0000;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 30px;
 }
+
 .human-area .boxed-btn {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .customer-say-title h2 {
-  font-size: 30px;
-  margin: 0 0 30px;
+    font-size: 30px;
+    margin: 0 0 30px;
 }
+
 .single-testimonial-item {
-  font-style: italic;
-  line-height: 32px;
+    font-style: italic;
+    line-height: 32px;
 }
+
 .testimonial-avatar img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
 }
+
 .avatar-info {
-  position: relative;
-  top: 10px;
-  left: 20px;
+    position: relative;
+    top: 10px;
+    left: 20px;
 }
+
 .testimonial-avatar {
-  margin-top: 30px;
+    margin-top: 30px;
 }
+
 .avatar-info h4 {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
 }
+
 .avatar-info h4 span {
-  display: block;
-  font-weight: 600;
-  color: #CC0000;
+    display: block;
+    font-weight: 600;
+    color: #CC0000;
 }
 
 
 .latest-bg {
-  width: 100%;
-  height: 140px;
-  display: block;
+    width: 100%;
+    height: 140px;
+    display: block;
 }
+
 .latest-content h3 {
-  font-weight: 700;
-  margin: 0 0 15px;
+    font-weight: 700;
+    margin: 0 0 15px;
 }
+
 .latest-content {
-  font-size: 13px;
+    font-size: 13px;
 }
+
 .read-more-btn {
-  display: inline-block;
-  text-transform: uppercase;
-  color: #CC0000;
-  font-weight: 600;
-  letter-spacing: 1.5px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #CC0000;
+    font-weight: 600;
+    letter-spacing: 1.5px;
 }
+
 .section-title h2 {
-  font-size: 46px;
+    font-size: 46px;
 }
+
 .section-title p {
-  color: #ff0000;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: 600;
+    color: #ff0000;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
-.feature-stories:after{
-	opacity: .2;
+
+.feature-stories:after {
+    opacity: .2;
 }
 
 .feature-stories {
-  height: 135px;
-  position: relative;
-  margin-bottom: 20px;
-  margin-left: -20px;
-  margin-right: -20px;
-  margin-top: -20px;
+    height: 135px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
 }
+
 .feature-stories-area .boxed-btn {
     margin: 15px 0;
 }
+
 .stories-icon {
-  width: 50px;
-  height: 40px;
-  position: absolute;
-  left: 50%;
-  margin-left: -25px;
-  top: 50%;
-  margin-top: -20px;
-  display: inline-block;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    top: 50%;
+    margin-top: -20px;
+    display: inline-block;
 }
+
 .single-feature-stories {
-  border: 1px solid #EEECF1;
-  font-size: 13px;
-  padding: 20px;
+    border: 1px solid #EEECF1;
+    font-size: 13px;
+    padding: 20px;
 }
+
 .single-feature-stories h3 {
-  margin: 0 0 15px;
+    margin: 0 0 15px;
 }
 
 .subscribe-area h2 {
-  color: #fff;
-  font-size: 30px;
-  line-height: 42px;
-  margin: 0 0 30px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 42px;
+    margin: 0 0 30px;
 }
+
 .subscribe-form input[type="email"] {
-  padding: 10px;
-  color: #555;
-  width: 70%;
-  border-radius: 3px;
-  border: none;
+    padding: 10px;
+    color: #555;
+    width: 70%;
+    border-radius: 3px;
+    border: none;
 }
-.subscribe-form button[type="submit"], .subscribe-form input[type="submit"] {
-  border: none;
-  background: #222222;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  padding: 10px 20px;
-  border-radius: 3px;
-  width: 28%;
-  font-size: 14px;
-  margin-left: 1%;
+
+.subscribe-form button[type="submit"],
+.subscribe-form input[type="submit"] {
+    border: none;
+    background: #222222;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 3px;
+    width: 28%;
+    font-size: 14px;
+    margin-left: 1%;
 }
+
 .subscribe-area {
-  position: relative;
+    position: relative;
 }
+
 .subscribe-right-img {
-  position: absolute;
-  right: 50px;
-  bottom: 0;
-  height: 320px;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    height: 320px;
 }
+
 .subscribe-form {
     max-width: 500px;
 }
 
 .payment-system span {
-  margin-right: 50px;
+    margin-right: 50px;
 }
+
 .payment-system a {
-  display: inline-block;
-  height: 20px;
-  width: 40px;
+    display: inline-block;
+    height: 20px;
+    width: 40px;
 }
 
 .feature-stories-area .boxed-btn {
-  margin: 15px 0;
+    margin: 15px 0;
 }
+
 .feature-stories-area {
-  position: relative;
+    position: relative;
 }
+
 .feature-absolute-bg {
-  position: absolute;
-  right: 0;
-  top: -20px;
-  width: 600px;
-  height: 300px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+    width: 600px;
+    height: 300px;
 }
+
 
 
 /* footer css*/
