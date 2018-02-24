@@ -159,7 +159,6 @@ li{
 }
 .logo {
   margin-right: 30px;
-  �: ;
 }
 .search-bar {
   cursor: pointer;
@@ -167,6 +166,7 @@ li{
   font-size: 20px;
 }
 .header-area {
+    padding: 10px 0;
 }
 .absolute-header {
 }
@@ -176,8 +176,7 @@ li{
 .mainmenu ul li {
   display: inline-block;
 }
-a {
-}
+
 .mainmenu ul li a {
   color: #222;
   font-weight: 600;
