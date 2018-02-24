@@ -19,6 +19,8 @@
     
     <!-- FontAwesome CSS -->  
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
           
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -55,7 +57,14 @@
                     <div class="header-left">
                         <ul>
                             <li class="logo"><a href="#"><img src="assets/images/logo.png" alt="logo"></a></li>
-                            <li class="search-bar"><i class="fa fa-search"></i></li>
+                            <li class="search-bar"><i class="fa fa-search"></i>
+                                <div class="saerch-form">
+                                    <form action="index.html">
+                                        <input type="text" placeholder="Search Keywords..." required>
+                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -73,7 +82,7 @@
                     <div class="header-right text-right">
                         <ul>
                             <li><a href="#" class="border-btn">SIGN IN</a></li>
-                            <li class="cart"><i class="fa fa-shopping-cart"></i> your cart</li>
+                            <li class="cart"><a href="#"><i class="fa fa-shopping-cart"></i> your cart</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,10 +91,10 @@
     </div>
                  
     <div class="hero-wrap">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-7">
-                    <div class="hero-bg">
+                    <div class="hero-bg overlay">
                         <div class="hero-text">
                             <h1>feel invicible</h1>
                             <p>Clothing designed specifically to help you perform outdoors</p>
@@ -93,18 +102,18 @@
                     </div>
                 </div>
                 <div class="col-md-5 hero-right">
-                    <div class="hero-bg hero-half right-bg-1">
+                    <div class="hero-bg hero-half right-bg-1 overlay">
                         <div class="hero-right-text">
                             <h2>shop men</h2>
-                            <a href="#" class="hero-icon">
+                            <a href="index.html" class="hero-icon">
                                 <i class="fa fa-play"></i>
                             </a>
                         </div>
                     </div>
-                    <div class="hero-bg hero-half right-bg-2">
+                    <div class="hero-bg hero-half right-bg-2 overlay">
                         <div class="hero-right-text">
                             <h2>shop men</h2>
-                            <a href="#" class="hero-icon">
+                            <a href="index.html" class="hero-icon">
                                 <i class="fa fa-play"></i>
                             </a>
                         </div>
@@ -114,7 +123,7 @@
         </div>
     </div>
 
-   <div class="feature-area section-padding">
+   <div class="feature-area section-padding overlay">
        <div class="container">
            <div class="row text-center">
                 <div class="col-sm-10 col-sm-offset-1">
@@ -156,32 +165,33 @@
                </div>
            </div>
 
-           <div class="row">
-               <div class="col-md-3">
+           <div class="row featured-wrap">
+               <div class="col-md-3 text-center">
                    <div class="feature-title">
                        <h2>featured<br> products</h2>
-                       <p>Best OCR Gear on the planet</p>
+                       <p>Best OCR Gear <br>on the planet</p>
+                       <div class="scroll-feature"></div>
                    </div>
                </div>
                <div class="col-md-9">
                    <div class="feature-carousel-list">
                        <div class="feature-carousel-item feature-bg-1">
-                           <div class="feature-content">
+                           <div class="feature-content overlay">
                                <h3>Element Shorts <span>$54.00</span></h3>
                            </div>
                        </div>
                        <div class="feature-carousel-item feature-bg-2">
-                           <div class="feature-content">
+                           <div class="feature-content overlay">
                                <h3>Element Shorts <span>$54.00</span></h3>
                            </div>
                        </div>
                        <div class="feature-carousel-item feature-bg-3">
-                           <div class="feature-content">
+                           <div class="feature-content overlay">
                                <h3>Element Shorts <span>$54.00</span></h3>
                            </div>
                        </div>
                        <div class="feature-carousel-item feature-bg-4">
-                           <div class="feature-content">
+                           <div class="feature-content overlay">
                                <h3>Element Shorts <span>$54.00</span></h3>
                            </div>
                        </div>
@@ -191,9 +201,9 @@
        </div>
    </div>
    
-    <div class="human-area section-padding">
+    <div class="human-area section-padding overlay">
         <div class="container">
-            <div class="row">
+            <div class="row text-center">
                 <div class="section-title">
                     <h2>Why human octane?</h2>
                     <p>FIERCE, FAST AND F#CKING AWESOME</p>
@@ -205,9 +215,9 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="human-bg">
-                                <div class="human-icon">
+                                <a href="index.html" class="human-icon">
                                     <i class="fa fa-play"></i>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -215,13 +225,17 @@
                             <p>Everything we do at Human Octane is driven by giving you that feeling.</p>
                         </div>
                     </div>
-                    <a href="#" class="boxed-btn text-center">more about why we do this</a>
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <a href="#" class="boxed-btn">more about why we do this</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="testimonial-area">
+    <div class="testimonial-area section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -230,7 +244,7 @@
                     </div>
                     <div class="testimonial-list-carousel">
                         <div class="single-testimonial-item">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nostrum ea nulla repellat. Quos aspernatur delectus dolore tempore, vel voluptate. Quasi id rem harum enim placeat, asperiores magni! Reprehenderit, alias!</p>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nostrum ea nulla repellat. Quos aspernatur delectus dolore tempore, vel voluptate. Quasi id rem harum enim placeat, asperiores magni! Reprehenderit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quisquam est aspernatur, modi aperiam dolor. "</p>
                             <div class="testimonial-avatar">
                                 <img src="assets/images/9.jpg" alt="avatar">
                                 <div class="avatar-info">
@@ -245,39 +259,46 @@
                         <h2>latest on building badass</h2>
                     </div>
                     <div class="row">
-                       <div class="col-md-5">
-                           <div class="latest-bg latest-bg-1"></div>
-                       </div>
-                       <div class="col-md-7">
+                        <div class="col-md-5">
+                            <div class="latest-bg latest-bg-1"></div>
+                        </div>
+                        <div class="col-md-7">
                            <div class="latest-content">
                                <h3>The Power of Balance</h3>
                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, inventore!</p>
                                <a href="#" class="read-more-btn">read more</a>
                            </div>
-                       </div>
-                       <div class="col-md-5">
-                           <div class="latest-bg latest-bg-2"></div>
-                       </div>
-                       <div class="col-md-7">
+                        </div>   
+                    </div>
+                    <div style="height: 30px;"></div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="latest-bg latest-bg-1"></div>
+                        </div>
+                        <div class="col-md-7">
                            <div class="latest-content">
-                               <h3>The Boss' Training Run</h3>
+                               <h3>The Power of Balance</h3>
                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, inventore!</p>
                                <a href="#" class="read-more-btn">read more</a>
                            </div>
-                       </div>
-                   </div>   
+                        </div>   
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
    
 
-    <div class="feature-stories-area section-padding">
+    <div class="feature-stories-area section-padding padding-top-0">
+        <div class="feature-absolute-bg"></div>
         <div class="container">
             <div class="row">
                <div class="col-md-9">
-                   <h2>featured stories</h2>
-                   <p>where moments are build</p>
+                    <div class="section-title">
+                       <h2>featured stories</h2>
+                       <p>where moments are build</p>
+                    </div>
                </div>
                <div class="col-md-3 text-right">
                    <a href="#" class="boxed-btn">view all stories</a>
@@ -287,10 +308,10 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="single-feature-stories">
-                        <div class="feature-stories stories-bg-1">
-                            <div class="stories-icon">
+                        <div class="feature-stories stories-bg-1 overlay">
+                            <a href="https://www.youtube.com/watch?v=9piIwBat1i4" class="stories-icon mfp-iframe">
                                 <img src="assets/images/video-play.png" alt="icon">
-                            </div>
+                            </a>
                         </div>
                         <h3>John Doe</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
@@ -299,10 +320,10 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="single-feature-stories">
-                        <div class="feature-stories stories-bg-2">
-                            <div class="stories-icon">
+                        <div class="feature-stories stories-bg-2 overlay">
+                            <a href="https://www.youtube.com/watch?v=9piIwBat1i4" class="stories-icon mfp-iframe">
                                 <img src="assets/images/video-play.png" alt="icon">
-                            </div>
+                            </a>
                         </div>
                         <h3>John Doe</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
@@ -311,10 +332,10 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="single-feature-stories">
-                        <div class="feature-stories stories-bg-3">
-                            <div class="stories-icon">
+                        <div class="feature-stories stories-bg-3 overlay">
+                            <a href="https://www.youtube.com/watch?v=9piIwBat1i4" class="stories-icon mfp-iframe">
                                 <img src="assets/images/video-play.png" alt="icon">
-                            </div>
+                            </a>
                         </div>
                         <h3>John Doe</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
@@ -328,7 +349,7 @@
     <div class="subscribe-area section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-7">
                     <h2>SIGN UP FOR OUR NEWSLETTER. SPECIAL OFFERS.  PRODUCT UPDATES.  COOL SHIT.</h2>
                     <div class="subscribe-form">
                         <form action="index.html">
@@ -342,7 +363,7 @@
         </div>
     </div>
 
-    <footer class="footer-area section-padding">
+    <footer class="footer-area section-padding overlay">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
@@ -417,10 +438,15 @@
  
      
    <!--Bootstrap JS-->
-	<script src="assets/js/bootstrap.3.3.7.min.js"></script>
+    <script src="assets/js/bootstrap.3.3.7.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
 	
 	<!--Active Custom JS-->
 	<script src="assets/js/active.js"></script>
 	
 </body>
 </html> 
+
+
+
