@@ -387,3 +387,9 @@ input {
   line-height: 31px;
 }
 
+.content-sec .row {
+  margin: 0 -5px;
+}
+.content-sec .row .col-md-8, .content-sec .row .col-md-4 {
+  padding: 0 5px;
+}
