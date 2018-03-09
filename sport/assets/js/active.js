@@ -12,7 +12,9 @@
             dots: true,
             nav: false
         });
-        
+
+        //slick menu active
+        $("#slick-menu").slicknav();
       
         
     });

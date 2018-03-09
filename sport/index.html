@@ -12,7 +12,7 @@
     <title>Title here</title>
     
     <!--theme favicon-->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
 
     <!-- Bootstrap CSS -->    
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -20,6 +20,7 @@
     <!-- FontAwesome CSS -->  
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
           
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -39,84 +40,89 @@
  </head>
  <body>
 
-   <header class="header-wrap">
-       <div class="header-top">
-           <div class="container">
-               <div class="row">
-                   <div class="col-md-12">
-                       <nav class="top-menu">
-                            <ul>
-                               <li><a href="#"><i class="fa fa-skype"></i> cs_aseangol</a></li>
-                               <li><a href="#"><i class="fa fa-skype"></i> cs_aseangol</a></li>
-                               <li><a href="#"><i class="fa fa-skype"></i> cs_aseangol</a></li>
-                               <li><a href="#"><i class="fa fa-skype"></i> cs_aseangol</a></li>
-                               <li><a href="#"><i class="fa fa-skype"></i> cs_aseangol</a></li>
-                               <li><a href="#"><i class="fa fa-skype"></i> Live_chat</a></li>
-                            </ul>
-                       </nav>
-                   </div>
+<!-- header to start -->
+   <div class="header-top">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                   <nav class="top-menu">
+                        <ul>
+                           <li><a href="#"><i class="fa fa-skype"></i> cs_aseangol</a></li>
+                           <li><a href="#"><i class="fa fa-skype"></i> cs_aseangol</a></li>
+                           <li><a href="#"><i class="fa fa-skype"></i> cs_aseangol</a></li>
+                           <li><a href="#"><i class="fa fa-skype"></i> cs_aseangol</a></li>
+                           <li><a href="#"><i class="fa fa-skype"></i> cs_aseangol</a></li>
+                           <li><a href="#"><i class="fa fa-skype"></i> Live_chat</a></li>
+                        </ul>
+                   </nav>
                </div>
            </div>
        </div>
-       
-       <div class="header-middle">
-           <div class="container">
-               <div class="row">
-                   <div class="col-md-4">
-                       <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="logo"></a></div>
+   </div>
+    <!-- header to End -->
+   
+   <!-- header to middle -->
+   <div class="header-middle">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-4">
+                   <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="logo"></a></div>
+               </div>
+               <div class="col-md-8">
+                   <div class="login-form">
+                       <form action="index.html">
+                           <div class="row">
+                               <div class="col-md-6">
+                                   <input type="text" name="name" placeholder="User Name" required>
+                               </div>
+                               <div class="col-md-6">
+                                   <input type="password" name="password" placeholder="User Name" required>
+                               </div>
+                               <div class="col-md-6">
+                                   <input type="text" name="capcha" placeholder="">
+                               </div>
+                               <div class="col-md-6">
+                                   <input type="submit" value="login">
+                               </div>
+                            </div>
+                       </form>
+                       <button type="submit">dafter</button>
                    </div>
-                   <div class="col-md-8">
-                       <div class="login-form">
-                           <form action="index.html">
-                               <div class="row">
-                                   <div class="col-md-6">
-                                       <input type="text" name="name" placeholder="User Name" required>
-                                   </div>
-                                   <div class="col-md-6">
-                                       <input type="password" name="password" placeholder="User Name" required>
-                                   </div>
-                                   <div class="col-md-6">
-                                       <input type="text" name="capcha" placeholder="">
-                                   </div>
-                                   <div class="col-md-6">
-                                       <input type="submit" value="login">
-                                   </div>
-                                </div>
-                           </form>
-                           <button type="submit">dafter</button>
-                       </div>
 
-                   </div>
                </div>
            </div>
        </div>
+   </div>
+    <!-- header to ENd -->
 
-        <div class="header-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <nav class="mainmenu">
-                               <ul>
-                                   <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-                                   <li><a href="#">sport</a></li>
-                                   <li><a href="#">crown855</a></li>
-                                   <li><a href="#">gd88</a></li>
-                                   <li><a href="#">Tankas</a></li>
-                                   <li><a href="#">slot</a></li>
-                                   <li><a href="#">poker</a></li>
-                                   <li><a href="#">keno 5</a></li>
-                                   <li><a href="#">togel</a></li>
-                                   <li><a href="#">live chat</a></li>
-                                   <li><a href="#">promo <span>hot</span></a></li>
-                                   <li><a href="#">download</a></li>
-                               </ul>
-                           </nav>   
-                    </div>
+     <!-- header area start -->
+    <div class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="mainmenu">
+                           <ul id="slick-menu"">
+                               <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                               <li><a href="#">sport</a></li>
+                               <li><a href="#">crown855</a></li>
+                               <li><a href="#">gd88</a></li>
+                               <li><a href="#">Tankas</a></li>
+                               <li><a href="#">slot</a></li>
+                               <li><a href="#">poker</a></li>
+                               <li><a href="#">keno 5</a></li>
+                               <li><a href="#">togel</a></li>
+                               <li class="chat-colored"><a href="#">live chat</a></li>
+                               <li><a href="#">promo <span class="hot">hot</span></a></li>
+                               <li><a href="#">download</a></li>
+                           </ul>
+                       </nav>   
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+     <!-- header area End -->
     
+     <!-- promo start -->
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -130,7 +136,10 @@
             </div>
         </div>
     </div>
+    <!-- promo End -->
 
+    
+     <!-- slider sec start -->
    <div class="slider-sec">
        <div class="container">
            <div class="row">
@@ -139,6 +148,7 @@
                        <div class="single-slide-item slide-bg-1"></div>
                        <div class="single-slide-item slide-bg-2"></div>
                        <div class="single-slide-item slide-bg-3"></div>
+                       <div class="single-slide-item slide-bg-4"></div>
                    </div>
                </div>
                <div class="col-md-4">
@@ -242,37 +252,47 @@
            </div>
        </div>
    </div>
-   
+    <!-- slider sec End -->
+
+
+    <!-- banner add start -->
    <div class="container">
        <div class="row">
            <div class="col-md-12">
-                <a href="#" class="full-width-banner"><img src="assets/img/full-width-banner.png" alt="banner"></a>
-                <p class="currency">Rp. $1.000.000.0000.000</p>
+                <a href="#" class="full-width-banner">
+                    <img src="assets/img/full-width-banner.png" alt="banner">
+                    <p class="currency">Rp. $1.000.000.0000.000</p>
+                </a>
+                
             </div>
         </div>
    </div>
+    <!-- banner add End -->
 
+    <!-- banner list add start -->
    <div class="container">
        <div class="row">
            <div class="col-md-12">
                <div class="banner-list-wrap">
                    <a href="#"><img src="assets/img/sportsbook.png" alt="banner list"></a>
-                   <a href="#"><img src="assets/img/sportsbook.png" alt="banner list"></a>
-                   <a href="#"><img src="assets/img/sportsbook.png" alt="banner list"></a>
-                   <a href="#"><img src="assets/img/sportsbook.png" alt="banner list"></a>
-                   <a href="#"><img src="assets/img/sportsbook.png" alt="banner list"></a>
-                   <a href="#"><img src="assets/img/sportsbook.png" alt="banner list"></a>
+                   <a href="#"><img src="assets/img/poker.png" alt="banner list"></a>
+                   <a href="#"><img src="assets/img/casino.png" alt="banner list"></a>
+                   <a href="#"><img src="assets/img/tangkas.png" alt="banner list"></a>
+                   <a href="#"><img src="assets/img/slot.png" alt="banner list"></a>
+                   <a href="#"><img src="assets/img/keno & togel.png" alt="banner list"></a>
                </div> 
             </div>
         </div>
    </div>
+    <!-- banner list add End -->
 
+    <!-- content sec start -->
    <div class="content-sec">
        <div class="container">
            <div class="row">
                <div class="col-md-8">
                   <div class="content-wrap">
-                      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                      <h3>Lorem ipsum dolor sit amet, consectetur adipisi.</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident obcaecati aliquid praesentium, itaque beatae asperiores soluta enim, officia sit odit hic repellendus iste assumenda aliquam incidunt eveniet, inventore tempora, aperiam corrupti! Nam quasi dignissimos nihil nisi temporibus. Vitae consequuntur temporibus odio aspernatur aliquam iste pariatur id laudantium, iusto. Sunt, ipsum!</p>
                   </div>
                 </div>
@@ -289,25 +309,26 @@
             </div>
        </div>
    </div>
+    <!-- content sec end -->
 
-
+    <!-- Footer start -->
    <footer>
        <div class="container">
            <div class="row">
                 <div class="col-md-12">
                     <div class="footer-area">
                         <div class="row">
-                           <div class="col-md-6">
+                           <div class="col-sm-6">
                                 <div class="social-links">
                                     <ul>
                                         <li><a href="#"><img src="assets/img/fb.png" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/img/g.png" alt=""></a></li>
+                                        <li><a href="#"><img src="assets/img/g+.png" alt=""></a></li>
                                         <li><a href="#"><img src="assets/img/ig.png" alt=""></a></li>
                                         <li><a href="#"><img src="assets/img/fb.png" alt=""></a></li>
                                     </ul>
                                 </div>
                             </div>
-                           <div class="col-md-6 text-right">
+                           <div class="col-sm-6 text-right">
                                 <p>&copy; all right reserved by 2018</p>
                             </div>
                         </div>
@@ -316,12 +337,13 @@
             </div>
         </div>
    </footer> 
-
+    <!-- Footer End -->
    
      
    <!--Bootstrap JS-->
     <script src="assets/js/bootstrap.3.3.7.min.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.slicknav.min.js"></script>
 	
 	<!--Active Custom JS-->
 	<script src="assets/js/active.js"></script>
