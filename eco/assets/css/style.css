@@ -258,13 +258,11 @@ h6{
     min-height: 490px;
 }
 
-
 .tab-list {
-  max-width: 600px;
-  border-bottom: 2px solid #F1F2F8;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+    border-bottom: 2px solid #F1F2F8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
 }
 .tab-list li {
   display: inline-block;
