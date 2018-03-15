@@ -1,0 +1,298 @@
+/*======================
+    Base Css
+=======================*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: auto;
+}
+
+body {
+    max-height: 100%;
+    font-weight: 400;
+    transition: all .2s ease;
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+    background: #F4F5FB;
+}
+
+a, 
+a:hover,
+a:focus,
+a:active
+{outline: none;
+text-decoration: none;
+ transition: all .2s ease;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-ms-transition: all .2s ease;
+-o-transition: all .2s ease;
+}
+a:focus,
+textarea:focus,
+input:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+.fix{
+    overflow: hidden;
+}
+.fix-x{
+    overflow-x: hidden;
+}
+.fix-y{
+    overflow-y: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 20px;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.section-title{
+    margin-bottom: 80px;
+}
+
+
+.header-area {
+  background: #343645;
+  position: relative;
+}
+.logo {
+    max-height: 70px;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: 9;
+}
+.logo img {
+  height: 70px;
+  width: auto;
+}
+.mainmenu {
+  position: relative;
+}
+.mainmenu li {
+  display: inline-block;
+}
+
+.mainmenu li a, .page-link-absolute-menu a {
+  display: block;
+  color: #D2D3DA;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 25px;
+}
+.page-link-absolute-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+.page-link-absolute-menu a {
+    border-left: 1px solid #434352;
+    padding: 25px 15px;
+}
+
+.searchbar-area h2 {
+  color: #000;
+  font-size: 29px;
+  margin:10px 0;
+}
+
+.search-icon {
+  color: #666EE8;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+}
+.searchbar-wrap {
+  border-bottom: 1px solid #F2F3F7;
+  padding: 25px 0px;
+}
+.searchbar-area {
+    background: #fff;
+    margin-top: 15px;
+}
+.product-content h3 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+.product-content h3 span {
+    color: #000;
+    font-size: 14px;
+    display: block;
+}
+.product-price {
+    color: #646AEC;
+    font-size: 14px;
+    position: relative;
+    background: #FBFDFF;
+    padding: 15px 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    border-top: 2px solid #F8FAFD;
+}
+.product-price .previous-price{
+  color: #A5A8B8;
+  margin-left: 10px;
+  position: relative;
+}
+.product-price .previous-price::after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: #A5A8B8;
+    content: "";
+    transform: translatey(-50%);
+}
+.discount-price{
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+}
+.web-address {
+  color:#9197AA;
+  font-size: 12px;
+}
+.discount-price {
+    border-radius: 0px;
+    background: #464855;
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px 15px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 13px;
+}
+.single-product-box {
+    background: #fff;
+    padding: 0 20px;
+    transition: .3s;
+}
+
+
+.product-wrap {
+    width: 100%;
+    height: 350px;
+    display: table;
+    background: transparent;
+    transition: .3s;
+    position: relative;
+    z-index: 1;
+    transform: scaleY(1);
+}
+.product-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.single-product-box:hover .product-wrap {
+  background: #B8BBC0;
+  transform: scaleY(.8);
+}
+.single-product-box:hover {
+    padding-top: 20px;
+}
+.product-wrap::after {
+    position: absolute;
+    left: 0;
+    top: -10%;
+    width: 100%;
+    height: 120%;
+    content: "";
+    border: 5px solid #35BBFE;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.single-product-box:hover .product-wrap::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.product-content {
+  transition: .3s;
+}
+.product-section-area {
+  padding: 0 20px;
+}
+.single-product-box{
+    min-height: 470px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 30px;
+}
+.single-product-box:hover{
+    min-height: 490px;
+}
+
+
+.tab-list {
+  max-width: 600px;
+  border-bottom: 2px solid #F1F2F8;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.tab-list li {
+  display: inline-block;
+}
+.tab-list li a {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 400;
+  display: block;
+  padding: 10px 40px;
+  transition: .3s;
+  position: relative;
+}
+.tab-list li a::after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  background: #CACEF8;
+  content: "";
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s
+    
+}
+.tab-list li.active a::after{
+  opacity: 1;
+  visibility: visible;
+}
