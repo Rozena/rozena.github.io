@@ -95,7 +95,9 @@ li{
     padding: 12px;
     cursor: pointer;
 }
-
+.slicknav_menu {
+    display:none;
+}
 .header-area {
     padding:  34px 0;
 }
@@ -112,43 +114,75 @@ li{
 }
 
 .player-pot-area p {
-    font-size:  15px;
+    font-size:  15px;    
+    margin: 0;
 }
 
 
 .participent-list-carousel {
     background: #130F19;
-    margin-top: 30px;padding: 20px 0;
+    margin-top: 30px;
 }
 
-.single-player{
-    background-image: url(../images/player.jpg);
-    height: 92px;width: 92px;
-    border-radius: 50%;
-    position:  relative;
-    z-index: 1;    
-    border: 1px solid #5B5D62;
+.single-player {
+    display:  table;
+    width:  100%;
+    height: 130px;
+    position: relative;
 }
 
-
-.single-player.active:after {
-    position: absolute;
-    content: "";
-    background: rgba(255,217,0,.31);
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+.single-player-inner {
+    display:  table-cell;
+    vertical-align:  middle;
+    width:  100%;
 }
+
 
 participent-list-carousel, .owl-carousel .owl-item img {
     display: block;
     width: auto;
     height: auto;
-}
-.single-player.active {
-    border:  3px solid #FFD900;
+    margin: 0 auto;
 }
 
+
+
+.single-player img {
+    border-radius:  50%;
+    border: 1px solid #353744;
+}
+.single-player.active img {
+    border: 3px solid #FFA91E;
+}
+.line-winner {
+    width: 2px;
+    height: 110px;
+    background: #F29521;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 8px;
+    z-index: 99;
+}
+.single-player.active {
+    position:  relative;
+}
+
+.line-winner:before,.line-winner:after {
+    position:  absolute;
+    left:  -6px;
+    top:  -8px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom:12px solid #F29521;   
+    content:""
+}
+.line-winner:after {
+    top: auto;
+    bottom: -8px;
+    transform: rotate(60deg);
+    left: -5px;
+}
 
 .winner-player {
     font-weight:  700;
@@ -221,6 +255,23 @@ hr {
     border-radius:  50%;
     margin:  0 0 10px;
 }
+.owl-nav div {
+    position:  absolute;
+    top:  50%;
+    transform: translateY(-50%);
+    left:  -30px;
+    font-size: 40px;
+}
+
+.owl-nav .owl-next {
+    left:  auto;
+    right: -30px;
+}
+
+.massage-box {
+    margin-top: 50px;
+}
+
 
 .single-player-box p {
     color:  #fff;
@@ -234,7 +285,9 @@ hr {
     background: #130F19;    
     padding: 20px 0;
 }
-
+.player-list-carousel {
+    padding: 15px 0;
+}
 .special-player img {
     float:  left;
     width:  65px;
@@ -274,6 +327,7 @@ hr {
     right:  0;
     top: 12px;
     padding:  8px;
+    color: #62636B;
 }
 .gun-number {
     padding: 5px!important;
@@ -283,19 +337,27 @@ hr {
 
 /* offcanbar menu*/
 
-.admin img {
-    width:  92px;
-    height:  92px;
-    border-radius:  50%;
-    margin: 20px 20px 10px 20px;
-}
+
 .offcanbar-admin-box {
     position: fixed;
     width: 300px;
     background: #0D0F1C;
     z-index: 99;
-    right: 0;
+    right: -300px;
     top: 0;
+    height: 100%;
+    padding: 20px;
+    transition: .3s;
+    opacity: 0;visibility: hidden;
+}
+.offcanbar-menu-show{
+    right: 0;opacity: 1;visibility: visible;
+}
+.admin img {
+    width:  92px;
+    height:  92px;
+    border-radius:  50%;
+    margin: 20px 20px 10px 20px;
 }
 .admin {
     text-align:  center;
@@ -355,10 +417,9 @@ hr {
 }
 
 .admin-chat-box {
-    padding: 10px 20px;
     line-height:  17px;
     position:  relative;
-    margin-top: 10px;
+     margin-top: 40px;
 }
 .admin-chat-box p {
     font-size:  10px;
@@ -368,4 +429,16 @@ hr {
     position:  absolute;
     right: 20px;
     bottom: 10px;
+}
+.massage-box input {
+    background:  #121420;
+    border:  none;
+    padding: 12px;
+    width:  100%;
+    color:#fff;
+}
+.offcanbar-menu-close {cursor:  pointer;display:  inline-block;padding: 10px;color:  #fff;font-size:  20px;position:  absolute;top:  0;left:  0;transition:  .3s;}
+
+.offcanbar-menu-close:hover {
+    opacity: .7;
 }
