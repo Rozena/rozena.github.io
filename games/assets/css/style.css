@@ -1,0 +1,371 @@
+/*======================
+    Base Css
+=======================*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,400i,600,600i,700,700i');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: auto;
+}
+
+body {
+    max-height: 100%;
+    font-weight: 400;
+    transition: all .2s ease;
+    font-family: 'Titillium Web', sans-serif;
+    color: #6D6E73;
+    background: #161825;
+    font-size: 15px;
+}
+
+a, 
+a:hover,
+a:focus,
+a:active
+{outline: none;
+text-decoration: none;
+ transition: all .2s ease;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-ms-transition: all .2s ease;
+-o-transition: all .2s ease;
+}
+a:focus,
+textarea:focus,
+input:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+.fix{
+    overflow: hidden;
+}
+.fix-x{
+    overflow-x: hidden;
+}
+.fix-y{
+    overflow-y: hidden;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 20px;
+}
+.section-padding{
+    padding: 100px 0;
+}
+
+ul{
+    margin: 0;padding: 0;list-style: none;
+}
+li{
+    display: inline-block;position: relative;
+}
+.logo img {max-height:  65px;}
+
+.mainmenu {
+    position:  relative;
+}
+
+.mainmenu li a {
+    display:  block;
+    padding: 22px 30px;
+    color:  #6D6E73;
+}
+.mainmenu li a i.fa {
+    padding-right: 10px;
+}
+.sidebar-icon {
+    position:  absolute;
+    right:  0;
+    top: 8px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.header-area {
+    padding:  34px 0;
+}
+.player-pot-area li:last-child {
+    padding: 0 50px;
+}
+
+.player-pot-area {
+    font-size:  20px;
+}
+
+.player-pot-area li span {
+    color:  #D79E1D;
+}
+
+.player-pot-area p {
+    font-size:  15px;
+}
+
+
+.participent-list-carousel {
+    background: #130F19;
+    margin-top: 30px;padding: 20px 0;
+}
+
+.single-player{
+    background-image: url(../images/player.jpg);
+    height: 92px;width: 92px;
+    border-radius: 50%;
+    position:  relative;
+    z-index: 1;    
+    border: 1px solid #5B5D62;
+}
+
+
+.single-player.active:after {
+    position: absolute;
+    content: "";
+    background: rgba(255,217,0,.31);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+participent-list-carousel, .owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+    height: auto;
+}
+.single-player.active {
+    border:  3px solid #FFD900;
+}
+
+
+.winner-player {
+    font-weight:  700;
+    color:  #fff;
+}
+
+.winner-player span {
+    color:  #FFA91E;
+}
+
+.winner-player {
+    padding: 25px 0 0px;
+}
+
+hr {
+    border-top: 1px solid #333540;
+    margin: 30px 0 20px;
+}
+.section-title {
+    margin: 0;
+    float: left;
+    position: relative;
+    top: 18px;
+    color: #98999C;
+    font-weight: 600;
+    background: #161825!important;
+    padding-right: 12px;
+}
+.single-gun-item {
+    border:  1px solid #343641;
+    padding: 12px;
+    text-align:  center;
+}
+
+.gun-wrap {
+    height: 90px;
+    display:  table;
+    width:  100%;
+}
+
+.gun-inner {
+    display:  table-cell;
+    vertical-align:  middle;
+    width:  100%;
+}
+
+.single-gun-item h5 {
+    font-size:  15px;
+    color:  #fff;
+    line-height:  24px;
+    margin:  0;
+}
+
+.single-gun-item h5 span {
+    font-size:  80%;
+    color: #707175;
+}
+
+.gun-price {
+    color:  #BD8B20;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding: 0 1px;
+}
+
+.single-player-box img {
+    width: 92px;
+    height:  92px;
+    border-radius:  50%;
+    margin:  0 0 10px;
+}
+
+.single-player-box p {
+    color:  #fff;
+}
+
+.single-player-box span {
+    color: #A67C1D;
+    display:  block;
+}
+.special-player-list {
+    background: #130F19;    
+    padding: 20px 0;
+}
+
+.special-player img {
+    float:  left;
+    width:  65px;
+    height:  65px;
+    border-radius:  50%;
+    margin-right:  20px;
+}
+
+.special-player strong {color:  #fff;font-size: 18px;}
+
+.special-player h5 {
+    position: relative;
+    top: 15px;
+}
+.special-player p {
+    color: #939394;
+    font-weight: 600;
+}
+
+.special-player span {
+    color:  #BF8B1B;
+}
+
+.gun-list img {
+    max-height: 30px;
+}
+
+.gun-list ul li {padding: 5px;}
+
+.gun-list {
+    position: relative;
+    padding: 14px 0;
+}
+
+.gun-list-icon {
+    position:  absolute;
+    right:  0;
+    top: 12px;
+    padding:  8px;
+}
+.gun-number {
+    padding: 5px!important;
+}
+
+
+
+/* offcanbar menu*/
+
+.admin img {
+    width:  92px;
+    height:  92px;
+    border-radius:  50%;
+    margin: 20px 20px 10px 20px;
+}
+.offcanbar-admin-box {
+    position: fixed;
+    width: 300px;
+    background: #0D0F1C;
+    z-index: 99;
+    right: 0;
+    top: 0;
+}
+.admin {
+    text-align:  center;
+}
+
+.admin i.fa {font-size:  18px;}
+.admin h5 {
+    color:  #fff;
+    font-weight:  700;
+    line-height: 25px;
+}
+
+.admin h5 span {
+    display:  block;
+    color:  #6C6C71;
+    font-weight:  normal;
+}
+
+.admin-feature {
+    color:  #fff;
+    text-align: center;    
+    margin: 0 0 30px;
+}
+
+.admin-feature i.fa {
+    color:  #3C3E4C;
+    padding-left:  13px;
+    padding-right:  5px;
+}
+
+.admin-feature li:last-child:after {
+    position:  absolute;
+    right: -16px;
+    top: 2px;
+    content: "\f10e";
+    font-family:  fontAwesome;
+    font-size: 10px;
+    color:  #565867;
+}
+
+.admin-chat-box img {
+    width:  45px;
+    height:  45px;
+    border-radius:  50%;
+    float:  left;
+    margin-right:  10px;
+}
+
+.admin-chat-box h5 {
+    color:  #fff;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.admin-chat-box h5 span {
+    color:  #AD6D1F;
+}
+
+.admin-chat-box {
+    padding: 10px 20px;
+    line-height:  17px;
+    position:  relative;
+    margin-top: 10px;
+}
+.admin-chat-box p {
+    font-size:  10px;
+}
+
+.time {
+    position:  absolute;
+    right: 20px;
+    bottom: 10px;
+}
