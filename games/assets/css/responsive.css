@@ -1,7 +1,7 @@
 /*===============================
     desktop/leptop layout.
 ===============================*/
-@media only screen and (min-width:991px) and (max-width:1199px) {
+@media only screen and (min-width:768px) and (max-width:999px) {
 .gun-list ul li {
     padding: 0;
 }

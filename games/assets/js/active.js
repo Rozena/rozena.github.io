@@ -48,9 +48,6 @@
 			    },
 			    992 : {
 	        		items: 6
-			    },
-			    1170 : {
-	        		items: 7
 			    }
 			}
 
@@ -87,15 +84,7 @@
 
         });
 
-		const ps = new PerfectScrollbar('.offcanbar-admin-box');
-
-		$(".sidebar-icon").on('click', function() {
-			$(".offcanbar-admin-box").addClass("offcanbar-menu-show");
-		});
-		$(".offcanbar-menu-close").on('click', function() {
-			$(".offcanbar-admin-box").removeClass("offcanbar-menu-show");
-		});
-
+		const ps = new PerfectScrollbar('.sidebar-admin-box');
 
 		$('#menu').slicknav({
 			prependTo:'#mobilemenu-active'
