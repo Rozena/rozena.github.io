@@ -17,7 +17,7 @@
             `;
         });    
 
-        $(".portfolio-project-wrap").owlCarousel({
+        $(".portfolio-wrap").owlCarousel({
             items: 1,
             loop: true,
             autoplay: false,
