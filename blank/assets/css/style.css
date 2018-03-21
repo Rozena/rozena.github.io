@@ -168,16 +168,6 @@ textarea {
     border: 1px solid #E2E4E4;
 }
 
-input[type="submit"],
-button[type="submit"] {
-    background: #3372E9;
-    border: none;
-    color: #fff;
-    width: 100%;
-    padding: 14px;
-    color: #d1d1d1;
-    font-weight: 500;
-}
 
 
 /* =================== header area css ====================== */
@@ -513,6 +503,117 @@ button[type="submit"] {
     margin: 0 0 10px;
 }
 
+
+
+/* =================== footer area css =================== */
+.footer-area {
+    background: #1E1E1E;
+    padding: 95px 0 0;
+}
+
+.footer-area h4 {
+    color: #d1d1d1;
+    font-size: 15px;
+    margin: 0 0 50px;
+}
+
+.partners-logo a {
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.partners-logo img {
+    max-height: 25px;
+}
+
+.quote-form {
+    background: #1E1E1E;
+    box-shadow: 0 1px 10px #111;
+    position: relative;
+    top: -140px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.quote-form form {
+    padding: 25px;
+}
+
+.quote-form h3 {
+    font-size: 22px;
+    color: #d1d1d1;
+    padding-top: 40px;
+}
+
+.quote-form input {
+    background: #3B3B3B;
+    border-color: transparent;
+}
+
+.quote-form input[type="number"] {
+    margin-top: 10px;
+}
+
+.quote-form .row {
+    margin: -5px;
+}
+
+.quote-form .row .col-md-6,
+.quote-form .row .col-md-12 {
+    padding: 5px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    background: #3372E9;
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding: 14px;
+    color: #d1d1d1;
+    font-weight: 500;
+}
+
+.quote-form input[type="submit"] {
+    border-radius: 0 0 5px 5px;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.copysection {
+    background: #181717;
+    padding-top: 50px;
+}
+
+.copysection ul li {
+    color: #9b9b9b;
+    font-size: 22px;
+}
+
+.copysection ul li i.fa {
+    color: #fff;
+    font-size: 26px;
+    padding-left: 30px;
+    padding-right: 10px;
+    position: relative;
+    top: 3px;
+}
+
+.copysection ul {
+    padding: 7px 0;
+}
+
+.copytext {
+    border-top: 1px solid #292828;
+    padding: 30px 0;
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #fff;
+}
+
+
 /* ================= form box modal css ====================== */
 .form-box {
     padding: 30px;
@@ -607,107 +708,6 @@ label span {
     font-weight: 400;
     font-size: 18px;
 }
-
-
-/* =================== footer area css =================== */
-.footer-area {
-    background: #1E1E1E;
-    padding: 95px 0 0;
-}
-
-.footer-area h4 {
-    color: #d1d1d1;
-    font-size: 15px;
-    margin: 0 0 50px;
-}
-
-.partners-logo a {
-    padding: 10px;
-    margin: 10px 0;
-    display: inline-block;
-}
-
-.partners-logo img {
-    max-height: 25px;
-}
-
-.quote-form {
-    background: #1E1E1E;
-    box-shadow: 0 1px 10px #111;
-    position: relative;
-    top: -140px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.quote-form form {
-    padding: 25px;
-}
-
-.quote-form h3 {
-    font-size: 22px;
-    color: #d1d1d1;
-    padding-top: 40px;
-}
-
-.quote-form input {
-    background: #3B3B3B;
-    border-color: transparent;
-}
-
-.quote-form input[type="number"] {
-    margin-top: 10px;
-}
-
-.quote-form .row {
-    margin: -5px;
-}
-
-.quote-form .row .col-md-6,
-.quote-form .row .col-md-12 {
-    padding: 5px;
-}
-
-
-.quote-form input[type="submit"] {
-    border-radius: 0 0 5px 5px;
-    margin-top: 20px;
-    transition: .3s;
-}
-
-.copysection {
-    background: #181717;
-    padding-top: 50px;
-}
-
-.copysection ul li {
-    color: #9b9b9b;
-    font-size: 22px;
-}
-
-.copysection ul li i.fa {
-    color: #fff;
-    font-size: 26px;
-    padding-left: 30px;
-    padding-right: 10px;
-    position: relative;
-    top: 3px;
-}
-
-.copysection ul {
-    padding: 7px 0;
-}
-
-.copytext {
-    border-top: 1px solid #292828;
-    padding: 30px 0;
-    margin-top: 30px;
-    text-transform: capitalize;
-    font-size: 12px;
-    color: #fff;
-}
-
-
 
 
 
