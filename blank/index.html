@@ -46,7 +46,7 @@
             <div class="modal-content">
                 <div class="form-box">
                     <h3>Request info below:</h3>
-                    <form action="https://formspree.io/rrrozyislam@gmail.com" method="POST">
+                    <form id="signUpForm">
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="name">First name <span>*</span></label>
@@ -94,7 +94,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 text-right">
-                                <input type="submit" value="Let's Get Started"  data-toggle="modal" data-target="#thank-modal">
+                                <input class="form-submit" type="submit" value="Let's Get Started">
                             </div>
                         </div>
                     </form>
@@ -104,31 +104,16 @@
     </div>
     <!-- ============== modal request form  end =============== -->
 
-    <!-- ============== modal Thank you start =============== -->
-    <div class="modal fade" id="thank-modal">
-        <div class="modal-dialog">
-            <div class="thanks-box-content text-center">
-                <i class="fa fa-check"></i>
-                <p>You inquiry has been submitted. We will get back to you shortly</p>
-                <a href="#" class="boxed-btn"  data-dismiss="modal">Great!</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- ============== modal Thank you End =============== -->
-
-
-
 
     <header class="header-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <div class="logo">
                         <a href=""><img src="assets/images/logo.png" alt="logo"></a>
                     </div>
                 </div>
-                <div class="col-md-6 text-right">
+                <div class="col-sm-6 text-right">
                     <div class="contact-cell">
                         <span>1-866-508-1440</span>
                         <i class="fa fa-phone"></i>
@@ -164,7 +149,7 @@
     <div class="hero-bottom-content">
         <div class="container">
             <div class="row">
-               <div class="col-sm-10 col-sm-offset-1 text-center">
+               <div class="col-md-10 col-md-offset-1 text-center">
                    <h3>The Home of Innovations</h3>
                    <p>Blank Space provides cutting edge technology and experiance design solutions to empower Agents with tools that they need to generate leads, create brand loyalty and complete successful sales transactions.</p>
                </div>
@@ -230,14 +215,14 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="project-content-box">
                         <h2>TrolleyBus Developments</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
                         <a href="#" class="boxed-btn">VISIT PROJECT</a>
                     </div>  
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 col-sm-6">
                     <div class="portfolio-project-wrap owl-carousel">
                         <div class="single-project-item project-bg-1"></div>
                         <div class="single-project-item project-bg-2"></div>
@@ -260,7 +245,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                      <div class="single-promo-box">
                          <div class="promo-icon">
                              <i class="fa fa-star"></i>
@@ -269,7 +254,7 @@
                          <p>Besides a great technology experience, Our team has also acquired a phenomenal understanding of Real Estate, Home Decor &amp; Development.</p>
                      </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                      <div class="single-promo-box">
                          <div class="promo-icon">
                              <img src="assets/images/promo-icon-1.png" alt="about_promo_icon">
@@ -278,7 +263,7 @@
                          <p>Besides a great technology experience, Our team has also acquired a phenomenal understanding of Real Estate, Home Decor &amp; Development.</p>
                      </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                      <div class="single-promo-box">
                          <div class="promo-icon">
                              <img src="assets/images/promo-icon-2.png" alt="about_promo_icon">
@@ -287,7 +272,7 @@
                          <p>Besides a great technology experience, Our team has also acquired a phenomenal understanding of Real Estate, Home Decor &amp; Development.</p>
                      </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6">
                      <div class="single-promo-box">
                          <div class="promo-icon">
                              <img src="assets/images/promo-icon-3.png" alt="about_promo_icon">
@@ -345,12 +330,12 @@
     <div class="copysection">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <div class="logo">
                         <a href="#"><img src="assets/images/logo.png" alt="footer_logo"></a>
                     </div>
                 </div>
-                <div class="col-md-8 text-right">
+                <div class="col-sm-8 text-right">
                     <ul>
                         <li><i class="fa fa-map-marker"></i>Toronto, ON</li>
                         <li><i class="fa fa-phone"></i>1-866-508-1440</li>
@@ -367,11 +352,6 @@
         </div>
     </div>
    
-   
-   <div style="height: 200px;"></div>
-   
-
-
    
  
      

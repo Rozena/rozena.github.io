@@ -1,24 +1,248 @@
 /*===============================
     desktop/leptop layout.
 ===============================*/
-@media only screen and (min-width:991px) and (max-width:1199px) {}
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+    .hero-text h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .portfolio-project-wrap .owl-controls {
+        left: -467px;
+        bottom: 25px;
+    }
+}
+
+
 
 
 /*==============================
     Tablet Layout
 =============================*/
-@media only screen and (min-width:768px) and (max-width:990px) {}
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+    .hero-img img {
+        max-width: 500px;
+    }
+    .hero-img {
+        top: 420px;
+    }
+    .hero-text {
+        font-size: 17px;
+    }
+    .hero-text h2 {
+        font-size: 36px;
+        margin: 0 0 20px;
+        line-height: 40px;
+    }
+    .hero-right-img img {
+        max-width: 150px;
+    }
+    .hero-right-img {
+        right: -142px;
+        bottom: 50px;
+    }
+    .hero-text .boxed-btn {
+        margin-top: 25px;
+    }
+    .hero-text p {
+        display: block;
+    }
+    .hero-bottom-content {
+        padding: 95px 0;
+    }
+    .single-service-item h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .spacer-120 {
+        height: 95px;
+    }
+    .portfolio-project-wrap {
+        padding: 0;
+    }
+    .single-project-item {
+        height: 350px;
+    }
+    .project-content-box {
+        padding: 20px;
+        min-height: 350px;
+    }
+    .project-content-box h2 {
+        margin: 0 0 30px;
+    }
+    .project-content-box .boxed-btn {
+        margin-top: 20px;
+    }
+    .portfolio-project-wrap .owl-controls {
+        left: -360px;
+        bottom: 15px;
+    }
+    .portfolio-project-wrap .owl-nav div.owl-prev {
+        left: 20%;
+    }
+    .portfolio-project-wrap .owl-nav div.owl-next {
+        right: 10%;
+    }
+    .quote-form {
+        top: 0;
+        margin-top: 50px;
+    }
+}
+
+
 
 
 /*===================================
     normal/small mobile layout.
 ===================================*/
-@media only screen and (max-width:767px) {}
+
+@media only screen and (max-width:767px) {
+    .header-area {
+        padding: 0;
+    }
+    .logo {
+        padding-top: 15px;
+    }
+    .contact-cell span {
+        display: none;
+    }
+    .contact-cell i.fa {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: -36px;
+        font-size: 36px;
+    }
+    .contact-cell {
+        display: inline-block;
+    }
+    .header-area {
+        box-shadow: 0 30px 100px #000;
+    }
+    .hero-text {
+        font-size: 15px;
+    }
+    .hero-text .boxed-btn {
+        display: block;
+    }
+
+    .hero-img img {
+        max-width: 500px;
+    }
+    .hero-img {
+        top: 420px;
+    }
+    .hero-text {
+        font-size: 17px;
+        padding-top: 130px;
+    }
+    .hero-text h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .hero-img {
+        position: relative;
+        top: 0;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .hero-right-img {
+        display: none;
+    }
+
+    .hero-img img {
+        width: 300px;
+    }
+
+    .blank-hero-wrap {
+        height: auto;
+    }
+
+    .hero-text p {
+        display: block;
+    }
+    .hero-bottom-content {
+        padding: 95px 0;
+    }
+    .single-service-item h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .spacer-120 {
+        height: 80px;
+    }
+    .portfolio-project-wrap {
+        padding: 0;
+    }
+    .single-project-item {
+        height: 350px;
+    }
+    .project-content-box {
+        padding: 20px;
+        min-height: 350px;
+    }
+    .project-content-box h2 {
+        margin: 0 0 30px;
+    }
+    .project-content-box .boxed-btn {
+        margin-top: 20px;
+    }
+    .portfolio-project-wrap .owl-controls {
+        left: -360px;
+        bottom: 15px;
+    }
+    .portfolio-project-wrap .owl-nav div.owl-prev {
+        left: 20%;
+    }
+    .portfolio-project-wrap .owl-nav div.owl-next {
+        right: 10%;
+    }
+    .quote-form {
+        top: 0;
+        margin-top: 50px;
+    }
+
+    .hero-text .boxed-btn {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .hero-bottom-content h3 {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 0 30px;
+    }
+    .hero-bottom-content {
+        padding: 80px 0;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .section-padding {
+        padding: 80px 0;
+    }
+    .service-area {
+        padding: 0;
+    }
+    .single-service-item {
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .dominate-service-area h2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 0 30px;
+        padding-top: 80px;
+    }
+}
+
+
 
 
 /*==============================
     wide mobile layout
 ================================*/
+
 @media only screen and (min-width:480px) and (max-width:767px) {}
-
-
