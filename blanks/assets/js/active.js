@@ -30,6 +30,7 @@
                     Number: $('#number').val(),
                     URL: $('#url').val(),
                     Message: $('#message').val()
+                    checkbox: $('#checkbox').val()
                 },
                 dataType: "json"
             }).done(function(){
@@ -40,6 +41,7 @@
                 $('#number').val(),
                 $('#url').val(),
                 $('#message').val()
+                $('#checkbox').val()
 
                 document.querySelector('#form-modal .modal-content').innerHTML = `
                     <div class="thanks-box-content text-center">
