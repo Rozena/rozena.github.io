@@ -27,9 +27,10 @@
                     LastName: $('#lName').val(),
                     Email: $('#email').val(),
                     Tel: $('#tel').val(),
-                    Number: $('#number').val(),
+                    Range: $('#range').val(),
                     URL: $('#url').val(),
-                    Message: $('#message').val()
+                    Message: $('#message').val(),
+                    Check: $('#check').val()
                 },
                 dataType: "json"
             }).done(function(){
@@ -37,9 +38,9 @@
                 $('#lName').val(),
                 $('#email').val(),
                 $('#tel').val(),
-                $('#number').val(),
+                $('#range').val(),
                 $('#url').val(),
-                $('#message').val()
+                $('#check').val()
 
                 document.querySelector('#form-modal .modal-content').innerHTML = `
                     <div class="thanks-box-content text-center">

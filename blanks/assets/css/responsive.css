@@ -14,7 +14,12 @@
     .left-blue-box {
         padding: 20px;
     }
+    .company-area img {
+        margin: 25px 2px;
+        padding: 5px;
+    }
 }
+
 
 
 
@@ -32,26 +37,26 @@
         width: 200px;
         margin: 0 auto;
         margin-top: 40px;
-        padding: 3px;
         position: relative;
         z-index: 9;
     }
     .hero-text {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 28px;
+        line-height: 34px;
         padding-top: 100px;
     }
     .hero-text h2 {
         margin: 0 0 20px;
-        font-size: 49px;
+        font-size: 42px;
+        line-height: 42px;
     }
     .hero-right-img {
         right: -32%;
         bottom: 20%;
     }
     .laptop-wrapper {
-        width: 450px;
-        margin-top: 107px;
+        width: 500px;
+        margin-top: 77px;
     }
     .hero-right-img img {
         max-width: 150px;
@@ -75,30 +80,23 @@
         min-height: 400px;
     }
     .portfolio-wrap .owl-controls {
-        position: absolute;
-        left: 60px;
-        bottom: 0px;
-        width: 100%;
+        left: -26%;
     }
-    .portfolio-wrap .owl-nav div.owl-next {
-        right: 65%;
+    .right-project-img img {
+        min-height: 500px;
     }
-    .portfolio-wrap .owl-nav div {
-        left: 1%;
-        bottom: 48px;
-    }
-
     .leads-area h2 {
         padding-right: 0;
         padding-top: 0;
     }
-    .partners {
-        margin-bottom: 40px;
+    .form-box {
+        margin-top: 50px;
     }
     .info {
         margin-left: 30px;
     }
 }
+
 
 
 
@@ -161,18 +159,17 @@
         right: -35%;
     }
     .hero-img {
-        top: 400px;
+        top: 370px;
         margin-left: 0;
     }
-
     .section-padding,
     .hero-bottom-content {
         padding: 50px 0;
     }
     .single-service-item {
         font-size: 15px;
-        padding: 0;
-        margin-bottom: 40px;
+        padding: 10px;
+        margin-bottom: 20px;
     }
     .service-icon-wrap {
         height: 90px;
@@ -181,14 +178,17 @@
         height: 0;
     }
     .single-service-item h3 {
-        font-size: 24px;
-        line-height: 25px;
+        font-size: 25px;
+        line-height: 32px;
     }
     .blank-hero-wrap {
-        height: 630px;
+        height: 600px;
     }
     .dominate-service-area h2 {
         font-size: 28px;
+    }
+    .dominate-service-area {
+        margin-top: 30px;
     }
     .single-promo-box {
         padding-left: 0;
@@ -202,24 +202,6 @@
         margin-bottom: 20px;
     }
 
-    .left-blue-box {
-        padding: 50px 20px;    
-        height: auto;
-    }
-     .right-project-img, .right-project-img img {
-        height: 240px;
-        padding: 0;
-    }
-
-    .right-project-img img {
-        min-height: 240px;
-    }
-    .single-logo-item {
-        width: 25%;
-    }
-    .single-logo-item img {
-        max-height: 35px;
-    }
     .leads-area h2 {
         padding-right: 0;
         padding-top: 0;
@@ -239,15 +221,10 @@
     .form-box {
         padding: 15px;
     }
-    .partners {
-        margin-bottom: 40px;
-    }
     .info {
         margin-left: 30px;
     }
-    .facebook {
-        margin-left: 0;
-    }
+
     input[type="text"],
     input[type="email"],
     input[type="tel"],
@@ -275,6 +252,7 @@
         margin-left: 0;
         text-align: center;
         width: 100%;
+        padding: 10px 0;
     }
     .info li {
         display: inline;
@@ -288,34 +266,31 @@
         text-align: center;
         margin-top: 20px;
     }
-    .portfolio-wrap .owl-dots {
-        left: 50%;
-        bottom: -50px;
-    }
-    .portfolio-area .owl-nav div {
-        left: 40px;
-        bottom: -50px;
-    }
-    .portfolio-area .owl-nav div.owl-next {
-        left: auto;
-        right: 0px;
-    }
-   .portfolio-wrap .owl-dots div.active {
-        background: #000;
-    }
-    .check-list li i.fa{
+    .check-list li i.fa {
         top: -5px;
     }
     .form-box [type=submit] {
         margin-top: 15px;
-        height: 50px;
         display: block;
         width: 100%;
     }
-    .about-area {
-        padding-top: 100px;
+    .company-area img {
+        max-height: 30px;
+        margin: 20px 0px;
+        padding: 5px;
+    }
+    .form-box {
+        margin-top: 50px;
+    }
+    .portfolio-area {
+        display: none;
+    }
+
+    .portfolio-area-2 {
+        display: block;
     }
 }
+
 
 
 
@@ -348,14 +323,18 @@
     .hero-img {
         top: 360px;
     }
-    .right-project-img, .right-project-img img {
-        height: 300px;
-    }
-
     .info {
         width: 100%;
     }
     .copytext {
         margin-top: 50px;
+    }
+    .company-area img {
+        max-height: 30px;
+        margin: 25px 10px;
+        padding: 2px;
+    }
+    .portfolio-area-2 .single-project-item img {
+        height: 400px;
     }
 }

@@ -165,15 +165,17 @@ input[type="tel"],
 input[type="number"],
 input[type="url"],
 input[type="password"],
-textarea {
+textarea,
+select {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     border-radius: 4px;
     color: #555;
     border: 1px solid #E2E4E4;
     margin-bottom: 15px;
-    height: 45px;
+    height: 40px;
 }
+
 
 
 
@@ -191,6 +193,14 @@ textarea {
     padding: 10px 0;
 }
 
+.logo:hover {
+    transition: .3s;
+}
+
+.logo:hover {
+    opacity: .8;
+}
+
 .logo img {
     max-height: 40px;
 }
@@ -204,6 +214,7 @@ textarea {
     font-size: 19px;
     padding: 9px 0;
 }
+
 
 
 
@@ -264,10 +275,19 @@ textarea {
     display: inline-block;
     color: #fff;
     background: #3775E6;
-    padding: 12px 30px;
+    padding: 10px 30px;
     border-radius: 50px;
     font-size: 13px;
-    height: 45px;
+    height: 40px;
+    line-height: 20px;
+    transition: .3s;
+}
+
+.boxed-btn:hover,
+.project-content .boxed-btn:hover,
+.form-box [type=submit]:hover {
+    background: #383C3F;
+    color: #fff;
 }
 
 .hero-img img {
@@ -279,7 +299,7 @@ textarea {
     left: 50%;
     top: 310px;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
     margin-left: -100px;
 }
 
@@ -318,6 +338,7 @@ textarea {
 
 
 
+
 /* ============== hero bottom content css=========== */
 
 .hero-bottom-content {
@@ -336,6 +357,7 @@ textarea {
 
 
 
+
 /* =================== service area css ====================== */
 
 .single-service-item {
@@ -346,14 +368,14 @@ textarea {
 }
 
 .service-icon-wrap {
-    height: 110px;
+    height: 130px;
     width: 100%;
     display: table;
     margin: 0 0 20px;
 }
 
 .service-icon-wrap img {
-    max-width: 130px;
+    max-width: 150px;
 }
 
 .service-inner {
@@ -371,8 +393,7 @@ textarea {
 }
 
 .dominate-service-area .boxed-btn {
-    padding: 14px 40px;
-    height: 50px;
+    height: 40px;
 }
 
 .dominate-service-area h2 {
@@ -380,6 +401,7 @@ textarea {
     margin: 0 0 20px;
     padding-top: 50px;
 }
+
 
 
 
@@ -416,17 +438,25 @@ textarea {
     border-radius: 6px 0 0 6px;
 }
 
-.left-blue-box h2 {
+.left-blue-box h2,
+.single-project-item h2 {
     font-size: 27px;
     position: relative;
     margin: 0;
+    padding-bottom: 15px;
 }
 
-.heading-line {
+.left-blue-box h2:after,
+.single-project-item h2:after {
     width: 75px;
     background: #fff;
     display: inline-block;
     height: 2px;
+    position: absolute;
+    left: 50%;
+    content: "";
+    bottom: 0;
+    transform: translateX(-50%);
 }
 
 .project-content {
@@ -439,6 +469,8 @@ textarea {
     border-radius: 5px;
     font-size: 15px;
     margin-top: 25px;
+    height: 45px;
+    line-height: 25px;
 }
 
 .right-project-img {
@@ -459,34 +491,85 @@ textarea {
 
 .portfolio-wrap .owl-nav div {
     position: absolute;
-    left: 6%;
-    bottom: 45px;
+    left: 50%;
+    bottom: 48px;
     font-size: 30px;
-    color: #000000;
+    color: #fff;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-}
-
-.portfolio-wrap .owl-nav div.owl-next {
-    left: auto;
-    right: 71%;
+    transform: translateX(-50%);
 }
 
 .portfolio-wrap .owl-dots {
     position: absolute;
-    left: 16%;
+    left: 50%;
     bottom: 50px;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .portfolio-wrap .owl-dots div.active {
     background: #fff;
 }
 
-.right-project-img img {
-    min-height: 450px;
+.portfolio-wrap .owl-nav div.owl-prev {
+    margin-left: -100px;
 }
+
+.portfolio-wrap .owl-nav div.owl-next {
+    margin-left: 100px;
+}
+
+.portfolio-wrap .owl-controls {
+    position: absolute;
+    left: -34%;
+    bottom: 0;
+    width: 100%;
+}
+
+.right-project-img img {
+    height: 450px;
+}
+
+
+/* ============== for mobile protfolio css=========*/
+
+.portfolio-area-2 {
+    display: none;
+}
+
+.portfolio-area-2 .single-project-item {
+    background: #3372E9;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.single-project-item h2 {
+    margin-bottom: 30px;
+}
+
+.portfolio-area-2 .single-project-item img {
+    height: 240px;
+    margin-top: 50px;
+}
+
+.portfolio-area-2 .project-content {
+    padding: 0px 20px;
+}
+
+.portfolio-area-2 .portfolio-wrap .owl-controls {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.portfolio-area-2.padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+.portfolio-area-2 .project-content {
+    margin-bottom: 80px;
+}
+
+
 
 
 
@@ -505,11 +588,9 @@ textarea {
     height: 100px;
     text-align: center;
     line-height: 93px;
-    background: #ECEEEE;
-    border-radius: 50%;
     position: absolute;
     left: 0;
-    top: 5px;
+    top: 0;
 }
 
 .promo-icon i.fa {
@@ -538,10 +619,11 @@ textarea {
 
 
 
-/*  company logo css*/
+
+/*  ==================== company logo css ===================== */
 
 .company-area {
-    background: #1E1E1E;
+    background-color: #1E1E1E;
 }
 
 .company-area h3 {
@@ -552,23 +634,11 @@ textarea {
     margin: 0 0 20px;
 }
 
-.single-logo-item {
-    width: 20%;
-    float: left;
-    height: 70px;
-    display: table;
-    padding: 10px;
+.company-area img {
+    max-height: 40px;
+    margin: 25px 10px;
+    padding: 5px;
 }
-
-.logo-inner {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.single-logo-item img {
-    max-height: 30px;
-}
-
 
 
 
@@ -623,70 +693,6 @@ textarea {
     text-align: center;
 }
 
-.partners {
-    margin-top: 40px;
-}
-
-.partners img {
-    float: left;
-    max-height: 20px;
-}
-
-.partners span {
-    display: block;
-}
-
-.facebook {
-    display: inline-block;
-}
-
-.facebook i.fa {
-    position: absolute;
-    left: 8px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    font-size: 32px;
-}
-
-.google {
-    position: relative;
-    background: #fff;
-    padding: 8px 20px;
-}
-
-.google:after {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 10px;
-    background: #4285F4;
-    content: "";
-    height: 100%;
-}
-
-.partners li {
-    border-radius: 4px;
-}
-
-.google a {
-    font-weight: 500;
-    text-transform: capitalize;
-    color: #7A7A7A;
-    font-size: 22px;
-}
-
-.facebook a {
-    font-size: 15px;
-    color: #fff;
-    font-weight: 400;
-}
-
-.facebook {
-    background: #3A5897;
-    padding: 7px 20px 5px 45px;
-    margin-left: 10px;
-}
 
 .form-box {
     background: #fff;
@@ -705,7 +711,7 @@ textarea {
 label {
     font-weight: 400;
     font-size: 19px;
-    margin: 0 0 15px;
+    display: block;
 }
 
 label span {
@@ -783,12 +789,11 @@ button[type=submit] {
 
 .form-box [type=submit] {
     margin-top: 15px;
-    height: 50px;
+    height: 45px;
+    transition: .3s;
+    line-height: 16px;
 }
 
-.form-box #lName {
-    margin-top: 36px;
-}
 
 
 
@@ -832,6 +837,10 @@ button[type=submit] {
     padding: 0 10px;
 }
 
+.social-links a:hover {
+    color: #3372E9;
+}
+
 .social-links {
     padding: 8px 0;
 }
@@ -852,49 +861,53 @@ button[type=submit] {
     border-radius: 10px;
     box-shadow: 0 0 0!important;
 }
+
 .modal-open {
     padding-right: 0!important;
 }
 
 
 .thanks-box-content {
-    width:  300px;
-    margin:  0 auto;
-    background:  #fff;
-    border-radius:  10px;
+    width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
     padding: 30px;
-    font-size:  18px;
+    font-size: 18px;
     line-height: 23px;
 }
+
 .modal-dialog {
     width: 300px;
     margin: 30px auto;
     box-shadow: 0 0 10px #ddd;
 }
+
 .thanks-box-content i.fa {
     color: #10CF9C;
-    font-size:  26px;
+    font-size: 26px;
     width: 50px;
     height: 50px;
     line-height: 45px;
-    border-radius:  50%;
-    border:  2px solid;
-    padding-left:  2px;
-    margin:  0 0 30px;
+    border-radius: 50%;
+    border: 2px solid;
+    padding-left: 2px;
+    margin: 0 0 30px;
 }
 
 .thanks-box-content .boxed-btn {
-    margin-top:  30px;
-    background:  #313131;
-    border-radius:  5px;
-    padding:  10px 50px;
-    font-weight:  400;
-    font-size:  18px;
+    margin-top: 30px;
+    background: #313131;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-weight: 400;
+    font-size: 18px;
 }
 
-.form-submit > i {
+.form-submit>i {
     display: none;
 }
-.form-submit.loading > i {
+
+.form-submit.loading>i {
     display: inline-block;
 }
