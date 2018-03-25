@@ -194,11 +194,13 @@ select {
 }
 
 .logo:hover {
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
 .logo:hover {
     opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
 .logo img {
@@ -280,6 +282,7 @@ select {
     font-size: 13px;
     height: 40px;
     line-height: 20px;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
@@ -456,7 +459,8 @@ select {
     left: 50%;
     content: "";
     bottom: 0;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 
 .project-content {
@@ -557,7 +561,11 @@ select {
 
 .portfolio-area-2 .portfolio-wrap .owl-controls {
     left: 50%;
-    transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 
 .portfolio-area-2.padding-bottom-0 {
@@ -789,6 +797,7 @@ button[type=submit] {
 .form-box [type=submit] {
     margin-top: 15px;
     height: 45px;
+    -webkit-transition: .3s;
     transition: .3s;
     line-height: 16px;
 }
@@ -911,19 +920,3 @@ button[type=submit] {
     display: inline-block;
 }
 
-
-
-
-
-
-
-
-
-
-.portfolio-bg{
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    height: 450px;
-    width: 100%;
-} 
