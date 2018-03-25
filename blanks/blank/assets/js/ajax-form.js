@@ -5,7 +5,7 @@
             e.preventDefault();
             $('#signUpForm .form-submit').addClass('loading');
             $.ajax({
-                url: "https://formspree.io/hello@blankspaceinc.ca", 
+                url: "https://formspree.io/rrrozyislam@gmail.com", 
                 method: "POST",
                 data: {
                     FirstName: $('#fName').val(),
