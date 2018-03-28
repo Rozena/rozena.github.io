@@ -338,7 +338,7 @@ button[type="submit"]:hover {
 }
 
 .slide-text h1 {
-    text-transform: capitalize font-size: 40px;
+    text-transform: capitalize; font-size: 40px;
 }
 
 .boxed-btn {
