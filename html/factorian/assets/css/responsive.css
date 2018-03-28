@@ -1,0 +1,164 @@
+/* -------desktop/leptop layout.--------- */
+@media only screen and (min-width:991px) and (max-width:1199px){
+ .homepage-slide-bg h2 {
+  font-size: 45px;
+}    
+}
+
+/*-----------tablet layout----------------*/
+@media only screen and (min-width:768px) and (max-width:990px){
+ .header-top-area {
+  text-align: center;
+}     
+ .text-right {
+  text-align: center;
+}    
+ .logo {
+  text-align: center;
+}
+.main-menu ul.navigation li a {
+  padding: 15px 20px;
+}    
+.main-menu ul.navigation li:hover ul{
+ top: 58px;       
+} 
+.homepage-slide-bg{
+  text-align: center;
+}    
+.homepage-slide-bg h2 {
+  font-size: 40px;
+  line-height: 55px;
+}
+.homepage-slide-bg p {
+  font-size: 16px;
+}    
+
+.bg1 {
+    text-align: center;
+}
+.bg1 h2 {
+  font-size: 35px;
+}  
+.factorian-btn.add-btn {
+  margin-top: 20px;
+}
+ .who-we-are-text {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 30px;
+}   
+.who-we-are-text > h3 {
+  padding: 10px 0;
+}    
+#about img {
+  height: 300px;
+  width: 100%;
+}
+.check-list {
+  margin-top: 10px;
+} 
+ .why-you-should-area > p {
+  padding-right: 0;
+}   
+.padding-left-30 {
+  padding-left: 0;
+  margin-top: 30px;
+}    
+.footer-widget > p {
+  padding-right: 0;
+}    
+.footer-widget-title {
+  margin: 0 0 20px;
+  margin-top: 30px;
+}
+        
+}
+/*-----------normal/small mobile layout-------*/
+@media only screen and (max-width:767px){
+ 
+.slicknav_menu{display: block;}
+.main-menu{display: none;}    
+.header-top-area p {color: #fff;font-size: 14px;text-align: center;}
+.header-top-area a, .header-top-area, .bg1 {text-align: center;}   
+.logo {text-align: center;}
+.homepage-slide-bg{text-align: center;}    
+.homepage-slide-bg h2 {
+  font-size: 26px;
+  line-height: 40px;
+}
+.homepage-slide-bg p {font-size: 15px;} 
+ 
+.homepage-slides .owl-nav div {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+}
+.homepage-slides .owl-nav {
+    margin-top: 12px;
+    text-align: center;
+}
+.homepage-slide-bg {
+    height: 400px;
+}
+.homepage-slides .owl-nav div, .homepage-slides .owl-nav div.owl-next {
+  left: auto;
+  right: auto;
+  margin: 0 5px;
+}
+ .single-service-item > h3 {
+  padding: 5px 0;
+} 
+ .single-service-item {
+  margin-bottom: 35px;
+}   
+.bg1 h2 {
+  font-size: 30px;
+  line-height: 45px;
+}
+ .single-promo-item {margin-top: 0;} 
+ .why-you-should-area > h3 {
+  font-size: 30px;
+  line-height: 45px;
+} 
+.single-boxed-item {
+  margin-top: 30px;
+}
+.project-title h3 {
+  margin: 0 auto 45px;
+}    
+.factorian-btn.add-btn {margin-top: 20px;}
+ .who-we-are-text {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 30px;
+}   
+.who-we-are-text > h3 {padding: 10px 0;}    
+#about img {
+  height: 300px;
+  width: 100%;
+}
+.check-list {margin-top: 10px;} 
+ .why-you-should-area > p {padding-right: 0;}   
+.padding-left-30 {
+  padding-left: 0;
+  margin-top: 30px;
+}    
+.footer-widget > p {padding-right: 0;}    
+.footer-widget-title {
+  margin: 0 0 20px;
+  margin-top: 30px;
+} 
+    
+    
+}
+
+
+
+/*-----------wide mobile layout----------------*/
+@media only screen and (min-width:480px) and (max-width:767px){
+  .slicknav_menu{display: block;}  
+  .main-menu{display: none;}  
+}
+
