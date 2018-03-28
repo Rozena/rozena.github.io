@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    font-weight: 700;
+}
+
+.website-checker-form {
+    margin-top: 45px;
+}
+
+.website-checker-form input {
+    background-color: #073b4c;
+    border: 1px solid #073b4c;
+}
+
+.website-checker-form input[type="submit"],
+.website-checker-form button[type="submit"] {
+    background-color: #06d6a0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.website-checker-form input[type="submit"]:hover,
+.website-checker-form button[type="submit"]:hover {
+    background-color: #073b4c;
+}
+
+.inline-more-btn {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #777;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.inline-more-btn i.zmdi {
+    padding-left: 5px;
+}
+
+.inline-more-btn:hover {
+    color: #45BD98;
+}
+.service-icon {
+    display: table;
+    width: 100%;
+    height: 50px;
+}
+
+.col-md-6:nth-child(3) .single-service-item,
+.col-md-6:nth-child(4) .single-service-item {
+    margin-bottom: 0;
+}
+
+.slicknav_btn, .slicknav_nav .slicknav_row:hover, .slicknav_nav a:hover {
+    background-color: #06D6A0;
+}

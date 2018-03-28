@@ -1,0 +1,106 @@
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.homepage-hero-area {
+    background-image: url(../images/hero-bg-2.png);
+    background-color: #3096f6;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.boxed-btn {
+    background-color: #06D6A0;
+}
+
+.testimonial-carousel .owl-dots div.active {
+    background: #06D6A0;
+}
+
+.mainmenu li a:hover,
+.mainmenu li.active a {
+    color: #06d6a0;
+}
+
+.homepage-hero-area {
+    padding: 100px 0;
+}
+
+.homepage-hero-area h1 {
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.1;
+    margin-top: 130px;
+    font-weight: 400;
+}
+
+.service-pages {
+    background: #06D6A0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.service-pages ul {
+    list-style: none;
+}
+
+.service-pages li a {
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 2;
+}
+.single-case-study {
+	height: 300px;
+}
+
+.single-price-box:hover, .single-price-box:hover .pricing-heading {
+	border-color: #06D6A0;
+}
+.price {
+	color: #06D6A0;
+}
+
+.cta-area.theme-4, .cta-area.theme-5, .breadcamp-area {
+	background-position: center top;
+}
+.single-blog-box {
+	display: block;
+	color: #999;
+	margin: 15px 0;
+}
+.single-blog-box h4 {
+	line-height: 1.7;
+}
+.shadow-image.shadow-image-left img {
+	height: 500px;
+}
+.hero-form {
+	box-shadow: 7px 7px 15px #ddd;
+}
+.single-service-box:hover .service-icon i.fa,
+.single-service-box:hover i.zmdi,
+.single-service-box:hover h4,
+.single-service-box:hover .service-readmore-btn {
+    color: #06D6A0;
+}
+.single-service-box:hover {
+    border: 1px solid #06D6A0;
+}
+.col-md-4:nth-child(7) .single-service-box,
+.col-md-4:nth-child(8) .single-service-box,
+.col-md-4:nth-child(9) .single-service-box {
+    margin-bottom: 0;
+}
+
+.slicknav_btn, .slicknav_nav .slicknav_row:hover, .slicknav_nav a:hover {
+    background-color: #06D6A0;
+}
