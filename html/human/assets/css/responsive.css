@@ -1,0 +1,559 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+
+    .logo img {
+        height: 65px;
+    }
+    .mainmenu {
+        padding-right: 250px;
+    }
+    .mainmenu ul li a {
+        font-size: 13px;
+        padding: 25px 10px;
+    }
+
+    .header-right ul li a {
+        font-size: 13px;
+    }
+    .feature-carousel-list .owl-nav {
+        left: -202px;
+    }
+    .subscribe-right-img {
+        right: 10px;
+    }
+    .subscribe-right-img {
+        height: 300px;
+    }
+}
+
+
+
+
+/*==============================
+    Tablet Layout
+=============================*/
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+    .header-left {
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .logo {
+        margin-right: 100px;
+    }
+    .mainmenu {
+        padding-right: 0;
+    }
+    .header-area .mainmenu ul li a {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    .header-right .border-btn {
+        padding: 10px 20px !important;
+    }
+    .nav.navbar-nav,
+    .navbar-nav>li {
+        float: left;
+    }
+    .hero-text h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+
+    .hero-bg.hero-half {
+        height: 380px;
+        width: 50%;
+        float: left;
+    }
+    .feature-title h2 span,
+    .feature-title p span {
+        display: inline-block;
+    }
+    .feature-title {
+        padding-top: 0;
+        margin-bottom: 60px;
+    }
+
+    .feature-carousel-list .owl-nav div {
+        color: #fff;
+        margin: 0;
+        background: #ff0000;
+        position: absolute;
+        left: -50px;
+        margin-top: -15px;
+        top: 50%;
+    }
+    .feature-carousel-list .owl-nav div.owl-next {
+        left: auto;
+        right: -50px;
+    }
+
+    .feature-carousel-list .owl-nav {
+        position: inherit;
+        left: 0;
+        bottom: 0;
+        border-radius: 4px;
+    }
+
+    .scroll-feature {
+        display: none;
+    }
+
+    .customer-say-title h2 {
+        line-height: 35px;
+    }
+    .latest-content {
+        margin-top: 20px;
+    }
+    .subscribe-right-img {
+        display: none;
+    }
+    .subscribe-area {
+        text-align: center;
+    }
+
+    .subscribe-form {
+        max-width: inherit;
+        display: block;
+        margin: 0 auto;
+    }
+    .copytext {
+        text-align: center;
+    }
+    .copytext .text-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .header-area.fixed-bg .saerch-form input[type="text"] {
+        border: 1px solid #555;
+    }
+    .header-right {
+        top: -8px;
+    }
+
+    .logo {
+        margin-right: 0;
+        float: left;
+    }
+    .search-bar {
+        display: none;
+    }
+
+    .saerch-form {
+        bottom: 12px;
+        transform: scaleY(1);
+        opacity: 1;
+        visibility: visible;
+        z-index: 99;
+        right: 0;
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/*===================================
+    normal/small mobile layout.
+===================================*/
+
+@media only screen and (max-width:767px) {
+
+    .logo {
+        margin-right: 0;
+        float: left;
+    }
+    .logo img {
+        height: 50px;
+    }
+    .navbar-toggle {
+        float: none;
+        border: 1px solid transparent;
+        position: absolute;
+        right: 0;
+        top: -40px;
+        margin: 0;
+    }
+    .navbar-toggle .icon-bar {
+        background: #ff0000;
+    }
+    .hero-bg {
+        height: 300px;
+    }
+    .hero-text {
+        padding-top: 25px;
+    }
+    .header-left {
+        text-align: center;
+    }
+    .mainmenu {
+        padding-right: 0;
+    }
+    .header-area .mainmenu ul li a {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .mainmenu ul li {
+        display: inline-block;
+        position: relative;
+        right: 0;
+        top: 0;
+        text-align: center;
+    }
+    .mainmenu ul li.cart {
+        position: relative;
+        top: -40px;
+        right: 55px;
+    }
+    .header-right .border-btn {
+        padding: 10px 20px !important;
+    }
+
+    .absolute-header .search-bar {
+        color: #fff;
+        position: relative;
+        top: 10px;
+        left: -40px;
+    }
+    .saerch-form {
+        width: 300px;
+        left: 50%;
+        margin-left: -150px;
+        bottom: -55px;
+    }
+    .nav.navbar-nav,
+    .navbar-nav>li {
+        float: none;
+    }
+
+    .mobile-menu-activated .mainmenu ul.nav.navbar-nav {
+        background: #222;
+        width: 100%;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .mobile-menu-activated .mainmenu ul.nav.navbar-nav li {
+        display: block;
+        float: none;
+    }
+    .mobile-menu-activated .mainmenu ul.nav.navbar-nav li a {
+        padding: 10px 0;
+    }
+    .saerch-form {
+        bottom: -53px;
+    }
+	 .hero-text {
+	    font-size: 16px;
+	    position: absolute;
+	    top: 50%;
+	    left: 0%;
+	    width: 100%;
+	    transform: translateY(-50%);
+	    text-align: center;
+	}
+    .single-feature-service::after {
+        display: none;
+    }
+    .hero-bg.hero-half {
+        height: 200px;
+        width: 100%;
+        float: none;
+    }
+    .feature-title h2 span,
+    .feature-title p span {
+        display: inline-block;
+    }
+    .feature-title {
+        padding-top: 0;
+        margin-bottom: 60px;
+    }
+
+    .feature-carousel-list .owl-nav div {
+        color: #fff;
+        margin: 0;
+        background: #ff0000;
+        position: absolute;
+        left: -50px;
+        margin-top: -15px;
+        top: 50%;
+    }
+    .feature-carousel-list .owl-nav div.owl-next {
+        left: auto;
+        right: -50px;
+    }
+
+    .feature-carousel-list .owl-nav {
+        position: inherit;
+        left: 0;
+        bottom: 0;
+        border-radius: 4px;
+    }
+    .scroll-feature {
+        display: none;
+    }
+    .hero-text h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+	.hero-right-text h2 {
+	    font-size: 36px;
+	}
+    .hero-icon {
+        bottom: 12px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .feature-title {
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    .customer-say-title h2 {
+        line-height: 35px;
+    }
+    .latest-content {
+        margin-top: 20px;
+    }
+    .subscribe-right-img {
+        display: none;
+    }
+    .subscribe-area {
+        text-align: center;
+    }
+
+    .subscribe-form {
+        max-width: inherit;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .copytext .text-right {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .human-area .boxed-btn {
+        margin-top: 20px;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+ 	.human-area {
+	    padding-bottom: 0;
+	    text-align: center;
+	}
+	.human-bg {
+	    margin-bottom: 40px;
+	}
+    .testimonial-avatar {
+        margin-bottom: 70px;
+    }
+    .latest-bg {
+        margin-bottom: 20px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .section-title {
+	    margin-bottom: 40px;
+	    text-align: center;
+	}
+    .feature-stories-area .boxed-btn {
+        margin: 0 0 30px;
+    }
+    .feature-stories-area .text-right {
+        text-align: center;
+    }
+    .single-feature-stories {
+        margin-top: 30px;
+    }
+    .subscribe-form input[type="email"] {
+        width: 100%;
+    }
+    .subscribe-form button[type="submit"],
+    .subscribe-form input[type="submit"] {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    .social-links {
+        margin-bottom: 20px;
+    }
+    .payment-system span {
+        margin-right: 0;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .header-right ul li a.border-btn {
+        margin-right: 0;
+        display: none;
+    }
+    .header-right span {
+        display: none;
+    }
+    .feature-carousel-list .owl-nav div {
+        left: 5px;
+    }
+    .feature-carousel-list .owl-nav div.owl-next {
+        right: 5px;
+    }
+    .header-top-area p {
+        font-size: 10px;
+    }
+	.feature-title h2 {
+	    margin: 0;
+	}
+	.section-title p {
+	    font-size: 16px;
+	}
+	.customer-say-title {
+	  text-align: center;
+	}
+	.single-testimonial-item {
+	  text-align: center;
+	}
+	.testimonial-avatar {
+	  text-align: left;
+	}
+	.section-padding {
+	    padding: 50px 0;
+	}
+    .footer-area h5 {
+        margin-top: 30px;
+    }
+
+}
+
+
+
+
+
+
+/*==============================
+    wide mobile layout
+================================*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .saerch-form {
+        bottom: 0;
+        width: 50%;
+        padding-left: 5%;
+        opacity: 1;
+        visibility: visible;
+        z-index: 9;
+        transform: scalex(1);
+    }
+    .logo {
+        margin-right: 100px;
+    }
+    .search-bar {
+        display: none;
+    }
+    .mainmenu ul li.cart {
+        right: 75px;
+    }
+    .hero-bg.hero-half {
+        height: 230px;
+        width: 50%;
+        float: left;
+    }
+	.mainmenu ul li.cart {
+	    right: 60px;
+	}
+	.hero-text h1 {
+	    font-size: 60px;
+	}
+	.hero-right-text {
+	    left: 5%;
+	    width: 90%;
+	}
+	.single-feature-service {
+	    width: 400px;
+	    margin: 0 auto;
+	}
+	.featured-wrap {
+	    padding-top: 50px;
+	}
+	.saerch-form button[type="submit"] {
+	    color: #fff;
+	}
+	.mobile-only-width {
+	    width: 400px;
+	    margin: 0 auto;
+	}
+	.header-top-area p {
+	    font-size: 12px;
+	}
+
+	.mobile-only-post {
+	  width: 50%;
+	  float: left;
+	}
+	.absolute-post {
+	  top: 105px;
+	  position: absolute;
+	  right: 0;
+	}
+	.grey-bg {
+	    background: #eee;
+	    padding: 40px 20px 20px 20px;
+	}
+	.padding-top-0 {
+	    padding-top: 0;
+	}
+
+	.feature-stories {
+	  width: 200px;
+	  float: left;
+	  top: 30px;
+	  left: 20px
+	}
+	.feature-stories-content {
+	  padding-left: 250px;
+	}
+	.single-feature-stories {
+	    margin-top: 10px;
+	}
+	.subscribe-form input[type="email"] {
+	    width: 70%;
+	}
+	.subscribe-form button[type="submit"], .subscribe-form input[type="submit"] {
+	    width: 28%;
+	    margin-left: 1%;
+	}
+	.subscribe-form {
+	    max-width: 500px;
+	}
+
+	.footer-area{
+		position: relative;
+	}
+	.payment-system {
+		left: 15px;
+	    position: absolute;
+	    left: 15px;
+	    top: -260px;
+	}
+	.copytext p {
+	    text-align: center;
+	}
+
+
+
+
+
+}
