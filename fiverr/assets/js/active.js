@@ -10,7 +10,7 @@
     
     jQuery(window).load(function(){
      
-        
+      $(".site-preloader-wrap").fadeOut(5000);
         
         
     }); 
