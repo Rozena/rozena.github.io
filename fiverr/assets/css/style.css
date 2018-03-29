@@ -1,0 +1,159 @@
+/*======================
+    Base Css
+=======================*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,700i');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: auto;
+}
+
+body {
+    max-height: 100%;
+    font-weight: 400;
+    transition: all .2s ease;
+    font-family: 'Montserrat', sans-serif;
+    background: #56f4fc;
+    color: #000;
+}
+
+a, 
+a:hover,
+a:focus,
+a:active
+{outline: none;
+text-decoration: none;
+ transition: all .2s ease;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-ms-transition: all .2s ease;
+-o-transition: all .2s ease;
+}
+a:focus,
+textarea:focus,
+input:focus,
+button:focus {
+    outline: 0 solid;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 20px;
+    font-weight: 700;
+}
+.section-padding{
+    padding: 110px 0;
+}
+.section-title{
+    margin-bottom: 50px;
+}
+.section-title h2 {
+    font-size:  50px;
+    text-transform: capitalize;    
+    line-height: 50px;
+}
+.section-title h2 span {
+    display:  block;
+    font-size:  50%;
+    opacity:  .4;
+    font-weight: 400;
+}
+.single-project-item {
+    display:  table;
+    width:  100%;
+    height:  100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: #03bdcd;
+    height:  250px;
+    width:  100%;
+    box-shadow: 0 0 20px #6f57f8;
+    background-position:  center top;    
+    margin-top: 30px;
+}
+.project-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 24px;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.single-project-item:hover .project-inner {
+    opacity: 1;
+    visibility: visible;
+}
+.project-bg-1{
+    background-image: url(../images/project_bg_1.jpg);
+}
+.project-bg-2{
+    background-image: url(../images/project_bg_12.jpg);
+}
+.project-bg-3{
+    background-image: url(../images/project_bg_3.jpg);
+}
+.project-bg-4{
+    background-image: url(../images/project_bg_4.jpg);
+}
+.project-bg-5{
+    background-image: url(../images/project_bg_5.jpg);
+}
+.project-bg-6{
+    background-image: url(../images/project_bg_6.jpg);
+}
+.project-bg-7{
+    background-image: url(../images/project_bg_7.jpg);
+}
+.project-bg-8{
+    background-image: url(../images/project_bg_8.jpg);
+}
+.project-bg-9{
+    background-image: url(../images/project_bg_9.jpg);
+}
+.project-bg-10{
+    background-image: url(../images/project_bg_10.jpg);
+}
+.project-bg-11{
+    background-image: url(../images/project_bg_11.jpg);
+}
+.project-bg-12{
+    background-image: url(../images/project_bg_12.jpg);
+}
+
+.copysection {
+    background:  #000;
+    color:  #fff;
+    text-transform:  uppercase;
+    letter-spacing:  5px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.copysection a {
+    color: #56f4fc;
+    font-weight:  700;
+}
+
+.copysection p {
+    margin:  0;
+}
+
+
+
