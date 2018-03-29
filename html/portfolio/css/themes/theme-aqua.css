@@ -1,0 +1,19 @@
+
+.mainmenu ul.nav.navbar-nav li a:hover, .mainmenu ul.nav.navbar-nav li.active a, .single-service-item:hover .service-icon, .single-service-item:hover h4, .mfp-image-holder .mfp-close:hover, .mfp-iframe-holder .mfp-close:hover, .preview-icon:hover, .cl-icon, .single-cl-item span, .admin-meta a:hover, .read-more-btn:hover, .admin-meta a:hover, .copysection a, .scroll-to-top a, .mfp-counter, .breadcrumb-area li a, .recent-post a:hover{
+    color: #00ffff;
+}
+
+.social-links a, .author-image:before, .boxed-btn, .team-title, .testimonial-list .owl-dots div.active, .date-meta, .read-more-btn:after, button[type=submit], input[type=submit], .blog-d-date, .entry-content .pagination>li.active>a, .entry-content .pagination>li.active>span, .comment-box input[type=submit]{
+    background: #00ffff;
+}
+
+.cl-icon, .testimonial-list.owl-carousel .owl-item img, .testimonial-meta img, .testimonial-list .owl-dots div, input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=password]:focus, input[type=url]:focus, p textarea:focus, textarea:focus, .search-box input[type=search]:focus, .scroll-to-top a, .entry-content blockquote, .tag li a{
+    border-color: #00ffff;
+}
+
+.mfp-arrow-right:after {
+    border-left: 17px solid #00ffff;
+}
+.mfp-arrow-left:after {
+    border-right: 17px solid #00ffff;
+}
