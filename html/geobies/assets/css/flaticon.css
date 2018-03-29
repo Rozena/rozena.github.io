@@ -1,0 +1,91 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:18
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon.eot");
+  src: url("../fonts/flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon.woff") format("woff"),
+       url("../fonts/flaticon.ttf") format("truetype"),
+       url("../fonts/flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-ascendant-line-graphic:before { content: "\f100"; }
+.flaticon-back-track:before { content: "\f101"; }
+.flaticon-big-attachment:before { content: "\f102"; }
+.flaticon-big-avatar:before { content: "\f103"; }
+.flaticon-big-check-mark:before { content: "\f104"; }
+.flaticon-big-circle:before { content: "\f105"; }
+.flaticon-big-cloud-with-rain:before { content: "\f106"; }
+.flaticon-big-cogwheel:before { content: "\f107"; }
+.flaticon-big-compass:before { content: "\f108"; }
+.flaticon-big-diskette:before { content: "\f109"; }
+.flaticon-big-eject-symbol:before { content: "\f10a"; }
+.flaticon-big-envelope:before { content: "\f10b"; }
+.flaticon-big-eye:before { content: "\f10c"; }
+.flaticon-big-heart:before { content: "\f10d"; }
+.flaticon-big-left-arrow:before { content: "\f10e"; }
+.flaticon-big-pause-symbol:before { content: "\f10f"; }
+.flaticon-big-right-arrow:before { content: "\f110"; }
+.flaticon-big-square:before { content: "\f111"; }
+.flaticon-big-star:before { content: "\f112"; }
+.flaticon-blank-document:before { content: "\f113"; }
+.flaticon-blank-house:before { content: "\f114"; }
+.flaticon-calendar-day-twenty-three:before { content: "\f115"; }
+.flaticon-camera-flash:before { content: "\f116"; }
+.flaticon-cancel-sign:before { content: "\f117"; }
+.flaticon-check-list:before { content: "\f118"; }
+.flaticon-fast-forward-button:before { content: "\f119"; }
+.flaticon-folded-map:before { content: "\f11a"; }
+.flaticon-folder-open:before { content: "\f11b"; }
+.flaticon-friend-request:before { content: "\f11c"; }
+.flaticon-frost-symbol:before { content: "\f11d"; }
+.flaticon-inclined-magnifying-glass:before { content: "\f11e"; }
+.flaticon-little-smartphone:before { content: "\f11f"; }
+.flaticon-map-pin:before { content: "\f120"; }
+.flaticon-menu-bars:before { content: "\f121"; }
+.flaticon-mouse-cursor:before { content: "\f122"; }
+.flaticon-newspaper-folded:before { content: "\f123"; }
+.flaticon-page-linked:before { content: "\f124"; }
+.flaticon-phone-reciever:before { content: "\f125"; }
+.flaticon-play-symbol:before { content: "\f126"; }
+.flaticon-reload-arrow:before { content: "\f127"; }
+.flaticon-rewind-video:before { content: "\f128"; }
+.flaticon-round-clock:before { content: "\f129"; }
+.flaticon-selectioned-items:before { content: "\f12a"; }
+.flaticon-sharing:before { content: "\f12b"; }
+.flaticon-shoppin-trolley-facing-left:before { content: "\f12c"; }
+.flaticon-shuffle-option:before { content: "\f12d"; }
+.flaticon-single-cloud:before { content: "\f12e"; }
+.flaticon-skip-to-next-track:before { content: "\f12f"; }
+.flaticon-smartphone-with-button:before { content: "\f130"; }
+.flaticon-speech-balloon:before { content: "\f131"; }
+.flaticon-speech-balloon-with-dots:before { content: "\f132"; }
+.flaticon-sun-shining-and-cloud:before { content: "\f133"; }
+.flaticon-sun-symbol:before { content: "\f134"; }
+.flaticon-telephone-call:before { content: "\f135"; }
+.flaticon-television-screen:before { content: "\f136"; }
+.flaticon-two-chat-balloons:before { content: "\f137"; }
+.flaticon-up-arrow:before { content: "\f138"; }
+.flaticon-waste-basket-with-cover:before { content: "\f139"; }
+.flaticon-wifi-signal-full:before { content: "\f13a"; }
+.flaticon-women-bag:before { content: "\f13b"; }
