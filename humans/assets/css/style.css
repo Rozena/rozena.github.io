@@ -410,10 +410,13 @@ li {
     font-size: 18px;
     position: absolute;
     bottom: 25%;
-    left: 5%;
-    color: #cccccc;
+    left: 10%;
+    color: #cccccc;    
+    width: 80%;
 }
-
+.hero-text .boxed-btn {
+    margin: 30px 0 0;
+}
 .hero-right .hero-bg:after {
     opacity: .3;
 }
@@ -422,7 +425,7 @@ li {
     font-size: 90px;
     font-weight: 900;
     line-height: 85px;
-    margin: 0 0 10px;
+    margin: 0 0 15px;
     color: #fff;
 }
 
