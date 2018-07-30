@@ -1,0 +1,269 @@
+
+/* base css*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 15px;
+    line-height: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: 0 solid;
+    text-decoration: none;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 25px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+input:focus,
+textarea:focus,
+a:focus, button:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    margin: 0;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    -webkit-transition: .3s;
+    transition: .3s;
+    border: 2px solid transparent;
+}
+
+
+
+/*****************************
+header area css
+******************************/
+.header-top {
+    background: #0B0B0B;
+}
+
+.header-top, .header-top a {
+    color: #f5f3f3;
+}
+
+.header-top i.fa {
+    color: #FC721E;
+    padding-right: 3px;
+}
+
+.header-top i.fa-phone {
+    padding-left: 30px;
+}
+
+.sicial-links a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-left: 8px;
+    transition: .3s;
+}
+
+.sicial-links i.fa {
+    color: #f5f3f3;
+    padding-right: 0;
+}
+
+.sicial-links {
+    margin-left: 20px;
+}
+
+.sicial-links a:hover {
+    background: #FC721E;
+    border-color: #FC721E;
+}
+
+.header-top {
+    padding: 13px 0;
+}
+
+.logo h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid;
+    display: inline-block;
+    padding: 13px 20px;
+}
+
+.logo a {
+    color: #0b0b0b;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu li a {
+    display: block;
+    font-weight: 800;
+    color: #0b0b0b;
+    padding: 6px 15px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    border: 1px solid transparent;
+}
+.mainmenu li:hover > a, .mainmenu li.active a{
+    border-color: #FC721E;
+}
+
+.mainmenu {
+    padding: 5px 0;
+}
+.header-area {
+    padding: 18px 0;
+}
+
+
+
+/* slide area*/
+.slide-bg-1{
+    background-image: url(../images/slide-bg-1.jpg);
+}
+.slide-bg-2{
+    background-image: url(../images/slide-bg-2.jpg);
+}
+.slide-bg-3{
+    background-image: url(../images/slide-bg-3.jpg);
+}
+.single-slide-item {
+    width: 100%;
+    background-color: #000;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 16px;
+    height: 700px;
+}
+
+.slide-text h1 {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.single-slide-item .d-table-cell {
+    vertical-align: middle;
+    width: 100%;
+    background: rgba(5,5,5,0.8);
+}
+
+.boxed-btn {
+    display: inline-block;
+    background: #FC721E;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 8px 30px;
+    border-radius: 3px;
+    margin-right: 12px;
+    border: 1px solid #FC721E;
+}
+
+.boxed-btn.bordered-btn {
+    background: transparent;
+    border-color: #fff;
+}
+
+.slide-btns {
+    margin-top: 30px;
+}
+
+.homepage-slides .owl-dots button {
+    height: 25px;
+    width: 3px;
+    background: #fff;
+    margin-right: 10px;
+    transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.homepage-slides .owl-dots {
+    position: relative;
+    bottom: 80px;
+    left: 0;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.homepage-slides .owl-dots button.active {
+    height: 32px;
+    background-color: #FC721E;
+}

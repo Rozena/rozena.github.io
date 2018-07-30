@@ -1,0 +1,11 @@
+.boxed-btn, input[type="submit"], button[type="submit"], .case-study-wrapper:before, .owl-dots div.active, .video-play-btn, .active .testimonila-text, .website-checker-form input[type="submit"], .website-checker-form button[type="submit"], .theme-2 .case-study-wrapper:before, .theme-2 .owl-dots div.active, .cta-area.theme-3 .boxed-btn{
+    background-color:#d35400
+}
+.testimonila-text:after{border-top: 30px solid #d35400}
+.mainmenu li.active a, .mainmenu li a:hover, .single-service-box:hover .service-icon i.fa, .single-service-box:hover i.zmdi, .single-service-box:hover h4, .single-service-box:hover .service-readmore-btn, .price, .footer-widget-area a:hover, .social-links li a:hover, .mainmenu li.active a, .mainmenu li > a:hover, .theme-2 .single-service-box:hover .service-readmore-btn {
+    color: #d35400;
+}
+.single-service-box:hover, .single-price-box:hover, .theme-2 .single-service-box:hover {
+    border: 1px solid #d35400;
+}
+.single-price-box:hover .pricing-heading{border-bottom: 1px solid #d35400}

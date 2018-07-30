@@ -1,0 +1,223 @@
+/*******************************************************************************
+    Temaplte Name: Under constrution comming soon page.
+    Template URI: https://www.rozyislam.com/
+    Description: This is html5 Portfolio template
+    Author: rozy islam
+    Author URI: https://www.rozyislam.com/
+    Version: 1.0.0
+
+    Note: This is style css. All styles declare here.
+********************************************************************************/
+
+
+/*======================
+    Base Css
+=======================*/
+
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AsiyahScript.woff2') format('woff2'),
+    url('../fonts/AsiyahScript.woff') format('woff'),
+    url('../fonts/AsiyahScript.ttf') format('truetype'),
+    url('../fonts/AsiyahScript.svg#AsiyahScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px;
+    line-height: 1;
+    font-weight: normal;
+    font-family: 'Asiyah Script';
+}
+
+input:focus,
+textarea:focus,
+a:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-title {
+    margin-bottom: 70px;
+}
+
+.slide-bg-1 {
+    background-image: url(../images/slide-bg-1.jpg);
+}
+
+.slide-bg-2 {
+    background-image: url(../images/slide-bg-2.jpg);
+}
+
+.slide-bg-3 {
+    background-image: url(../images/slide-bg-3.jpg);
+}
+
+
+
+.homepage-slides,
+.homepage-slides div {
+    height: 100%;
+}
+
+.single-slide-item {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    color: #fff;
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+.slide-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.homepage-slides div.slide-tablecell,
+.homepage-slides div.slide-tablecell div,
+.homepage-slides div.owl-dots,
+.homepage-slides div.owl-dots div,
+.homepage-slides div.owl-nav,
+.homepage-slides div.owl-nav div {
+    height: auto;
+}
+
+.single-slide-item h1 {
+    font-size: 150px;
+}
+
+.boxed-btn {
+    display: inline-block;
+    background: #D8085E;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 12px 40px;
+    border-radius: 5px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.single-slide-item .boxed-btn {
+    margin-top: 25px;
+}
+
+.boxed-btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.homepage-slides .owl-nav div {
+    position: absolute;
+    left: 50px;
+    top: 70%;
+    font-size: 80px;
+    color: #fff;
+    opacity: .4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+}
+
+.homepage-slides .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
+
+.homepage-slides:hover .owl-nav div {
+    opacity: .4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    visibility: visible;
+    top: 50%;
+}
+
+.homepage-slides .owl-nav div:hover {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
+.homepage-slides .owl-dots div {
+    height: 90px;
+    width: 100px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.homepage-slides .owl-dots div.active:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+.homepage-slides .owl-dots {
+    position: absolute;
+    right: 5%;
+    bottom: -40px;
+}

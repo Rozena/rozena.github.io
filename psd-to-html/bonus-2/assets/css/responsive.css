@@ -1,0 +1,64 @@
+/* -------desktop/leptop layout.--------- */
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+  .copytext {
+  padding: 20px 30px;
+}  
+
+}
+
+
+/*-----------tablet layout----------------*/
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+  .copytext {
+  padding: 20px;
+}  
+    
+    
+}
+
+/*-----------normal/small mobile layout-------*/
+
+@media only screen and (max-width:767px) {
+.left-sidebar, .right-side-hero-wrap {
+  height: auto;
+  position: relative;
+  width: auto;
+  margin-left: 0;
+  width: 100%;
+}
+.right-side {
+  padding-bottom: 170px;
+  padding-top: 80px;
+}  
+.logo {
+  margin: 0;
+} 
+.mainmenu {
+  margin-top: 50px;
+}
+ .mainmenu li {
+  display: inline-block;
+}       
+
+.right-side h1 {
+  font-size: 50px;
+}    
+.sidebar-footer {
+  background: #1a1a1a none repeat scroll 0 0;
+  position: fixed;
+  padding: 10px 0;
+}
+.social-links {
+  margin-top: 0;
+} 
+.copytext {
+  padding: 0 10px;
+}    
+  
+}
+
+/*-----------wide mobile layout----------------*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {}

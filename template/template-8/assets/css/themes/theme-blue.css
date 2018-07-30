@@ -1,0 +1,16 @@
+
+
+.header-top-area, .mainmenu ul li.active a:after, .mainmenu ul li a:after, .hero-text ul li:nth-child(2):after, .hero-text ul li:nth-child(3):after, .boxed-btn, .special-food-box.active, .section-title:after, .social-share a:hover, .menu-absolute-bg i.fa, .menu-absolute-bg:after, .single-gellary-item:after, .owl-dots div.active, input[type="submit"], button[type="submit"], .tab-list li a:after, .address-info i.fa, .twist i.fa, .footer-area input[type="submit"], .ScrollToTop a:hover, .theme-2 .mainmenu ul li.active a:after, .theme-2 .mainmenu ul li a:after, .package-colored-box, .package-absolute-cart, .single-food-box.active .bordered-btn, .single-food-box:hover .bordered-btn, .active .food-box-info:after, .special-food-box.active:after, .gellary:after, .video-play-btn:after, .video-play-btn:hover, .cta-area .boxed-btn, .theme-2 .bordered-btn:hover, .theme-2 .email-subscribe-form button[type=submit], .theme-2 .testimonial-icon, .breadcroumb-area ul li:after, .email-subscribe-form, .navbar-toggle
+{
+     background-color: #3804f9;
+}
+
+.mainmenu ul li>a:hover, .mainmenu ul li.active>a, .hero-text ul li span, h3, .recipe-price, .food-price span, .about-text h2 span, .menu-details h3, .testimonial-icon, .tab-list li a:hover, .tab-list li a:hover:after, .tab-list li.active a, .blog-meta a:hover, .single-blog-item:hover .readmore-btn, .twist a, .copyright a, .ScrollToTop a, .theme-2 .mainmenu ul li>a:hover, .theme-2 .mainmenu ul li.active>a, .food-box-info .bordered-btn, .video-play-btn, .video-play-btn:hover, .gellary-icon, .cafe-information h4 span, .cafe-list .owl-nav div, .cafe-list .owl-nav div:hover, .theme-2 .blog-content h4, .theme-2 .email-subscribe-form h1, .theme-2 .email-subscribe-form h1 i.fa, .theme-2 .email-subscribe-form button[type=submit]:hover, .is-sticky .theme-2 .mainmenu ul li.active a, .food-gellary-titles li.active, .menu-icon, .canvas-menu ul.nav.navbar-nav li.active a, .canvas-menu ul.nav.navbar-nav li a:hover, .homepage-slides .owl-nav div, .homepage-slides .owl-nav div:hover, .entry-content blockquote:before
+{
+    color: #3804f9;
+}
+
+.special-food-box, .menu-absolute-bg i.fa, .single-menu-item, input[type=text]:focus, input[type=search]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=date]:focus, textarea:focus, select:focus, .testimonial-carousel.owl-carousel .owl-item img, .testimonial-meta img, .owl-dots div, .single-cafe-member, .single-cafe-member:hover, .food-box-info .bordered-btn, .single-food-box:hover .food-box-info, .active .food-box-info, .theme-2 .single-blog-item, .theme-2 .single-blog-item:hover, .theme-2 .email-subscribe-form button[type=submit], .theme-2 .email-subscribe-form button[type=submit]:hover, .food-gellary-titles li.active, .entry-content blockquote
+{
+     border-color: #3804f9;
+}

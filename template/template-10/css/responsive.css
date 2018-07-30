@@ -1,0 +1,499 @@
+ /*******************************************************************
+    Temaplte Name: RAYAN - Personal Portfolio HTML5 Template
+    Template URI: http://rozyislam.com/
+    Description: This is Portfolio HTML5 Template.
+    Author: brightcarrier
+    Author URI: http://rozyislam.com/
+    Version: 1.0.0
+
+    NOTE: all responsive css declare here.
+*********************************************************************/
+ /*****************************
+    desktop/leptop layout.
+*****************************/
+
+ @media only screen and (min-width:991px) and (max-width:1199px) {
+     .hero-text h1,
+     .slide-text h1 {
+         font-size: 60px;
+         line-height: 55px;
+         margin: 0 0 10px;
+     }
+     .mainmenu ul.nav.navbar-nav li a {
+         padding: 15px;
+     }
+     .author-info {
+         padding-top: 0px;
+     }
+     .Traffic-faq {
+         margin-left: 25px;
+     }
+     .single-service-item h4 {
+         font-size: 18px;
+     }
+
+  }
+
+
+/****************************
+    Tablet Layout
+*****************************/
+
+ @media only screen and (min-width:768px) and (max-width:990px) {
+     .section-padding {
+         padding: 100px 0;
+     }
+     .npt {
+         padding-top: 0;
+     }
+     .npb {
+         padding-bottom: 0;
+     }
+
+     .logo {
+         text-align: center;
+         display: block;
+         margin: 0 auto;
+         margin-bottom: 5px;
+     }
+     .mainmenu ul.nav.navbar-nav li a {
+         padding: 15px;
+     }
+
+     .header-area .text-right {
+         text-align: center;
+     }
+     .sticky-wrapper,
+     .header-area {
+         padding: 5px 0;
+     }
+     .social-links {
+         margin-bottom: 30px;
+     }
+     .hero-text h1,
+     .slide-text h1 {
+         font-size: 70px;
+         line-height: 70px;
+         margin: 0 0 12px;
+     }
+     .hero-text,
+     .slide-text {
+         padding-top: 110px;
+     }
+
+     .author-image img {
+         width: auto;
+         margin: 0 auto;
+     }
+     .author-image:before {
+         display: none;
+     }
+     .author-info {
+         margin: 30px 0 0;
+         padding: 0;
+         text-align: center;
+     }
+     .author-info .boxed-btn {
+         margin-top: 20px;
+     }
+     .single-bar-item:last-child {
+         margin-bottom: 50px;
+     }
+
+     .Traffic-faq .panel-group .panel {
+         margin-bottom: 0;
+     }
+
+     .Traffic-faq {
+         min-height: inherit;
+         margin-left: 0;
+     }
+     .single-service-item {
+         min-height: 140px;
+     }
+     .single-service-item h4,
+     .single-cl-item h4 {
+         font-size: 18px;
+     }
+     .cta-area h2 {
+         font-size: 40px;
+     }
+     .cta-area .boxed-btn {
+         padding: 10px 35px;
+         margin: 4px 0;
+     }
+
+     .team-img img {
+         height: 300px;
+     }
+     .team-title {
+         top: 260px;
+     }
+     .testimonial-list .owl-dots {
+         position: relative;
+         right: 0;
+         bottom: -20px;
+         -webkit-transform: rotate(0deg);
+         transform: rotate(0deg);
+     }
+     .col-sm-6:nth-child(1) .single-cl-item,
+     .col-sm-6:nth-child(2) .single-cl-item,
+     .col-sm-6:nth-child(1) .single-team-member,
+     .col-sm-6:nth-child(2) .single-team-member {
+         margin-bottom: 30px;
+     }
+     .single-blog-item {
+         margin-bottom: 30px;
+     }
+
+     .col-md-4:nth-child(3) .single-blog-item {
+         margin-bottom: 0;
+     }
+
+     .blog-bg {
+         height: 350px;
+     }
+     .date-meta {
+         top: 0;
+         border-radius: 0 0 0;
+     }
+     #GoogleMap {
+         position: relative;
+         width: 100%;
+         height: 400px;
+     }
+     .contact-form h1 {
+         font-size: 32px;
+     }
+     .contact-form textarea {
+         height: 200px;
+     }
+ }
+
+/***********************************
+    normal/small mobile layout.
+************************************/
+
+ @media only screen and (max-width:767px) {
+
+     .sticky-wrapper,
+     .header-area {
+         padding: 5px 0;
+         position: relative;
+         background: #000;
+         left: 0;
+         top: 0;
+     }
+
+     .navbar-toggle {
+         position: absolute;
+         float: none;
+         border: 1px solid #fff;
+         right: 25px;
+         top: -46px;
+         margin: 0;
+     }
+     .navbar-toggle .icon-bar {
+         background: #fff;
+     }
+
+     .mobile-menu-activated .mainmenu ul.nav.navbar-nav li {
+         display: block;
+     }
+
+     .mobile-menu-activated .mainmenu ul.nav.navbar-nav li a {
+         text-align: center;
+         padding: 10px;
+     }
+
+     .mobile-menu-activated .navbar-collapse {
+         box-shadow: 0 0 0;
+     }
+     .section-padding {
+         padding: 90px 0;
+     }
+     .section-title,
+     .contact-form h2 {
+         margin-bottom: 60px;
+     }
+     .section-title h2,
+     .contact-form h2,
+     .cta-area h2 {
+         line-height: 40px;
+         font-size: 28px;
+     }
+     .npt {
+         padding-top: 0;
+     }
+     .npb {
+         padding-bottom: 0;
+     }
+     .logo {
+         display: inline-block;
+     }
+     .logo a,
+     .is-sticky .logo a {
+         font-size: 30px;
+     }
+
+     .header-area .text-right {
+         text-align: center;
+     }
+     .social-links {
+         margin-bottom: 20px;
+     }
+
+     .hero-text h1,
+     .slide-text h1 {
+         font-size: 30px;
+         line-height: 40px;
+         margin: 0 0 10px;
+     }
+     .social-links {
+         margin-bottom: 20px;
+     }
+     .homepage-hero-wrap {
+         height: auto;
+     }
+     .hero-text,
+     .slide-text {
+         padding: 70px 0 80px;
+         text-align: center;
+     }
+     .animated-text span,
+     .slide-text h3 {
+         font-size: 18px;
+     }
+     .home-arrow {
+         margin-left: -12px;
+     }
+     .full-height-wrap,
+     .homepage-slides,
+     .full-height-wrap,
+     .homepage-slides div {
+         height: auto;
+     }
+     .slide-text h3 {
+         margin: 0 0 10px;
+     }
+     .full-height-wrap {
+         position: relative;
+     }
+     .homepage-slides .owl-dots {
+         right: 0;
+         bottom: 30px;
+     }
+     .homepage-slides .owl-nav {
+         display: none;
+     }
+     .section-title h2:after {
+         font-size: 50px;
+     }
+     .author-image:before {
+         display: none;
+     }
+     .author-image img {
+         height: 350px;
+         width: 100%;
+     }
+     .author-info {
+         padding: 0;
+         margin: 30px 0 0;
+         text-align: center;
+     }
+     .author-info .boxed-btn {
+         margin-top: 20px;
+     }
+
+     .single-bar-item:last-child {
+         margin-bottom: 50px;
+     }
+     .Traffic-faq .panel-title a {
+         font-size: 16px;
+     }
+     .Traffic-faq {
+         min-height: inherit;
+         margin-left: 0;
+     }
+     .single-service-item {
+         min-height: 140px;
+     }
+     .single-service-item h4,
+     .single-cl-item h4 {
+         font-size: 18px;
+     }
+
+     .col-sm-4:nth-child(4) .single-service-item,
+     .col-sm-4:nth-child(5) .single-service-item {
+         margin-bottom: 30px;
+     }
+
+     .single-cl-item {
+         margin-bottom: 30px;
+     }
+     .col-sm-6:nth-child(4) .single-cl-item {
+         margin-bottom: 0px;
+     }
+     .portfolio-titles {
+         margin: 0 0 20px;
+         padding: 0;
+     }
+     .portfolio-titles li {
+         margin-right: 20px;
+         margin-bottom: 5px;
+     }
+     .mfp-image-holder .mfp-close,
+     .mfp-iframe-holder .mfp-close {
+         right: 0;
+     }
+     .cta-area,
+     .cta-area .text-right {
+         text-align: center;
+     }
+     .cta-area .text-right {
+         margin-top: 10px;
+     }
+     .single-team-member {
+         margin-bottom: 30px;
+     }
+     .col-sm-6:nth-child(4) .single-team-member {
+         margin-bottom: 0px;
+     }
+     .testimonial-content:before,
+     .testimonial-content:after {
+         top: 10px;
+         font-size: 60px;
+     }
+     .testimonial-content:after {
+         bottom: 10px;
+         top: auto;
+     }
+     .testimonial-list .owl-dots {
+         position: relative;
+         right: 0;
+         bottom: -20px;
+         -webkit-transform: rotate(0deg);
+         transform: rotate(0deg);
+     }
+
+     .single-blog-item {
+         margin-bottom: 30px;
+     }
+
+     .col-md-4:nth-child(3) .single-blog-item {
+         margin-bottom: 0;
+     }
+
+     .blog-bg {
+         height: 200px;
+     }
+
+     .date-meta {
+         top: 0;
+         box-shadow: 0 0 0;
+         border-radius: 0 0 0;
+     }
+     .admin-meta {
+         margin: 0 0 20px;
+     }
+     .blog-content .read-more-btn {
+         margin-top: 5px;
+     }
+     .contact-form h1 {
+         font-size: 26px;
+     }
+     .contact-form textarea {
+         height: 150px;
+     }
+     .contact-form button[type=submit] {
+         margin-top: 5px;
+     }
+     #GoogleMap {
+         position: relative;
+         width: 100%;
+         height: 300px;
+     }
+
+ }
+
+
+
+ /*****************************
+    wide mobile layout
+******************************/
+
+ @media only screen and (min-width:480px) and (max-width:767px) {
+
+     .hero-text h1,
+     .slide-text h1 {
+         font-size: 40px;
+         line-height: 36px;
+         margin: 0 0 10px;
+     }
+
+     .hero-text .boxed-btn {
+         margin-top: 30px;
+     }
+    .author-image img {
+        height: 350px;
+        width: auto;
+        margin: 0 auto;
+    }
+    .team-img img {
+        height: 350px;
+        border-radius: 0 0 0;
+        min-height: 260px;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+     .team-title {
+        top: 310px;
+        width: 80%;
+        padding: 10px 40px;
+        left: 10%;
+    }
+     .section-title h2, .contact-form h2, .cta-area h2 {
+        line-height: 40px;
+        font-size: 36px;
+    }
+    .only-mobile-width {
+        width: 420px;
+        margin: 0 auto;
+    }
+     .section-title h2:after {
+         font-size: 55px;
+     }
+     .single-service-item h4,
+     .single-cl-item h4 {
+         font-size: 20px;
+     }
+     .row.portfolio-projects{
+        overflow: hidden;
+     }
+     .portfolio-titles{
+        margin-bottom:25px;
+     }
+    .portfolio-titles li {
+        margin-right: 0px;
+    }
+    .portfolio-titles li:last-child {
+        margin-right: 0;
+    }
+    .row.portfolio-projects {
+        width: 420px;
+        margin: 0 auto;
+    }
+     .single-blog-item {
+         width: 420px;
+         margin: 0 auto;
+         margin-bottom: 30px;
+     }
+     .blog-bg {
+         height: 250px;
+     }
+     #GoogleMap {
+         height: 350px;
+     }
+ }

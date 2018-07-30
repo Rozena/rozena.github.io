@@ -1,0 +1,60 @@
+.mainmenu {
+    position: relative;
+    padding-right: 40px;
+}
+
+.menu-cta {
+    color: #666;
+}
+
+.website-checker-form {
+    margin-top: -55px;
+}
+
+.section-title {
+    margin-bottom: 85px;
+}
+
+.pdt-50.padding-left-30 h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.about-us h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.single-pricing-box:hover {
+    border: 1px solid #06D6A0;
+}
+
+.single-pricing-box:hover .pricing-heading {
+    border-bottom: 1px solid #06D6A0;
+}
+
+.pricing-heading .price {
+    color: #06D6A0;
+}
+
+.single-pricing-box h4 {
+    font-weight: 400;
+}
+
+.single-pricing-box:hover h4 {
+    color: #373737;
+}
+
+.single-pricing-box:hover .price span {
+    color: #999;
+}
+
+.hero-form {
+    box-shadow: 4px 4px 15px #F2F2F2;
+}
+
+.case-studies-style2 {
+    margin-bottom: 45px;
+}

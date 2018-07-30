@@ -1,0 +1,340 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+    .laptop-wrapper {
+        width: 650px;
+        margin-top: -15px;
+    }
+    .hero-right-img {
+        right: -25%;
+    }
+
+    .left-blue-box {
+        padding: 20px;
+    }
+    .company-area img {
+        margin: 25px 2px;
+        padding: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+/*==============================
+    Tablet Layout
+=============================*/
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+    .hero-text .boxed-btn {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 40px;
+        position: relative;
+        z-index: 9;
+    }
+    .hero-text {
+        font-size: 28px;
+        line-height: 34px;
+        padding-top: 100px;
+    }
+    .hero-text h2 {
+        margin: 0 0 20px;
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .hero-right-img {
+        right: -32%;
+        bottom: 20%;
+    }
+    .laptop-wrapper {
+        width: 500px;
+        margin-top: 77px;
+    }
+    .hero-right-img img {
+        max-width: 150px;
+    }
+    .hero-right-img {
+        right: -35%;
+    }
+
+    .single-service-item h3 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    .right-project-img {
+        min-height: 400px;
+        padding: 0;
+        border-radius: 0;
+    }
+    .left-blue-box {
+        padding: 50px 20px;
+        min-height: 400px;
+    }
+    .portfolio-wrap .owl-controls {
+        left: -26%;
+    }
+    .right-project-img img {
+        min-height: 500px;
+    }
+    .leads-area h2 {
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .form-box {
+        margin-top: 50px;
+    }
+    .info {
+        margin-left: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+/*===================================
+    normal/small mobile layout.
+===================================*/
+
+@media only screen and (max-width:767px) {
+    body {
+        overflow-x: hidden;
+    }
+    .contact-cell span {
+        display: none;
+    }
+    .contact-cell i.fa {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: -35px;
+        font-size: 30px;
+    }
+    .contact-cell {
+        padding: 0;
+    }
+
+    .hero-text .boxed-btn {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .hero-text {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .hero-text h2 {
+        margin: 0 0 20px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .hero-right-img {
+        display: none;
+    }
+    .laptop-wrapper {
+        width: 370px;
+        margin-top: 0;
+    }
+    .hero-right-img img {
+        max-width: 150px;
+    }
+    .hero-right-img {
+        right: -35%;
+    }
+    .hero-img {
+        top: 370px;
+        margin-left: 0;
+    }
+    .section-padding,
+    .hero-bottom-content {
+        padding: 50px 0;
+    }
+    .single-service-item {
+        font-size: 15px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .service-icon-wrap {
+        height: 90px;
+    }
+    .spacer-50 {
+        height: 0;
+    }
+    .single-service-item h3 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .blank-hero-wrap {
+        height: 600px;
+    }
+    .dominate-service-area h2 {
+        font-size: 28px;
+    }
+    .dominate-service-area {
+        margin-top: 30px;
+    }
+    .single-promo-box {
+        padding-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .promo-icon {
+        position: relative;
+        top: 0;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .leads-area h2 {
+        padding-right: 0;
+        padding-top: 0;
+        font-size: 26px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+    .leads-area h4 {
+        font-size: 19px;
+    }
+    .check-list li {
+        line-height: 25px;
+        font-size: 15px;
+        margin-bottom: 30px;
+        display: block;
+    }
+    .form-box {
+        padding: 15px;
+    }
+    .info {
+        margin-left: 30px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    input[type="url"],
+    input[type="password"],
+    textarea {
+        height: 40px;
+    }
+    .form-box #lName {
+        margin-top: 0;
+    }
+    .custom-checkbox {
+        font-size: 15px;
+    }
+    .form-box .text-right {
+        text-align: center;
+    }
+    .footer-area .logo {
+        text-align: center;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .info {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .info li {
+        display: inline;
+        font-size: 15px;
+    }
+
+    .info i.fa {
+        font-size: 20px;
+    }
+    .footer-area .text-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .check-list li i.fa {
+        top: -5px;
+    }
+    .form-box [type=submit] {
+        margin-top: 15px;
+        display: block;
+        width: 100%;
+    }
+    .company-area img {
+        max-height: 30px;
+        margin: 20px 0px;
+        padding: 5px;
+    }
+    .form-box {
+        margin-top: 50px;
+    }
+    .portfolio-area {
+        display: none;
+    }
+
+    .portfolio-area-2 {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+/*==============================
+    wide mobile layout
+================================*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .blank-hero-wrap {
+        height: 710px;
+    }
+    .hero-text h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .hero-text {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .hero-text .boxed-btn {
+        padding: 8px;
+    }
+    .laptop-wrapper {
+        width: 565px;
+    }
+    .hero-img {
+        top: 360px;
+    }
+    .info {
+        width: 100%;
+    }
+    .copytext {
+        margin-top: 50px;
+    }
+    .company-area img {
+        max-height: 30px;
+        margin: 25px 10px;
+        padding: 2px;
+    }
+    .portfolio-area-2 .single-project-item img {
+        height: 400px;
+    }
+}

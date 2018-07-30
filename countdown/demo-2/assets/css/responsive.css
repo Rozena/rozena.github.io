@@ -1,0 +1,102 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+    .cp-info h2 {
+        font-size: 24px;
+    }
+    .cp-countdown li {
+        width: 120px;
+        height: 120px;
+        font-size: 36px;
+        line-height: 88px;
+        margin-left: 5px;
+    }
+}
+
+
+
+/*==============================
+    Tablet Layout
+=============================*/
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+    .cp-area {
+        height: auto;
+        display: inherit;
+    }
+    .cp-inner {
+        display: inherit;
+        padding-top: 150px;
+    }
+    .conpysection {
+        position: relative;
+    }
+    .cp-countdown {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .cp-area .col-md-7.text-right {
+        text-align: left;
+    }
+    .subscribe-form input[type=email] {
+        width: 79%;
+    }
+}
+
+
+/*===================================
+    normal/small mobile layout.
+===================================*/
+
+@media only screen and (max-width:767px) {
+    .cp-area {
+        height: auto;
+        display: inherit;
+    }
+    .cp-inner {
+        display: inherit;
+        padding-top: 150px;
+    }
+    .conpysection {
+        position: relative;
+    }
+    .cp-countdown {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .cp-area .col-md-7.text-right {
+        text-align: center;
+    }
+    .subscribe-form input[type=email],
+    .subscribe-form input[type=submit] {
+        width: 100%;
+        margin-left: 0;
+    }
+    .cp-info h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .subscribe-form {
+        text-align: center;
+    }
+    .cp-countdown li {
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .social-links,
+    .logo {
+        text-align: center;
+    }
+}
+
+
+
+/*==============================
+    wide mobile layout
+================================*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {}

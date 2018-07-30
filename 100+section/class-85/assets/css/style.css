@@ -1,0 +1,170 @@
+/*******************************************************************************
+    Temaplte Name: Under constrution comming soon page.
+    Template URI: https://www.rozyislam.com/
+    Description: This is html5 Portfolio template
+    Author: rozy islam
+    Author URI: https://www.rozyislam.com/
+    Version: 1.0.0
+
+    Note: This is style css. All styles declare here.
+********************************************************************************/
+
+
+/*======================
+    Base Css
+=======================*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px;
+    line-height: 1;
+}
+
+input:focus,
+textarea:focus,
+a:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-title {
+    margin-bottom: 70px;
+}
+
+.author-bg-1{
+    background-image: url(../images/author.jpg);
+}
+.testimonial-wrapper h1 {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    font-size: 78px;
+    z-index: 2;
+}
+
+.testimonial-wrapper h1 span {
+    color: #fff;
+}
+
+.testimonial-text {
+    max-width: 38%;
+    padding-top: 270px;
+    line-height: 30px;
+    padding-bottom: 100px;
+}
+
+.testimonial-author i.fa {
+    color: #C7A05B;
+    font-size: 25px;
+}
+
+.testimonial-author h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 0;
+    line-height: 30px;
+}
+
+.testimonial-author h4 span {
+    display: block;
+    font-size: 75%;
+}
+
+.testimonial-author {
+    margin-top: 30px;
+}
+
+.testimonial-wrapper {
+    position: relative;
+}
+
+.testimonial-author-bg {
+    position: absolute;
+    right: -4%;
+    top: 0;
+    height: 100%;
+    width: 64%;
+    background-size: cover;
+    background-position: center top;
+}
+.testimonial-area {
+    padding: 60px 0;
+}
+.single-testimonial-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial-carousel.owl-carousel {
+    width: 104%;
+}
+
+.testimonial-carousel .owl-nav div {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 47px;
+    font-size: 30px;
+    color: #333;
+}
+
+.testimonial-carousel .owl-nav {text-align: center;padding-right: 20%;position: absolute;width: 100%;bottom: 0;}
+
+
+.testimonial-carousel .owl-nav  div:first-child {
+    background: #C7A05B;
+    color: #fff;
+}
+.testimonial-carousel .owl-nav div:hover {
+    background: #000;
+    color: #fff;
+}
+

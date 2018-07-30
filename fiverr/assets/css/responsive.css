@@ -1,0 +1,48 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+
+@media only screen and (min-width:991px) and (max-width:1199px) {}
+
+
+
+/*==============================
+    Tablet Layout
+=============================*/
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+    .single-project-item {
+        height: 200px;
+    }
+}
+
+
+
+/*===================================
+    normal/small mobile layout.
+===================================*/
+
+@media only screen and (max-width:767px) {
+    .section-title h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .section-title h2 span {
+        margin-top: 15px;
+    }
+    .section-padding {
+        padding: 80px 0;
+    }
+}
+
+
+
+/*==============================
+    wide mobile layout
+================================*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .single-project-item {
+        height: 300px;
+    }
+}

@@ -1,0 +1,322 @@
+/*======================
+    Base Css
+=======================*/
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: auto;
+}
+
+body {
+    max-height: 100%;
+    font-weight: 400;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    font-family: 'Droid Serif', serif;
+    color: #666;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+}
+
+a:focus,
+textarea:focus,
+input:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.fix-x {
+    overflow-x: hidden;
+}
+
+.fix-y {
+    overflow-y: hidden;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 30px;
+    line-height: 1.4;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-title {
+    margin-bottom: 80px;
+}
+
+
+
+/* css  */
+
+.header-logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    padding: 30px 0;
+}
+
+.logo img {
+    max-width: 300px;
+    height: auto;
+}
+
+.logo {
+    -webkit-transition: .3s;
+    transition: .3s;
+    display: inline-block;
+}
+
+.logo:hover {
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+/****************************
+cp area css
+****************************/
+.cp-area {
+    height: 100%;
+    width: 100%;
+    display: table;
+    animation: 20s change infinite;
+}
+
+@keyframes change{
+    0%{
+        background: #0090ff;
+        background: -moz-linear-gradient(-45deg, #0090ff 0%, #7ddb76 50%, #ef81ce 100%);
+        background: -webkit-linear-gradient(-45deg, #0090ff 0%,#7ddb76 50%,#ef81ce 100%);
+        background: linear-gradient(135deg, #0090ff 0%,#7ddb76 50%,#ef81ce 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0090ff', endColorstr='#ef81ce',GradientType=1 );
+    }
+    25%{
+        background: #ea2eb2;
+        background: -moz-linear-gradient(-45deg, #ea2eb2 0%, #d0e52d 51%, #27492f 100%);
+        background: -webkit-linear-gradient(-45deg, #ea2eb2 0%,#d0e52d 51%,#27492f 100%);
+        background: linear-gradient(135deg, #ea2eb2 0%,#d0e52d 51%,#27492f 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea2eb2', endColorstr='#27492f',GradientType=1 );
+    }
+    50%{
+        background: #175677;
+        background: -moz-linear-gradient(-45deg, #175677 0%, #bb30f2 47%, #f4a084 100%);
+        background: -webkit-linear-gradient(-45deg, #175677 0%,#bb30f2 47%,#f4a084 100%);
+        background: linear-gradient(135deg, #175677 0%,#bb30f2 47%,#f4a084 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#175677', endColorstr='#f4a084',GradientType=1 );
+    }
+    100%{
+        background: #f0b7a1;
+        background: -moz-linear-gradient(-45deg, #f0b7a1 0%, #02f49b 51%, #bf6e4e 100%);
+        background: -webkit-linear-gradient(-45deg, #f0b7a1 0%,#02f49b 51%,#bf6e4e 100%);
+        background: linear-gradient(135deg, #f0b7a1 0%,#02f49b 51%,#bf6e4e 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=1 );      
+    }
+}
+
+.cp-inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.cp-info {
+    color: #fff;
+}
+
+.cp-info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #f1f1f1;
+    color: #000;
+    margin-bottom: 15px;
+    border-radius: 50px;
+}
+
+.subscribe-form .row {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+
+.subscribe-form .col-md-6,
+.subscribe-form .col-md-12 {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.subscribe-form input[type=email] {
+    width: 78%;
+}
+
+.subscribe-form input[type=submit] {
+    width: 30%;
+    background: #00e3ff;
+    margin-left: -10%;
+    padding: 13px;
+    color: #000;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+input[type=submit],
+button[type=submit] {
+    border: none;
+    padding: 12px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.subscribe-form input[type=submit]:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+.social-links {
+    margin: 30px 0 0;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    background: #00E3FF;
+    display: inline-block;
+    text-align: center;
+    color: #000;
+    line-height: 41px;
+    border-radius: 50%;
+    margin-right: 5px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.social-links a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.cp-countdown {
+    margin-top: 80px;
+}
+
+.cp-countdown ul {
+    list-style: none;
+}
+
+.cp-countdown li {
+    display: inline-block;
+    color: #fff;
+    width: 140px;
+    height: 140px;
+    border-top: 2px solid #00E3FF;
+    border-radius: 50%;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    box-shadow: 0 0 4px #29b0dd;
+    line-height: 110px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.cp-countdown li span {
+    display: block;
+    font-weight: normal;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-top: -8px;
+}
+
+.cp-countdown li:after {
+    position: absolute;
+    left: 50%;
+    bottom: 47px;
+    width: 35%;
+    height: 2px;
+    background: #00E3FF;
+    content: "";
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+
+/****************************
+    copysection css
+****************************/
+
+.copysection {
+    background: #07525f;
+    color: #fff;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-size: 11px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: 9;
+}
+
+.copysection a {
+    color: #00E3FF;
+    font-weight: 700;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.copysection a:hover {
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}

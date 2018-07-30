@@ -1,0 +1,134 @@
+/*======================
+    Base Css
+=======================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: auto;
+}
+
+body {
+    font-size: 15px;
+    line-height:25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a, 
+a:hover,
+a:focus,
+a:active
+{outline: none;
+text-decoration: none;
+ transition: all .2s ease;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-ms-transition: all .2s ease;
+-o-transition: all .2s ease;}
+
+.fix{
+    overflow: hidden;
+}
+.fix-x{
+    overflow-x: hidden;
+}
+.fix-y{
+    overflow-y: hidden;
+}
+
+a:focus,
+textarea:focus,
+input:focus,
+button:focus {
+    outline: 0 solid;
+} 
+
+
+h1, h2, h3,
+ h4, h5, h6 {
+    margin: 0 0 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.feature-1 .feature-bg{background-image: url(../images/b1.jpg);}
+.feature-2 .feature-bg{background-image: url(../images/b2.jpg);}
+.feature-3 .feature-bg{background-image: url(../images/b3.jpg);}
+.feature-4 .feature-bg{background-image: url(../images/b4.jpg);}
+
+.single-feature-item {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-bg {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    bottom: -50px;
+}
+
+.feature-text {
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+    padding: 30px;
+    padding-left: 115px;
+    padding-top: 50px;
+    border-bottom: 5px solid #EA654A;
+    border-radius: 0 0 10px 10px;
+}
+
+.feature-no {
+    font-size: 50px;
+    opacity: .2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    font-weight: 700;
+    position: absolute;
+    display: inline-block;
+    left: 40px;
+    top: 40px;
+}
+
+.feature-no:after {
+    position: absolute;
+    right: -30px;
+    top: 25px;
+    width: 100px;
+    height: 1px;
+    content: "";
+    background: #000;
+    -webkit-transform: rotate(320deg);
+            transform: rotate(320deg);
+}
+
+.feature-text h3 {
+    text-transform: capitalize;
+    font-size: 26px;
+}
+
+.feature-2 .feature-text {
+    border-color: #3BBB90;
+}
+
+.feature-3 .feature-text {
+    border-color: #A87ECB;
+}
+
+.feature-4 .feature-text {
+    border-color: #EDBA74;
+}

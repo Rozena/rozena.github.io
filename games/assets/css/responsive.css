@@ -1,0 +1,137 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+@media only screen and (min-width:768px) and (max-width:999px) {
+.gun-list ul li {
+    padding: 0;
+}
+
+
+
+
+}
+
+
+/*==============================
+    Tablet Layout
+=============================*/
+@media only screen and (min-width:768px) and (max-width:990px) {
+
+.mainmenu li a {
+    padding:10px;
+}
+.mainmenu li a i.fa {
+    padding-right: 3px;
+}
+.sidebar-icon {
+    top: 0;
+}
+.participent-list-carousel {
+    height: 130px;
+}
+.section-title {
+    top: -12px;
+}
+.player-list-carousel {
+    padding: 0 0 15px 0;
+}
+.gun-list {
+    margin-top: 20px;
+}
+.single-gun-item {
+    margin: 0 1px;
+}
+
+}
+
+
+/*===================================
+    normal/small mobile layout.
+===================================*/
+@media only screen and (max-width:767px) {
+.mainmenu li a {
+    padding:10px;
+}
+.mainmenu li a i.fa {
+    padding-right: 3px;
+}
+.player-pot-area li:last-child {
+    padding: 0;
+}
+.player-pot-area .text-right {
+    text-align: left;
+    margin-top: 20px;
+}
+.single-gun-item {
+    margin: 0 1px;
+}
+.special-player h5 {
+    top: 0;
+    margin-bottom: 10px;
+}
+.participent-list-carousel {
+    height: 130px;
+}
+.section-title {
+    top: -12px;
+}
+.player-list-carousel {
+    padding: 0 0 15px 0;
+}
+.gun-list {
+    margin-top: 20px;
+}
+.gun-list-icon {
+    position: relative;
+    top: 0;
+    padding: 15px;
+}
+.slicknav_menu {
+    display:block;
+}
+.mainmenu ul {
+    display: none;
+}
+.slicknav_menu {
+    background: transparent;
+}
+.slicknav_btn {
+    float: none;
+    position: relative;
+    top: -7px;
+}
+.logo {
+  text-align: center;
+}
+.header-area {
+  padding: 20px 0;
+}
+.slicknav_menu ul.slicknav_nav {
+  background: #130F19;
+  padding: 15px;
+}
+.slicknav_nav a:hover {
+  background: #161825;
+  color: #fff;
+}
+
+.mainmenu {
+    margin: 20px 0;
+    background: #130F19;
+}
+.slicknav_btn {
+  background-color: transparent;
+}
+.sidebar-icon {
+    top: -3px;
+}
+
+}
+
+
+/*==============================
+    wide mobile layout
+================================*/
+@media only screen and (min-width:480px) and (max-width:767px) {}
+
+

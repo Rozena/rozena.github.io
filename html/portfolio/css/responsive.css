@@ -1,0 +1,579 @@
+/*****************************
+    desktop/leptop layout.
+*****************************/
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+    .hero-text h1,
+    .slide-text h1 {
+        font-size: 65px;
+        line-height: 60px;
+        margin: 0 0 15px;
+    }
+    .mainmenu {
+        margin-right: -20px;
+    }
+    .mainmenu ul.nav.navbar-nav li a {
+        padding: 17px 14px;
+    }
+    .author-info {
+        padding: 0px 0 0 25px;
+    }
+    .Traffic-faq {
+        margin-left: 25px;
+    }
+    .single-service-item h4 {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+/****************************
+    Tablet Layout
+*****************************/
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+    .section-padding {
+        padding: 100px 0;
+    }
+    .npt {
+        padding-top: 0;
+    }
+    .npb {
+        padding-bottom: 0;
+    }
+
+    .logo {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .mainmenu ul.nav.navbar-nav li a {
+        padding: 15px;
+    }
+
+    .header-area .text-right {
+        text-align: center;
+    }
+    .sticky-wrapper,
+    .header-area {
+        padding: 5px 0;
+    }
+
+    .hero-text,
+    .slide-text {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .hero-text h1,
+    .slide-text h1 {
+        font-size: 70px;
+        line-height: 70px;
+        margin: 0 0 15px;
+    }
+    .author-image {
+        position: relative;
+        width: 450px;
+        margin: 0 auto;
+    }
+    .author-image img {
+        width: 450px;
+    }
+
+    .author-info {
+        margin: 30px 0 0;
+        padding: 0;
+        text-align: center;
+    }
+    .author-info .boxed-btn {
+        margin-top: 20px;
+    }
+    .single-bar-item:last-child {
+        margin-bottom: 50px;
+    }
+
+    .Traffic-faq .panel-group .panel {
+        margin-bottom: 0;
+    }
+
+    .Traffic-faq {
+        min-height: 275px;
+        margin-left: 0;
+    }
+    .single-service-item {
+        min-height: 140px;
+    }
+    .single-service-item h4,
+    .single-cl-item h4 {
+        font-size: 18px;
+    }
+    .cta-area h2 {
+        font-size: 40px;
+    }
+    .cta-area .boxed-btn {
+        padding: 10px 30px;
+        margin: 4px 0;
+    }
+
+    .team-img img {
+        height: 300px;
+    }
+    .team-title {
+        top: 260px;
+    }
+    .testimonial-list .owl-dots {
+        position: relative;
+        right: 0;
+        bottom: -20px;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .col-sm-6:nth-child(1) .single-cl-item,
+    .col-sm-6:nth-child(2) .single-cl-item,
+    .col-sm-6:nth-child(1) .single-team-member,
+    .col-sm-6:nth-child(2) .single-team-member {
+        margin-bottom: 30px;
+    }
+
+    .single-blog-item {
+        margin-bottom: 30px;
+    }
+
+    .col-md-4:nth-child(3) .single-blog-item {
+        margin-bottom: 0;
+    }
+
+    .blog-bg {
+        height: 350px;
+    }
+    .sidebar-content {
+        margin-left: 0;
+        margin-top: 100px;
+    }
+    .sidebar-content .social-links {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    #GoogleMap {
+        position: relative;
+        width: 100%;
+        height: 400px;
+    }
+    .contact-form h1 {
+        font-size: 32px;
+    }
+    .contact-form textarea {
+        height: 200px;
+    }
+}
+
+
+
+
+
+/***********************************
+    normal/small mobile layout.
+************************************/
+
+@media only screen and (max-width:767px) {
+    .section-padding {
+        padding: 90px 0;
+    }
+    .section-title,
+    .contact-form h2 {
+        margin-bottom: 60px;
+    }
+    .section-title h2,
+    .contact-form h2,
+    .cta-area h2 {
+        line-height: 1;
+        font-size: 28px;
+    }
+    .npt {
+        padding-top: 0;
+    }
+    .npb {
+        padding-bottom: 0;
+    }
+
+    .sticky-wrapper,
+    .header-area {
+        padding: 5px 0;
+        position: relative;
+        background: #000;
+        left: 0;
+        top: 0;
+    }
+
+    .navbar-toggle {
+        position: absolute;
+        float: none;
+        border: 1px solid #fff;
+        right: 25px;
+        top: -46px;
+        margin: 0;
+    }
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+
+    .mobile-menu-activated .mainmenu ul.nav.navbar-nav li {
+        display: block;
+    }
+
+    .mobile-menu-activated .mainmenu ul.nav.navbar-nav li a {
+        text-align: center;
+        padding: 6px;
+    }
+
+    .mobile-menu-activated .navbar-collapse {
+        box-shadow: 0 0 0;
+    }
+    .logo {
+        display: inline-block;
+    }
+    .logo a,
+    .is-sticky .logo a {
+        font-size: 30px;
+    }
+
+    .header-area .text-right {
+        text-align: center;
+    }
+
+    .hero-text,
+    .slide-text {
+        text-align: center;
+        margin: 0;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 25px 10px;
+        margin: 0;
+    }
+
+    .hero-text h1,
+    .slide-text h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0 0 10px;
+    }
+
+    .social-links {
+        margin-bottom: 20px;
+    }
+    .social-links a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 2px;
+        margin-right: 15px;
+        font-size: 15px;
+    }
+    .home-arrow {
+        font-size: 35px;
+    }
+    .animated-text span,
+    .slide-text h3 {
+        font-size: 16px;
+    }
+    .home-arrow {
+        margin-left: -12px;
+    }
+    .homepage-hero-wrap,
+    .slider-wrap {
+        height: 300px;
+        overflow: hidden;
+    }
+    .slide-text h3 {
+        margin: 0 0 10px;
+    }
+    #kenburnsy-bg {
+        height: 360px;
+    }
+
+    .section-title h2:after {
+        font-size: 50px;
+    }
+    .author-image {
+        position: relative;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .author-image img {
+        width: 300px;
+        height: 350px
+    }
+
+    .author-info {
+        padding: 0;
+        margin: 30px 0 0;
+        text-align: center;
+    }
+    .author-info .boxed-btn {
+        margin-top: 20px;
+    }
+    .skillbar-area {
+        margin-top: 60px;
+    }
+    .single-bar-item:last-child {
+        margin-bottom: 50px;
+    }
+    .Traffic-faq .panel-title a {
+        font-size: 16px;
+    }
+    .Traffic-faq {
+        min-height: 400px;
+        margin-left: 0;
+    }
+    .single-service-item {
+        min-height: 140px;
+    }
+    .single-service-item h4,
+    .single-cl-item h4 {
+        font-size: 18px;
+    }
+
+    .col-sm-4:nth-child(4) .single-service-item,
+    .col-sm-4:nth-child(5) .single-service-item {
+        margin-bottom: 30px;
+    }
+
+    .single-cl-item {
+        margin-bottom: 30px;
+    }
+    .col-sm-6:nth-child(4) .single-cl-item {
+        margin-bottom: 0px;
+    }
+    .portfolio-titles {
+        margin: 0 0 20px;
+        padding: 0;
+    }
+    .portfolio-titles li {
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+    .mfp-image-holder .mfp-close,
+    .mfp-iframe-holder .mfp-close {
+        right: 0;
+    }
+    .cta-area,
+    .cta-area .text-right {
+        text-align: center;
+    }
+    .cta-area .text-right {
+        margin-top: 10px;
+    }
+    .single-team-member {
+        margin-bottom: 30px;
+    }
+    .col-sm-6:nth-child(4) .single-team-member {
+        margin-bottom: 0px;
+    }
+    .testimonial-content:before,
+    .testimonial-content:after {
+        top: 10px;
+        font-size: 60px;
+    }
+    .testimonial-content:after {
+        bottom: 10px;
+        top: auto;
+    }
+    .testimonial-list .owl-dots {
+        position: relative;
+        right: 0;
+        bottom: -20px;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    .single-blog-item {
+        margin-bottom: 30px;
+    }
+
+    .col-md-4:nth-child(3) .single-blog-item {
+        margin-bottom: 0;
+    }
+
+    .blog-bg {
+        height: 200px;
+    }
+
+    .date-meta {
+        top: 0;
+        box-shadow: 0 0 0;
+        border-radius: 0 0 0;
+    }
+    .admin-meta {
+        margin: 0 0 20px;
+    }
+    .blog-content .read-more-btn {
+        margin-top: 5px;
+    }
+    .blog-d-date {
+        top: 210px;
+    }
+    .entry-content blockquote {
+        margin-left: 0;
+        padding: 20px;
+    }
+    .entry-content img {
+        height: 250px;
+    }
+    .entry-content .pagination>li>a,
+    .entry-content .pagination>li>span {
+        margin-right: 0;
+        font-size: 14px;
+        margin-bottom: 5px;
+        padding: 3px 8px;
+    }
+    .sidebar-content {
+        margin-left: 0;
+        margin-top: 100px;
+    }
+    .sidebar-content .social-links {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .contact-form h1 {
+        font-size: 26px;
+    }
+    .contact-form textarea {
+        height: 150px;
+    }
+    .contact-form button[type=submit] {
+        margin-top: 5px;
+    }
+    #GoogleMap {
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+    .scroll-to-top a {
+        bottom: 120px;
+    }
+}
+
+
+
+
+
+/*****************************
+    wide mobile layout
+******************************/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .homepage-hero-wrap {
+        height: 350px;
+        position: relative;
+    }
+    .slider-wrap {
+        height: 350px;
+    }
+
+    .hero-text h1,
+    .slide-text h1 {
+        font-size: 50px;
+        line-height: 45px;
+        margin: 0 0 12px;
+    }
+    #kenburnsy-bg {
+        height: 415px;
+        overflow: hidden!important;
+    }
+
+    .home-arrow {
+        font-size: 35px;
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .hero-text .boxed-btn {
+        margin-top: 30px;
+    }
+
+    .author-image {
+        position: relative;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .author-image img {
+        width: 400px;
+        height: 450px
+    }
+    .team-img img {
+        height: 350px;
+        border-radius: 0 0 0;
+        min-height: 260px;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    .Traffic-faq {
+        min-height: 290px;
+    }
+    .team-title {
+        top: 310px;
+        width: 80%;
+        padding: 10px 40px;
+        left: 10%;
+    }
+    .section-title h2,
+    .contact-form h2,
+    .cta-area h2 {
+        line-height: 40px;
+        font-size: 36px;
+    }
+    .only-mobile-width {
+        width: 420px;
+        margin: 0 auto;
+    }
+    .section-title h2:after {
+        font-size: 55px;
+    }
+    .single-service-item h4,
+    .single-cl-item h4 {
+        font-size: 20px;
+    }
+    .row.portfolio-projects {
+        overflow: hidden;
+    }
+    .portfolio-titles {
+        margin-bottom: 25px;
+    }
+    .portfolio-titles li {
+        margin-right: 0px;
+    }
+    .portfolio-titles li:last-child {
+        margin-right: 0;
+    }
+    .row.portfolio-projects {
+        width: 420px;
+        margin: 0 auto;
+    }
+    .single-blog-item {
+        margin-bottom: 30px;
+    }
+    .blog-bg {
+        height: 250px;
+    }
+    .entry-content img {
+        height: 300px;
+    }
+
+    .blog-d-date {
+        top: 260px;
+    }
+    #GoogleMap {
+        height: 350px;
+    }
+}

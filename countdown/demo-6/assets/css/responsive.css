@@ -1,0 +1,115 @@
+/*===============================
+    desktop/leptop layout.
+===============================*/
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+
+
+
+}
+
+
+
+
+/*==============================
+    Tablet Layout
+=============================*/
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+   .contact-info li {
+        padding: 10px;
+    }
+      
+    .copysection {
+        padding: 20px 0;
+    }
+}
+
+
+
+
+/*===================================
+    normal/small mobile layout.
+===================================*/
+
+@media only screen and (max-width:767px) {
+.full-height-wrap {
+    height: auto;
+}
+.header-area {
+    position: relative;
+    padding: 10px 0px 0px;
+    background:#000;
+}
+.contact-info li {
+    padding: 8px;
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header-area .text-right {
+    text-align: center;
+}
+
+.full-height-wrap {
+    height: auto;
+    display: inherit;
+    padding: 80px 0;
+}
+
+.full-height-inner {
+    display: inherit;
+    vertical-align: inherit;
+}
+#countdown {
+    margin: 0;
+}
+#countdown li {
+    display: block;
+    position: relative;
+    margin-bottom: 50px;
+}
+.subscriber-form {
+    margin-top: 25px;
+}
+.subscriber-form input[type=email] {
+    width: 100%;
+}
+.subscriber-form button[type=submit] {
+    width: 100%;
+    display:block;
+    top: -1px;
+    left: 0;
+    margin-top: 20px;
+}
+.copysection {
+    position: relative;
+    background: #000;    
+    padding: 20px 0;
+}
+.copysection, .copysection .text-right {
+    text-align: center;
+}
+.copysection .text-right {
+    padding: 15px 0 0;
+}
+
+
+
+
+}
+
+
+
+
+/*==============================
+    wide mobile layout
+================================*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+  
+}

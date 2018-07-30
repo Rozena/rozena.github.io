@@ -1,0 +1,156 @@
+/* *******************************
+Medium Layout: 1280px.
+********************************* */
+
+@media only screen and (min-width:992px) and (max-width:1200px) {}
+
+
+
+
+
+/* **************************
+Tablet Layout: 768px.
+************************** */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    .cs-site-inner {
+        padding: 140px 0 70px;
+    }
+    .cs-text-wrap {
+        margin-bottom: 70px;
+    }
+    .contact-form textarea {
+        height: 150px;
+    }
+}
+
+
+
+
+
+
+/* **************************
+Mobile Layout: 320px.
+************************** */
+
+@media only screen and (max-width:767px) {
+    h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+
+    .social-links a {
+        width: 30px;
+        height: 30px;
+        line-height: 27px;
+        font-size: 12px;
+    }
+
+    .header-area {
+        position: relative;
+        margin-top: 0;
+        background: #F99609;
+    }
+    .mainmenu li a:hover {
+        color: #fff;
+        opacity: .8;
+    }
+    .logo,
+    .header-area .text-right {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .mainmenu li a {
+        padding: 5px;
+    }
+
+    .social-links {
+        margin-left: 0;
+    }
+    .cs-site-inner {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    #countdown li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .contact-form textarea {
+        height: 100px;
+    }
+    .subscriber-form input[type=email],
+    .subscriber-form input[type=submit] {
+        width: 100%;
+    }
+
+    .subscriber-form input[type=submit] {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+
+    .subscriber-form {
+        margin-top: 0px;
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
+    .dark-theme .header-area {
+        background: #000;
+    }
+
+    .dark-theme .mainmenu li a:hover {
+        color: #fff;
+    }
+    .about-text {
+        padding: 20px;
+    }
+    .about-text h2 {
+        width: 150px;
+        letter-spacing: 1px;
+        margin-top: -45px;
+        margin-bottom: 30px;
+    }
+    .about-text h3 {
+        margin-top: 30px;
+    }
+    #GoogleMap {
+        height: 250px;
+    }
+    .copysection {
+        padding: 20px 0;
+    }
+    .copysection,
+    .copysection .text-right {
+        text-align: center;
+    }
+
+    .copysection .social-links {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+/* **************************
+Wide Mobile Layout: 480px.
+************************** */
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+    h2 {
+        font-size: 36px;
+    }
+    #countdown li {
+        display: inline-block;
+        width: 48%;
+    }
+    #GoogleMap {
+        height: 350px;
+    }
+}

@@ -1,0 +1,18 @@
+
+
+.logo a span, .social-links a, .author-image:before, .skillbar-bar, .boxed-btn, .cta-area, .team-title, .read-more-btn:after, .portfolio-titles li:after, .testimonial-list .owl-dots div.active, .date-meta, button[type=submit], input[type=submit], .homepage-slides .owl-dots div.active, .site-spinner-wrap .spinner .cube1,
+ .site-spinner-wrap .spinner .cube2{
+    background: #f7087f;
+}
+
+.mainmenu ul.nav.navbar-nav li a:hover, .mainmenu ul.nav.navbar-nav li.active a, .section-title h1 span, .single-service-item:hover .service-icon, .single-service-item:hover h4, .single-cl-item span.counter, .preview-icon, .portfolio-hover p, .homepage-slides .owl-nav div, .scroll-to-top a, .copysection a, .read-more-btn:hover{
+	color: #f7087f;
+}
+
+.skillbar, .portfolio-hover:before, .portfolio-hover:after, .Traffic-faq .panel-group .panel, .testimonial-list .owl-dots div, .testimonial-list.owl-carousel .owl-item img, .testimonial-meta img, .homepage-slides .owl-dots div, .homepage-slides .owl-nav div, .single-cl-item, .scroll-to-top a{
+	border-color: #f7087f;
+}
+
+
+
+

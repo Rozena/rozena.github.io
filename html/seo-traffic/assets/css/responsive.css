@@ -1,0 +1,435 @@
+/* -------desktop/leptop layout.--------- */
+@media only screen and (min-width:991px) and (max-width:1199px){
+  .boxed-btn {
+    font-size: 13px;
+    padding: 13px 12px;
+	}
+.mainmenu li a {
+    padding: 12px 9px;
+}
+.single-service-box {
+    padding: 20px;
+}
+.homepage-hero-area h1 {
+    font-size: 40px;
+}
+    
+.case-study-wrapper{font-size: 13px;}    
+    
+.single-service-item-2 {
+    height: 210px;
+}
+.single-blog-box h3 {
+    font-size: 18px;
+}
+.single-slide-item h1 {
+    font-size: 52px;
+    line-height: 55px;
+}
+.theme-2 .single-service-box {
+    padding: 35px 15px 15px;
+}
+.padding-top-80 {
+    padding-top: 50px;
+}
+.section-service-bg {
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.style-services-two .single-service-box {
+    padding: 40px 20px 20px;
+}
+.theme-2 .single-case-study {
+    height: 220px;
+}
+.case-study-box-preview {
+    height: 250px;
+}
+.padding-top-100 {
+    padding-top: 0px;
+}
+.testimonial-content p {
+    font-size: 22px;
+}
+
+
+
+
+}
+
+/*-----------tablet layout 768px. ----------------*/
+@media only screen and (min-width:768px) and (max-width:990px){
+.slicknav_menu {
+    display: block;
+}    
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mainmenu {
+    display: none;
+}
+.header-area .text-right {text-align: center;}    
+.homepage-hero-area .text-right {text-align: left;}    
+.homepage-hero-area { 
+	padding: 50px 0;
+}
+.website-check-form {
+    margin-bottom: 50px;
+}
+.mobile-padding-fix {
+    padding: 0;
+    margin-bottom: 50px;
+}
+.mobile-text-left{text-align: left;}
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.single-service-box {
+    min-height: 285px;
+}
+.cta-area h2 {
+    margin: 0;
+}
+.cta-area, .cta-area .text-right {
+    text-align: center;
+}
+.cta-area .boxed-btn {
+    margin-top: 20px;
+}
+.mobile-only-margin {
+    height: 50px;
+}
+.breadcamp-area {
+    padding: 60px 0!important;
+    font-size: 18px;
+    line-height: 28px;
+}
+.breadcamp-area h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.testimonial-content p {
+    font-size: 20px;
+    line-height: 32px;
+}
+.cta-area.theme-4, .cta-area.theme-5, .breadcamp-area {
+    padding: 50px 0;
+}
+.cta-area h1 {
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+.blog-thumb-wrap {
+    height: 200px;
+}
+.shadow-image img {
+    width: 100%;
+}
+.contact-form {
+    margin-left: 0;
+}
+.padding-top-100 {
+    padding-top: 50px;
+}
+.homepage-hero-area h1 {
+    font-size: 40px;
+    margin-top: 0;
+    max-width: 100%;
+}
+.hero-form {
+    margin-top: 40px;
+}
+.single-service-item-2, .single-price-box.theme-2, .case-study-box-style2 {
+    margin-bottom: 30px;
+}
+.col-md-3:nth-child(3) .single-service-item-2, .col-md-3:nth-child(4) .single-service-item-2, .col-md-4:nth-child(3) .single-price-box.theme-2 {margin: 0;}
+
+.npt {padding-top: 0;}
+
+.single-slide-item h1 {
+    font-size: 35px;
+    line-height: 34px;
+}
+.website-checker-form {
+    margin-top: -25px;
+}
+footer.footer-area-2, footer.footer-area-2 .text-right, .copysection-2, .copysection-2 .text-right {
+    text-align: center;
+}
+
+footer.footer-area-2 img {
+    margin-bottom: 10px;
+}
+
+.copysection-2 .text-right {
+    margin-top: 10px;
+}
+
+.copysection-2 {
+    padding: 10px 0;
+}
+.single-slide-item-2 h1 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.homepage-hero-area-2 .website-checker-form {
+    margin-top: 40px;
+}
+.absolute-gellary {
+    position: relative;
+    top: auto;
+}
+.text-right .gellary {
+    text-align: left;
+}
+.section-service-bg:after, .section-service-bg:before{display: none;;}
+.section-service-bg {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.single-service-item {
+    min-height: inherit;
+}
+.section-service-bg .single-service-item {
+    margin-top: 30px;
+}
+.section-padding.section-service-bg {
+    padding-top: 0;
+}
+.shadow-image img {
+    max-height: 700px;
+}
+.mobile-padding-top-0{padding-top: 0;}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 40px;
+    margin: 0 0 15px;
+}
+.pdt-50 p {
+    margin-top: 30px;
+}
+.col-md-4:nth-child(9) .single-service-box {
+    margin-top: 50px;
+}
+
+
+
+}
+
+
+/*-----------tablet & mobile layout 768px. ----------------*/
+@media only screen (max-width:990px){
+    
+    
+}
+
+/*-----------normal/small mobile layout 320px. -------*/
+@media only screen and (max-width:767px){
+.slicknav_menu {
+    display: block;
+}    
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mainmenu {
+    display: none;
+}
+.header-area .text-right {text-align: center;}    
+.homepage-hero-area .text-right {text-align: left;}    
+.homepage-hero-area { 
+	padding: 50px 0;
+}
+.website-check-form {
+    margin-bottom: 50px;
+}
+.website-check-form input[type="url"], .website-check-form input[type="submit"] {
+    margin-right: 0;
+    width: 100%;
+}  
+.website-checker-form input {
+    margin-right: 0;
+    width: 100%;
+}    
+.website-checker-form input[type="submit"] {
+    margin-right: 0;
+    width: auto;
+}
+.header-area-absolute {
+    position: relative;
+    background: #7D949E;
+    padding: 0;
+}
+.mobile-padding-fix {
+    padding: 0;
+    margin-bottom: 50px;
+}
+.mobile-text-left{text-align: left;}
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.single-service-box {
+    min-height: 285px;
+}
+.cta-area h2 {
+    margin: 0;
+}
+.cta-area, .cta-area .text-right {
+    text-align: center;
+}
+.cta-area .boxed-btn {
+    margin-top: 20px;
+}
+.mobile-only-margin {
+    height: 50px;
+}
+.breadcamp-area {
+    padding: 60px 0!important;
+    font-size: 18px;
+    line-height: 28px;
+}
+.breadcamp-area h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.testimonial-content p {
+    font-size: 20px;
+    line-height: 32px;
+}
+.cta-area.theme-4, .cta-area.theme-5, .breadcamp-area {
+    padding: 50px 0;
+}
+.cta-area h1 {
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+.blog-thumb-wrap {
+    height: 200px;
+}
+.shadow-image img {
+    width: 100%;
+}
+.contact-form {
+    margin-left: 0;
+}
+.padding-top-100 {
+    padding-top: 50px;
+}
+.homepage-hero-area h1 {
+    font-size: 24px;
+    margin-top: 0;
+    max-width: 100%;
+    line-height: 32px;
+}
+.hero-form {
+    margin-top: 40px;
+}
+.single-service-item-2, .single-price-box.theme-2, .case-study-box-style2 {
+    margin-bottom: 30px;
+}
+.col-md-3:nth-child(3) .single-service-item-2, .col-md-3:nth-child(4) .single-service-item-2, .col-md-4:nth-child(3) .single-price-box.theme-2 {margin: 30px 0 0;}
+
+.npt {padding-top: 0;}
+
+.single-slide-item h1 {
+    font-size: 35px;
+    line-height: 34px;
+}
+.website-checker-form {
+    margin-top: -25px;
+}
+footer.footer-area-2, footer.footer-area-2 .text-right, .copysection-2, .copysection-2 .text-right {
+    text-align: center;
+}
+
+footer.footer-area-2 img {
+    margin-bottom: 10px;
+}
+
+.copysection-2 .text-right {
+    margin-top: 10px;
+}
+
+.copysection-2 {
+    padding: 10px 0;
+}
+.single-slide-item-2 h1 {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.homepage-hero-area-2 .website-checker-form {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.absolute-gellary {
+    position: relative;
+    top: auto;
+}
+.text-right .gellary {
+    text-align: center;
+}
+.section-service-bg:after, .section-service-bg:before{display: none;;}
+.section-service-bg {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.single-service-item {
+    min-height: inherit;
+}
+.section-service-bg .single-service-item {
+    margin-top: 30px;
+}
+.section-padding.section-service-bg {
+    padding-top: 0;
+}
+.shadow-image img {
+    max-height: 700px;
+}
+.mobile-padding-top-0{padding-top: 0;}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 40px;
+    margin: 0 0 15px;
+}
+.pdt-50 p {
+    margin-top: 30px;
+}
+.col-md-4:nth-child(9) .single-service-box {
+    margin-top: 50px;
+}   
+.col-md-4:nth-child(7) .single-service-box, .col-md-4:nth-child(8) .single-service-box{
+    margin-bottom: 50px;
+}    
+.col-md-4:nth-child(3) .single-price-box {
+    margin: 0;
+}
+.newsletter-form input[type="email"] {
+    width: 72%;
+}    
+.social-share a {
+    margin-bottom: 20px;
+}   
+.absolute-address {
+    position: relative;
+    top: -20px;
+}    
+.hero-form {
+    padding:25px 0px;
+}    
+ .case-study-area {
+    padding-top: 0;
+}   
+    
+}
+/*-----------wide mobile layout 480px. ----------------*/
+@media only screen and (min-width:480px) and (max-width:767px){
+    
+}
+

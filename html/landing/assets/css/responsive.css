@@ -1,0 +1,104 @@
+/* -------desktop/leptop layout.--------- */
+
+@media only screen and (min-width:991px) and (max-width:1199px) {
+
+    .hero-text {
+        width: 80%;
+    }
+    .hero-text h2 {
+        font-size: 32px line-height: 1.3;
+    }
+    .hero-text a {
+        font-size: 18px;
+    }
+}
+
+
+
+/*-----------tablet layout----------------*/
+
+@media only screen and (min-width:768px) and (max-width:990px) {
+
+    .hero-text {
+        width: 80%;
+    }
+    .hero-text h2 {
+        font-size: 30px;
+    }
+}
+
+
+/*-----------normal/small mobile layout-------*/
+
+@media only screen and (max-width:767px) {
+    .logo {
+        text-align: center;
+    }
+    .mainmenu {
+        text-align: center;
+    }
+    .mainmenu li a {
+        padding: 15px;
+    }
+    .mainmenu li {
+        padding: 0;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+    .hero-text h2 {
+        font-size: 22px line-height: 1.3;
+    }
+    .hero-text {
+        font-size: 14px;
+    }
+    .footer-area p,
+    .footer-area .text-right {
+        text-align: center;
+    }
+    .social-links {
+        margin-top: 12px;
+    }
+    .hero-text {
+        padding: 180px 15px;
+        text-align: center;
+    }
+    .hero-text h2 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .header-area {
+        padding: 20px;
+    }
+    .logo>a {
+        font-size: 25px;
+    }
+    .mainmenu li a {
+        font-size: 16px;
+        padding: 8px 0 4px;
+    }
+    .mainmenu li {
+        padding: 10px;
+    }
+
+    html,
+    .theme-1 {
+        height: auto;
+    }
+    .footer-area {
+        padding: 15px;
+    }
+    .theme-2 .hero-text {
+        padding: 30px 10px;
+    }
+    .theme-2 .footer-area {
+        margin-top: 50px;
+    }
+}
+
+
+/*-----------wide mobile layout----------------*/
+
+@media only screen and (min-width:480px) and (max-width:767px) {}

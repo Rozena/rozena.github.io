@@ -1,0 +1,76 @@
+/* -------desktop/leptop layout.--------- */
+@media only screen and (min-width:991px) and (max-width:1199px){
+    .boxed-btn {
+    font-size: 13px;
+    padding: 13px 15px;
+	}
+.mainmenu li a {
+    padding: 12px 9px;
+}
+.single-service-box {
+    padding: 20px;
+}
+.homepage-hero-area h1 {
+    font-size: 40px;
+}
+.single-service-item-2 {
+    height: 210px;
+}
+.case-study-wrapper {
+    padding: 20px;
+}
+.single-blog-box h3 {
+    font-size: 18px;
+}
+.single-slide-item h1 {
+    font-size: 52px;
+    line-height: 55px;
+}
+.theme-2 .single-service-box {
+    padding: 35px 15px 15px;
+}
+.padding-top-80 {
+    padding-top: 50px;
+}
+.section-service-bg {
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.style-services-two .single-service-box {
+    padding: 40px 20px 20px;
+}
+.theme-2 .single-case-study {
+    height: 220px;
+}
+.case-study-box-preview {
+    height: 250px;
+}
+.padding-top-100 {
+    padding-top: 0px;
+}
+.pdt-50 {
+    padding-top: 0;
+}
+.testimonial-content p {
+    font-size: 22px;
+}
+
+
+
+
+}
+
+/*-----------tablet layout----------------*/
+@media only screen and (min-width:768px) and (max-width:990px){
+    
+}
+
+/*-----------wide mobile layout----------------*/
+@media only screen and (min-width:480px) and (max-width:767px){
+    
+}
+
+/*-----------normal/small mobile layout-------*/
+@media only screen and (max-width:767px){
+    
+}

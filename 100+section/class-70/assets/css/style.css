@@ -1,0 +1,234 @@
+/*common typography*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+div,
+class,
+id,
+section,
+aside,
+article,
+header,
+footer,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+
+html,
+body,
+.full-height {
+    height: 100%;
+}
+
+body {
+  color: #000;
+  font-family: "Roboto",sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+
+/*--heading---*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px;
+    font-weight: 700;
+}
+h2{
+    font-size: 35px;
+    margin: 0 0 30px;
+}
+h3{font-size: 25px;}
+h4{font-size: 20px;}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+.section-padding-80 {
+    padding: 80px 0;
+}
+
+
+/*===================================================*/
+
+.mainmenu {
+  position: relative;
+  padding-right: 30px;
+}
+.mainmenu ul {
+  list-style: none;
+}
+.mainmenu li {
+  display: inline-block;
+  position: relative;
+}
+.mainmenu li a {
+  padding: 20px;
+  display: block;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.search-trigger {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font-size: 16px;
+}
+.search-box {
+  position: absolute;
+  right: 110px;
+  top: 50px;
+  display: none;
+}
+.search-box input {
+  background: #f1f1f1;
+  border: 1px solid #ddd;
+  padding: 6px;
+  width: 250px;
+}
+
+
+
+
+
+/* ---- particles.js container ---- */
+.header-area{background-image: url(../images/hero-bg.jpg);position: relative;background-color:#ddd;background-position: center;background-size: cover;z-index: 1;height: 600px;width: 100%;}
+.header-area:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #000;
+  opacity: .7;
+  z-index: -1;
+}
+.hero-text {
+	color: #fff;
+	margin-top: -500px;
+}
+.boxed-btn {
+  background: #fff;
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 8px 35px;
+  border-radius: 50px;
+  margin-top: 30px;
+  transition: .3s;
+  border: 2px solid transparent;
+}
+.boxed-btn:hover {
+  background: transparent;
+  border: 2px solid;
+  color: #fff;
+}
+
+.styled-modal .modal-dialog {
+  width: 800px;
+}
+.styled-modal .modal-content {
+  background: #f9f9f9;
+  border-radius: 3px;
+  box-shadow: 0 0 0;
+  border: none;
+  padding: 30px;
+}
+.styled-modal .modal-header {
+  padding: 0;
+  border-bottom: none;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.styled-modal .modal-header h4 {
+  font-size: 30px;
+  color: #444;
+}
+.styled-modal .modal-content input, .styled-modal .modal-content textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+.styled-modal .modal-content textarea {
+  height: 180px;
+}
+.styled-modal .modal-content input[type=submit] {
+  width: auto;
+  background: #ddd;
+  border-radius: 50px;
+  padding: 8px 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  color: #444;
+  margin: 0 auto;
+  display: block;
+  transition: .3s;
+  border: 2px solid transparent;
+}
+.styled-modal .modal-content input[type="submit"]:hover {
+	background: transparent;
+	border: 2px solid;
+}
+
+
+/*.about-indicator i{-webkit-animation: 1s ease infinite running rozy;animation: 1s ease infinite running rozy;}
+@-webkit-keyframes rozy{
+    0%{-webkit-transform: translateY(0px);transform: translateY(0px)}
+    50%{-webkit-transform: translateY(10px);transform: translateY(10px)}
+    100%{-webkit-transform: translateY(0px);transform: translateY(0px)}
+}
+@keyframes rozy{
+    0%{-webkit-transform: translateY(0px);transform: translateY(0px)}
+    50%{-webkit-transform: translateY(10px);transform: translateY(10px)}
+    100%{-webkit-transform: translateY(0px);transform: translateY(0px)}
+}*/
