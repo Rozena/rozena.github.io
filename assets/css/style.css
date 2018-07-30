@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Varela+Round');
+
+html,
+body {
+    font-size: 14px;
+    line-height: 1.4;
+    height: 100%;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.8;
+}
+
+
+/*font-family: 'Questrial', sans-serif;*/
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+textarea:focus,
+input:focus,
+button:focus {
+    outline: 0 none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px;
+    color: #212121;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+
+
+
+/* ========== css start ============= */
+
+.section-title{
+    position: relative;
+    padding-bottom: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.b-design:before, .b-design:after {
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+    content: "";
+    height: 1px;
+    background-repeat: no-repeat;
+    width: 40%;
+    background-color: #f1f1f1;
+}
+.b-design:after {
+    left: auto;
+    right: 0;
+}
+
+
+
+
+ .loader {
+     height: 3px;
+     width: 100%;
+     overflow: hidden;
+     background-color: #f1f1f1;
+ }
+ .loader .bar {
+     position: relative;
+     height: 3px;
+     width: 100%;
+     background-color: #00C9E4;
+     animation: loader-animation 3s infinite;
+ }
+ @keyframes loader-animation {
+     0% {
+         left:-100%;
+     }
+     100% {
+         left:100%;
+     }
+ }
+
+
+ .hover {
+    color: red;
+}
+
+#book {
+    width: 100px;
+    height: 100px;
+    background: #ddd;
+    margin: 0 auto;
+}
+
