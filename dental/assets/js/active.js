@@ -104,6 +104,10 @@
 
         });
 
+        // wow js
+         new WOW().init({
+            animateClass: 'animated'
+         });
 
 
     });

@@ -63,6 +63,7 @@ h6 {
 h2 {
     font-size: 36px;
 }
+
 h4 {
     font-size: 22px;
     margin-bottom: 10px;
@@ -79,6 +80,7 @@ h4 {
 .section-title {
     margin: 0 0 20px;
 }
+
 .overlay {
     position: relative;
     z-index: 1;
@@ -96,6 +98,7 @@ h4 {
     opacity: .8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
+
 
 
 /* =================
@@ -155,6 +158,7 @@ header top css start
 .header-top {
     border-bottom: 1px solid #ddd;
 }
+
 
 
 /* ======================
@@ -223,6 +227,7 @@ header middle css start
 .header-middle {
     padding: 20px 0;
 }
+
 
 
 
@@ -300,7 +305,7 @@ header area css start
     height: 100%;
     z-index: -1;
     -webkit-transform: skew(-20deg);
-            transform: skew(-20deg);
+    transform: skew(-20deg);
     border: 1px solid transparent;
     -webkit-transition: .3s;
     transition: .3s;
@@ -313,6 +318,7 @@ header area css start
     border-top: 1px solid #00CCE1;
     border-bottom: 1px solid #00CCE1;
 }
+
 
 
 
@@ -408,7 +414,7 @@ slider area css start
     left: 0;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -457,6 +463,7 @@ slider area css start
 
 
 
+
 /* ======================
 welcome area css start 
 ========================*/
@@ -488,9 +495,11 @@ welcome area css start
 .welcome-box h4 {
     margin: 12px 0;
 }
+
 .welcome-box {
     margin-top: 30px;
 }
+
 
 
 
@@ -611,6 +620,7 @@ team area css start
 
 
 
+
 /* ======================
 service css start 
 ========================*/
@@ -662,6 +672,7 @@ service css start
 .service-box:hover .more-btn {
     color: #F69165;
 }
+
 
 
 
@@ -769,6 +780,7 @@ pricing css start
 
 
 
+
 /* ======================
 blog css start 
 ========================*/
@@ -850,6 +862,7 @@ blog css start
 
 
 
+
 /* ======================
 client css start 
 ========================*/
@@ -861,6 +874,7 @@ client css start
 .client-area .section-title h2 {
     color: #fff;
 }
+
 .client-area {
     background-image: url(../img/2.jpg);
     background-size: cover;
@@ -902,6 +916,7 @@ client css start
 
 
 
+
 /* ======================
 testimonial css start 
 ========================*/
@@ -934,7 +949,7 @@ testimonial css start
     bottom: -30px;
     border-top: 30px solid #EBEBEB;
     -webkit-transform: rotate(7deg);
-            transform: rotate(7deg);
+    transform: rotate(7deg);
 }
 
 .triangle-shape:after {
@@ -977,6 +992,7 @@ testimonial css start
 
 
 
+
 /* ======================
 footer css start 
 ========================*/
@@ -990,7 +1006,7 @@ footer css start
 
 .footer-area:after {
     background: #1b1b1b;
-    opacity: .92;
+    opacity: .94;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=92)";
 }
 
@@ -1018,6 +1034,7 @@ footer css start
     position: relative;
     padding-left: 50px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .footer-area ul li img {
@@ -1026,7 +1043,7 @@ footer css start
     top: 50%;
     max-height: 35px;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .footer-area ul {
@@ -1115,12 +1132,9 @@ footer css start
     margin-top: 30px;
 }
 
-
-
 .copysec {
     background: #161616;
     color: #777;
-    font-weight: 700;
     padding: 20px 0;
 }
 
@@ -1134,6 +1148,7 @@ footer css start
 .copysec a:hover {
     text-decoration: underline;
 }
+
 
 
 
@@ -1156,7 +1171,7 @@ shop page css
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
     bottom: 0;
 }
 
@@ -1170,7 +1185,7 @@ shop page css
     right: 0;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .breadcrumb-area ul li {
@@ -1187,7 +1202,7 @@ shop page css
     border-radius: 50%;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     right: -5px;
 }
 
@@ -1301,7 +1316,7 @@ shop page css
     background: #d7d7d7;
     content: "";
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .product-top .nice-select {
@@ -1320,6 +1335,7 @@ shop page css
     height: 41px;
     background: #F2F2F2;
 }
+
 
 
 
@@ -1353,7 +1369,7 @@ product sidebar
     right: 0;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     width: 20px;
     height: 20px;
     background: #00CCE1;
@@ -1509,66 +1525,77 @@ product sidebar
 
 
 
+
 /* ==================
 loader css start
 =====================*/
 
-
 .site-spinner {
-  width: 100%;
-  height: 100%;
-  z-index: 999;
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #f1f1f1;
 }
+
 .site-spinner .spinner {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translatex(-50%);
-  margin-top: -20px;
-  width: 40px;
-  height: 40px;
-  position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translatex(-50%);
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    position: relative;
 }
-.site-spinner .spinner .double-bounce1, .site-spinner .spinner .double-bounce2 {
-  background: #F69165;
-  opacity: 1;
-}
+
+.site-spinner .spinner .double-bounce1,
 .site-spinner .spinner .double-bounce2 {
-  background: #00CCE1;
+    background: #F69165;
+    opacity: 1;
 }
-.double-bounce1, .double-bounce2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
+
+.site-spinner .spinner .double-bounce2 {
+    background: #00CCE1;
+}
+
+.double-bounce1,
+.double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
 }
 
 .double-bounce2 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
 }
 
 @-webkit-keyframes sk-bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
+    0%,
+    100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
 }
 
 @keyframes sk-bounce {
-  0%, 100% { 
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 50% { 
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-  }
+    0%,
+    100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
 }
-
-
