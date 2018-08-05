@@ -775,7 +775,9 @@ pricing css start
 .pricing-box.active .boxed-btn {
     background: #F69165;
 }
-
+.pricing-box .boxed-btn:hover {
+    color: #fff;
+}
 
 
 
