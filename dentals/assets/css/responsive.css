@@ -35,6 +35,7 @@
 
 
 
+
 /****************************
     Tablet Layout
 *****************************/
@@ -106,6 +107,7 @@
 
 
 
+
 /***********************************
     normal/small mobile layout.
 ************************************/
@@ -134,7 +136,7 @@
 
     .slide-text {
         font-size: 16px;
-        padding: 90px 0;
+        padding: 130px 0 90px 0;
     }
     .slide-text h2 {
         font-size: 25px;
@@ -200,6 +202,13 @@
         display: none;
     }
 
+    .breadcrumb-list {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .breadcrumb-area h3 {
+        margin-top: 60px;
+    }
 
     /*==== mobile offcanvas menu =====*/
     .mobile-menu-trigger .logo {
@@ -219,12 +228,17 @@
         padding: 10px;
         transform: translateY(-50%);
     }
+
     .mobile-menu-trigger {
         display: block;
-        position: relative;
+        position: absolute;
         padding: 15px 0;
         background: #EFF8FA;
         border-bottom: 1px solid #eaeaea;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 99;
     }
 
     .mobile-canvas-menu {
@@ -368,6 +382,7 @@
         visibility: visible;
     }
 }
+
 
 
 
