@@ -248,6 +248,7 @@ Navigation
     left: 0;
     background-color: transparent;
     z-index: 20;
+    display: none!important;
 }
 
 .nav-wrapper .navbar-toggle .icon-bar {
