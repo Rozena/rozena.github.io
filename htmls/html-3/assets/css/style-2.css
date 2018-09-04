@@ -1,0 +1,127 @@
+input[type="submit"],
+button[type="submit"] {
+    background: #06D6A0;
+    width: auto;
+    padding: 10px 25px;
+}
+
+.mainmenu li a:hover,
+.mainmenu li.active a {
+    color: #06D6A0;
+}
+
+.mainmenu li.mega-menu .menu-cta h4 span {
+    color: #06D6A0;
+}
+
+.pdt-50 .boxed-btn {
+    margin-top: 30px;
+    font-size: 14px;
+    padding: 10px 35px;
+    font-weight: 600;
+}
+
+.about-us {
+    font-weight: 300;
+}
+
+.about-us h3 {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.owl-dots div.active {
+    background: #06D6A0;
+}
+
+.single-pricing-box:hover h4,
+.single-pricing-box:hover .price span {
+    color: #3097F6;
+}
+
+.homepage-hero-area {
+    background-image: url(../images/hero-bg-1.jpg)
+}
+
+.boxed-btn {
+    background: #06D6A0;
+}
+
+.hero-text {
+    color: #fff;
+    max-width: 500px;
+    margin-top: 150px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    color: #fff;
+    line-height: 55px;
+    margin: 0 0 25px;
+}
+
+.homepage-hero-area {
+    background-color: #289EF8;
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0;
+}
+
+.section-title {
+    font-weight: 300;
+}
+
+.single-service-box:hover {
+    border-color: #21CEA1;
+}
+
+.single-service-box:hover h4,
+.single-service-box:hover .service-icon i.fa,
+.single-service-box:hover .read-more-btn,
+.single-service-box:hover i.fa {
+    color: #61D7B8;
+}
+
+.col-md-4:nth-child(7) .single-service-box,
+.col-md-4:nth-child(8) .single-service-box,
+.col-md-4:nth-child(9) .single-service-box,
+.col-md-4:nth-child(4) .case-studies-style2,
+.col-md-4:nth-child(5) .case-studies-style2,
+.col-md-4:nth-child(6) .case-studies-style2,
+.col-md-4:nth-child(7) .single-blog-box,
+.col-md-4:nth-child(8) .single-blog-box,
+.col-md-4:nth-child(9) .single-blog-box,
+.col-md-3:nth-child(5) .single-team-member,
+.col-md-3:nth-child(6) .single-team-member,
+.col-md-3:nth-child(7) .single-team-member,
+.col-md-3:nth-child(8) .single-team-member {
+    margin: 0;
+}
+
+.theme-2 .single-service-box {
+    min-height: 320px;
+}
+
+.read-more-btn {
+    font-weight: 600;
+    color: #06d6a0;
+}
+
+.single-blog-box {
+    margin-bottom: 30px;
+}
+
+.theme-2 .single-blog-box h4 {
+    font-weight: 400;
+}
+
+.cta-area {
+    background-color: #143A49;
+}
+
+.footer-area a:hover,
+.social-links a:hover,
+.social-links a:hover i.fa {
+    color: #06D6A0;
+}
