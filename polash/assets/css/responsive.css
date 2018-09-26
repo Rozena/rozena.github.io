@@ -1,0 +1,175 @@
+/*****************************
+    desktop/leptop layout.
+*****************************/
+
+@media only screen and (min-width:991px) and (max-width:1199px) {}
+
+
+/****************************
+    Tablet Layout
+*****************************/
+
+@media only screen and (min-width:768px) and (max-width:992px) {}
+
+
+/***********************************
+mobile and tablet layout.
+************************************/
+
+@media (max-width: 991px) {
+
+    body {
+        font-size: 14px;
+    }
+    .mainmenu ul.nav.navbar-nav li a {
+        padding: 15px 12px;
+    }
+    .navbar-brand.logo {
+        font-size: 14px;
+    }
+    .hero-text h1 {
+        font-size: 30px;
+    }
+    .about-text {
+        padding: 20px;
+    }
+    .about-text-wrap {
+        margin-bottom: 50px;
+    }
+    .quotes-area {
+        padding: 80px 0;
+    }
+    .section-padding {
+        padding: 90px 0px;
+    }
+}
+
+
+
+/***********************************
+    normal/small mobile layout.
+************************************/
+
+@media (max-width: 768px) {
+    .hero-area {
+        height: auto;
+        padding: 70px 0;
+    }
+    .hero-text h1 {
+        font-size: 25px;
+    }
+
+    .about-text-wrap {
+        top: 0;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .about-bg {
+        height: 250px;
+    }
+    .about-text {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .single-service-item {
+        padding: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .quotes-area {
+        padding: 70px 0px 70px 30px;
+    }
+    .section-padding {
+        padding: 70px 0;
+    }
+    .feature-content {
+        padding: 20px;
+    }
+    .single-feature {
+        margin-bottom: 30px;
+    }
+    #GoogleMap {
+        height: 300px;
+    }
+    .contact-area {
+        position: relative;
+    }
+    .address-popup {
+        position: relative;
+        padding: 20px;
+        background: #f1f1f1;
+    }
+    .contact-form {
+        margin-top: 70px;
+    }
+    .footer-area {
+        padding: 30px 0;
+    }
+    .footer-area,
+    .footer-area .text-right {
+        text-align: center !important;
+    }
+    .footer-area ul li a {
+        padding: 0 10px;
+    }
+    .social-links {
+        margin-top: 20px;
+    }
+    .social-links a {
+        margin: 0 10px;
+        font-size: 20px;
+    }
+    .navbar-brand.logo {
+        margin: 0;
+    }
+    .header-area {
+        position: relative;
+        background: #222;
+    }
+    .slicknav_menu {
+        display: block;
+        background: transparent;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 999;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_menu .slicknav_icon {
+        margin: 0;
+    }
+    .slicknav_menu .slicknav_nav {
+        background: #222;
+        position: relative;
+        top: 10px;
+    }
+    .slicknav_menu .slicknav_nav a:hover {
+        background: transparent;
+        color: #fff;
+    }
+    .slicknav_btn {
+        margin: 8px 5px 6px;
+        background: transparent;
+    }
+    .header-area {
+        padding: 12px;
+        padding: 12px;
+        padding: 12px;
+    }
+    .about-bg {
+        position: relative;
+    }
+}
+
+
+
+/*****************************
+    wide mobile layout
+******************************/
+
+@media (min-width: 480px) and (max-width: 767) {}
