@@ -1,0 +1,813 @@
+
+/* *********************************************
+    Theme Name: Appspria;
+    Theme URI:       http://rozena.github.io/appspria
+    Author:          rozy     
+    Author URI:      http://rozyislam.com
+    Version:         1.0
+
+**************************************************/
+
+
+/* ***************************************************
+  //Table of content
+      1. Google font
+      2. Theme Default CSS
+      3. Header area css
+      4. Hero area css 
+      5. funfact CSS
+      6. About CSS
+      7. Feature CSS
+      8. promo video CSS
+      9. Pricing CSS
+      10. Testimonial CSS
+      11. contact CSS
+      12. styled faq CSS
+      13. footer area CSS
+      14. Hover CSS
+      15. Preloader CSS
+
+**************************************************** */
+
+
+/* *********************
+ 1. Google font
+********************** */
+
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i|Open+Sans:300,300i,400,400i,700,700i');
+
+
+/* **************************
+2. Theme Default CSS
+**************************** */
+
+*,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #666;
+    position: relative;
+}
+
+html,
+body {
+    height: 100%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 300;
+    line-height: 1.2em;
+    color: #222;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    color: #56576e;
+}
+
+input:focus,
+button:focus,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #6858db;
+}
+
+.section-title {
+    margin: 0 0 75px;
+}
+
+.section-title h2 span {
+    color: #0984E3;
+}
+
+.section-padding {
+    padding: 110px 0px;
+}
+
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+.header-area .row {
+    width: 1170px;
+}
+
+.grey-bg {
+    background-color: #f9f9f9;
+}
+
+button[type="submit"],
+input[type="submit"] {
+    border: none;
+    background: #0984E3;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.boxed-btn {
+    display: inline-block;
+    color: #fff;
+    background: #0984e3;
+    padding: 10px 30px;
+    font-weight: 400;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    border-bottom: 5px solid #2D7AB7;
+    text-transform: capitalize;
+    font-size: 15px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.bordered-btn {
+    display: inline-block;
+    border: 2px solid #0984E3;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #0984E3;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.overlay:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #0984E3;
+    z-index: -1;
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    content: "";
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/* ******************************
+ 3. Header area css 
+******************************* */
+
+.header-area {
+    padding: 12px 0;
+    box-shadow: 0 0 10px #ddd;
+    background: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.mainmenu ul.nav.navbar-nav li a {
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #666;
+    padding: 15px;
+}
+
+.mainmenu ul.nav.navbar-nav li a.active {
+    color: #0984E3;
+}
+
+
+.mainmenu ul.nav.navbar-nav li a.boxed-btn {
+    color: #fff;
+    padding: 10px 30px;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+/* ======= menu fixed css ======= */
+.header-area.fixed {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    z-index: 99;
+    padding: 5px 0;
+
+}
+
+
+
+/* ******************************
+ 4. Hero area css 
+******************************* */
+.hero-text {
+    font-size: 18px;
+    padding: 160px 0;
+}
+
+.hero-text h1 {
+    margin: 0 0 20px;
+    font-size: 46px;
+}
+
+.hero-text h1 span {
+    color: #0984E3;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn-group .bordered-btn {
+    margin-left: 15px;
+}
+
+.hero-img {
+    padding: 20px 0;
+    max-height: 550px;
+}
+
+
+/* **************************
+5. funfact CSS
+**************************** */
+.funfact-area {
+    padding: 30px 0 0;
+}
+
+.funfact-item {
+    border-right: 1px solid #ddd;
+    padding: 15px 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.col-md-3:nth-child(4) .funfact-item {
+    border-right: 0;
+}
+
+.funfact-item span {
+    color: #0984E3;
+    font-size: 46px;
+}
+
+.funfact-item p {
+    margin: 0;
+}
+
+
+
+/* **************************
+6. About CSS
+**************************** */
+.about-text {
+    padding-top: 50px;
+}
+
+.about-text h3 {
+    margin: 0 0 25px;
+}
+
+.about-text .bordered-btn {
+    margin-top: 20px;
+}
+
+.about-img {
+    max-height: 450px;
+}
+
+
+
+
+/* **************************
+7. Feature CSS
+**************************** */
+.feature-item {
+    margin-bottom: 30px;
+    position: relative;
+    background: #f9f9f9;
+    padding: 20px;
+    padding-right: 20px;
+    padding-right: 100px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.feature-right .feature-item {
+    padding-right: 0;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.feature-icon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    background: #0984E3;
+    text-align: center;
+    line-height: 45px;
+    font-size: 22px;
+    border-radius: 50%;
+    color: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
+    box-shadow: 0 0 10px #ddd;
+    border: 1px solid #0984E3;
+}
+
+.feature-right .feature-icon {
+    right: auto;
+    left: 20px;
+}
+
+.feature-img {
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* **************************
+8. promo video CSS
+**************************** */
+.promo-video-area {
+    background-image: url(../img/video-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-color: #f9f9f9;
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+.promo-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.promo-video-area object {
+    width: 600px;
+    height: 400px;
+    float: none;
+    clear: both;
+    margin: 2px auto;
+}
+
+
+
+/* **************************
+9. Pricing CSS
+**************************** */
+.pricing-box {
+    background: #fff;
+    box-shadow: 0 0 10px #ddd;
+    position: relative;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.pricing-heading {
+    background: #82C4F8;
+    padding: 40px 40px 90px 40px;
+    font-size: 30px;
+    position: relative;
+    color: #fff;
+}
+
+.pricing-box .price span {
+    font-size: 15px;
+    display: block;
+    text-transform: capitalize;
+    line-height: 32px;
+}
+
+.pricing-box .price {
+    background: #0984E3;
+    width: 120px;
+    height: 120px;
+    padding-top: 35px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 95px;
+    color: #fff;
+}
+
+.pricing-box .price:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    border: 7px solid #82C4F8;
+    border-radius: 50%;
+    opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+.pricing-content ul li i.fa {
+    color: #0984E3;
+}
+
+.pricing-content {
+    padding: 90px 30px 30px 30px;
+}
+
+.pricing-content ul li {
+    line-height: 50px;
+    border-bottom: 1px dashed #0984e3;
+    text-transform: capitalize;
+}
+
+.pricing-content ul li:last-child {
+    border-bottom: 0;
+}
+
+.pricing-content ul li i.fa.fa-close {
+    color: #ddd;
+}
+
+.pricing-box .boxed-btn {
+    display: block;
+    margin-top: 30px;
+}
+
+.active.pricing-box .pricing-heading {
+    position: relative;
+    overflow: hidden;
+    top: -20px;
+}
+
+.active.pricing-box .price {
+    top: 75px;
+}
+
+.pricing-box.active {
+    position: relative;
+}
+
+.active .pricing-heading:after {
+    position: absolute;
+    content: "MOST POPULAR";
+    right: -37px;
+    top: 15px;
+    font-size: 11px;
+    background: #0984E3;
+    padding: 10px 30px;
+    font-weight: 700;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
+
+/* **************************
+10. Testimonial CSS
+**************************** */
+
+.testimonial-content {
+    background: #f9f9f9;
+    padding: 20px;
+    position: relative;
+}
+
+.testimonial-content:after {
+    position: absolute;
+    content: "";
+    left: 90px;
+    bottom: -25px;
+    width: 0;
+    height: 0;
+    border-top: 25px solid #f9f9f9;
+    border-left: 5px solid transparent;
+    border-right: 30px solid transparent;
+}
+
+.testimonial-info span {
+    display: block;
+    color: #0984E3;
+}
+
+.owl-carousel .owl-item img,
+.testimonial-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-info p {
+    text-transform: capitalize;
+}
+
+.testimonial-info {
+    margin-top: 30px;
+}
+
+
+
+/* **************************
+11. contact CSS
+**************************** */
+.contact-form {
+    margin-right: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid #dddd;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    color: #666;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button[type="submit"] {
+    float: right;
+}
+
+
+
+/* **************************
+12. styled faq CSS
+**************************** */
+
+.styled-faq .single-accordion a {
+    display: block;
+    padding: 12px;
+    background: #f9f9f9;
+}
+
+.styled-faq .single-accordion {
+    position: relative;
+}
+
+.styled-faq .single-accordion span {
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+    padding: 12px;
+}
+
+.styled-faq .single-accordion a[aria-expanded="false"] span.accor-open {
+    display: block;
+}
+
+.styled-faq .single-accordion a[aria-expanded="true"] span.accor-close {
+    display: block;
+}
+
+
+
+/* **************************
+13. footer area CSS
+**************************** */
+.footer-area img,
+.footer-area h4 {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 5px;
+    background: #666;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.social-links {
+    margin: 30px 0 0;
+}
+
+.footer-area strong {
+    color: #222;
+}
+
+.footer-area ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+}
+
+.footer-area ul li i.fa {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    color: #222;
+}
+
+.subscriber-form input[type="email"] {
+    border: none;
+    background: #ddd;
+    padding: 12px;
+    width: 65%;
+    border-radius: 50px;
+    color: #222;
+}
+
+.subscriber-form button[type="submit"] {
+    width: 33%;
+    padding: 12px 5px;
+}
+
+.subscriber-form p {
+    margin: 20px 0 0;
+}
+
+.copysection {
+    margin-top: 75px;
+    text-transform: capitalize;
+}
+
+.copysection p {
+    margin: 0;
+}
+
+.copysection ul li {
+    padding: 0;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+
+
+/* **************************
+14. Hover CSS
+**************************** */
+.boxed-btn:hover,
+.bordered-btn:hover {
+    background: #222;
+    color: #fff;
+    border-color: #222;
+    box-shadow: 0 10px 15px #ddd;
+}
+
+.feature-item:hover {
+    box-shadow: 0 0 10px #ddd;
+    margin-top: -5px;
+}
+
+
+.pricing-box:hover {
+    box-shadow: 0 0 20px #ddd;
+    background: #f9f9f9;
+    margin-top: -5px;
+}
+
+.social-links a:hover {
+    background: #222;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+    background: #222;
+}
+
+.funfact-item:hover {
+    margin-top: -10px;
+}
+
+
+
+/* **************************
+15. Preloader CSS
+**************************** */
+.preloader-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 9999;
+}
+
+.preloader-wrap .spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: -9px;
+    width: 70px;
+    text-align: center;
+}
+
+.spinner>div {
+    background: #0984E3;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0)
+    }
+
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bouncedelay {
+
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+
+
+
+
