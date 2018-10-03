@@ -498,20 +498,20 @@ input:-webkit-autofill:focus {
     position: relative;
 }
 
-.active .pricing-heading:after {
+.active .pricing-heading::after {
     position: absolute;
     content: "MOST POPULAR";
-    right: -37px;
-    top: 15px;
-    font-size: 11px;
+    right: -40px;
+    top: 18px;
+    font-size: 10px;
     background: #0984E3;
-    padding: 10px 30px;
+    padding: 7px 30px;
     font-weight: 700;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
+    width: 160px;
+    height: 40px;
 }
-
-
 
 
 
