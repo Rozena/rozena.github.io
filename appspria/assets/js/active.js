@@ -51,6 +51,8 @@
              event.preventDefault();
          });
 
+        $(".play-icon").magnificPopup({type:'video'});
+
     });
 
     $(window).load(function() {
