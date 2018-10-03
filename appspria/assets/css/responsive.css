@@ -52,7 +52,7 @@ mobile and tablet layout.
     z-index: 99;
 }
 .header-area {
-    padding: 12px;
+    padding: 12px 15px;
 }
 .mainmenu ul.nav.navbar-nav li a.boxed-btn {
     margin-left: 0;
@@ -114,15 +114,13 @@ h2 {
   right: auto;
   left: 15px;
 }
-.feature-img {
-    display: none;
-}
+
 .pricing-box {
   margin-bottom: 30px;
 }
 
-.active .pricing-heading {
-  top: 0;
+.active.pricing-box .pricing-heading {
+    top: 0;
 }
 .styled-faq {
     margin-top: 50px;
@@ -145,7 +143,9 @@ h2 {
     width: 100%;
     margin-top: 10px;
 }
-
+.contact-form {
+    margin-right: 0;
+}
 
 }
 

@@ -1,7 +1,6 @@
-
 /* *********************************************
     Theme Name: Appspria;
-    Theme URI:       http://rozena.github.io/appspria
+    Theme URI:       https://rozena.github.io/appspria
     Author:          rozy     
     Author URI:      http://rozyislam.com
     Version:         1.0
@@ -238,7 +237,7 @@ input:-webkit-autofill:focus {
     background: #fff;
     width: 100%;
     z-index: 99;
-    padding: 5px 0;
+    padding: 5px 15px;
 
 }
 
@@ -529,7 +528,7 @@ input:-webkit-autofill:focus {
 .testimonial-content:after {
     position: absolute;
     content: "";
-    left: 90px;
+    left: 30%;
     bottom: -25px;
     width: 0;
     height: 0;
@@ -559,6 +558,23 @@ input:-webkit-autofill:focus {
     margin-top: 30px;
 }
 
+.testimonial-list .owl-dots div {
+    width: 12px;
+    height: 12px;
+    display: inline-table;
+    background: #ddd;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.testimonial-list .owl-dots div.active {
+    background: #0984E3;
+}
+
+.testimonial-list .owl-dots {
+    text-align: center;
+    margin-top: 30px;
+}
 
 
 /* **************************
@@ -806,8 +822,3 @@ input[type="submit"]:hover {
         transform: scale(1.0);
     }
 }
-
-
-
-
-

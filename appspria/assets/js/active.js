@@ -27,20 +27,33 @@
         // Counter UP JS
         $(".counter").counterUp();
 
-
-    });
-
-    $(window).load(function() {
-
         // Menu fixed JS
-        var num = 400;
-        $(window).bind('scroll', function() {
-            if ($(window).scrollTop() > num) {
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop() > 300) {
                 $(".header-area").addClass("fixed");
             } else {
                 $(".header-area").removeClass("fixed");
             }
         });
+
+         // Mobile Menu JS
+        $(".navbar-collapse ul li a").on('click', function () {
+            $(".navbar-collapse").removeClass("show")
+        })    
+
+        // Smooth Menu JS
+        $("li.smooth-menu a").bind('click', function (event) {
+             var $anchor = $(this);
+             var headerHeight = '62';
+             $("html, body").stop().animate({
+                 scrollTop: $($anchor.attr('href')).offset().top - headerHeight + "px"
+             }, 1200, 'easeInOutExpo');
+             event.preventDefault();
+         });
+
+    });
+
+    $(window).load(function() {
 
         // Preloader JS
         $(".preloader-wrap").fadeOut("5000");
