@@ -51,7 +51,23 @@
              event.preventDefault();
          });
 
+        //Magnificpop Video JS
         $(".play-icon").magnificPopup({type:'video'});
+
+
+      // Scroll to top JS  
+      $(window).scroll(function () {
+            if ($(this).scrollTop() > 150) {
+                $(".scroll-to-top a").fadeIn();
+            } else {
+                $(".scroll-to-top a").fadeOut();
+            }
+        });
+        $(".scroll-to-top a").click(function () {
+            $("html, body").animate({scrollTop: 0}, 1000, 'easeInOutExpo');
+                return false;
+        });
+
 
     });
 
