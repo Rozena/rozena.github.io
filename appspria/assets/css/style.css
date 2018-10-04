@@ -234,6 +234,7 @@ input:-webkit-autofill:focus {
 .header-area.fixed {
     position: fixed;
     top: 0;
+    left: 0;
     background: #fff;
     width: 100%;
     z-index: 99;
